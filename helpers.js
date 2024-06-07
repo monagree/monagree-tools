@@ -1,1 +1,848 @@
-'use strict';var a2_0x522011=a2_0x28c2;(function(_0x305e08,_0x246a37){var _0x54cd58=a2_0x28c2,_0x3825df=_0x305e08();while(!![]){try{var _0x2c1ab9=parseInt(_0x54cd58(0x234))/0x1+parseInt(_0x54cd58(0x282))/0x2+parseInt(_0x54cd58(0x2b2))/0x3+parseInt(_0x54cd58(0x25d))/0x4+-parseInt(_0x54cd58(0x23e))/0x5+parseInt(_0x54cd58(0x21c))/0x6*(-parseInt(_0x54cd58(0x21b))/0x7)+-parseInt(_0x54cd58(0x23b))/0x8;if(_0x2c1ab9===_0x246a37)break;else _0x3825df['push'](_0x3825df['shift']());}catch(_0x499b03){_0x3825df['push'](_0x3825df['shift']());}}}(a2_0x4178,0x3f4b8));var __awaiter=this&&this['__awaiter']||function(_0x188562,_0x5743e8,_0x4812f0,_0x34d81a){function _0x360fe1(_0x4ca923){return _0x4ca923 instanceof _0x4812f0?_0x4ca923:new _0x4812f0(function(_0x484183){_0x484183(_0x4ca923);});}return new(_0x4812f0||(_0x4812f0=Promise))(function(_0xceaf7,_0x1312e9){var _0x5dea70=a2_0x28c2;function _0x4ccd3b(_0x5f1fbb){var _0x5bc205=a2_0x28c2;try{_0x3490ab(_0x34d81a[_0x5bc205(0x2ba)](_0x5f1fbb));}catch(_0x45e2fa){_0x1312e9(_0x45e2fa);}}function _0x5121bd(_0x1e6d57){var _0x473674=a2_0x28c2;try{_0x3490ab(_0x34d81a[_0x473674(0x297)](_0x1e6d57));}catch(_0x4df22e){_0x1312e9(_0x4df22e);}}function _0x3490ab(_0x4e7bc1){var _0xb853ec=a2_0x28c2;_0x4e7bc1[_0xb853ec(0x2d1)]?_0xceaf7(_0x4e7bc1['value']):_0x360fe1(_0x4e7bc1['value'])[_0xb853ec(0x294)](_0x4ccd3b,_0x5121bd);}_0x3490ab((_0x34d81a=_0x34d81a[_0x5dea70(0x24b)](_0x188562,_0x5743e8||[]))[_0x5dea70(0x2ba)]());});},__generator=this&&this[a2_0x522011(0x1de)]||function(_0x5a1b3c,_0x1ca3b3){var _0x55998a=a2_0x522011,_0x1bb9a7={'label':0x0,'sent':function(){if(_0x46cf1e[0x0]&0x1)throw _0x46cf1e[0x1];return _0x46cf1e[0x1];},'trys':[],'ops':[]},_0x420fe0,_0x5105ac,_0x46cf1e,_0x4c68a7;return _0x4c68a7={'next':_0x607ab3(0x0),'throw':_0x607ab3(0x1),'return':_0x607ab3(0x2)},typeof Symbol===_0x55998a(0x1e0)&&(_0x4c68a7[Symbol[_0x55998a(0x21a)]]=function(){return this;}),_0x4c68a7;function _0x607ab3(_0x563e78){return function(_0x12bbff){return _0x5d9464([_0x563e78,_0x12bbff]);};}function _0x5d9464(_0x5cc48b){var _0x5317f2=_0x55998a;if(_0x420fe0)throw new TypeError(_0x5317f2(0x24f));while(_0x4c68a7&&(_0x4c68a7=0x0,_0x5cc48b[0x0]&&(_0x1bb9a7=0x0)),_0x1bb9a7)try{if(_0x420fe0=0x1,_0x5105ac&&(_0x46cf1e=_0x5cc48b[0x0]&0x2?_0x5105ac[_0x5317f2(0x2c7)]:_0x5cc48b[0x0]?_0x5105ac['throw']||((_0x46cf1e=_0x5105ac[_0x5317f2(0x2c7)])&&_0x46cf1e['call'](_0x5105ac),0x0):_0x5105ac[_0x5317f2(0x2ba)])&&!(_0x46cf1e=_0x46cf1e[_0x5317f2(0x214)](_0x5105ac,_0x5cc48b[0x1]))['done'])return _0x46cf1e;if(_0x5105ac=0x0,_0x46cf1e)_0x5cc48b=[_0x5cc48b[0x0]&0x2,_0x46cf1e[_0x5317f2(0x1db)]];switch(_0x5cc48b[0x0]){case 0x0:case 0x1:_0x46cf1e=_0x5cc48b;break;case 0x4:_0x1bb9a7[_0x5317f2(0x225)]++;return{'value':_0x5cc48b[0x1],'done':![]};case 0x5:_0x1bb9a7[_0x5317f2(0x225)]++,_0x5105ac=_0x5cc48b[0x1],_0x5cc48b=[0x0];continue;case 0x7:_0x5cc48b=_0x1bb9a7['ops'][_0x5317f2(0x29e)](),_0x1bb9a7[_0x5317f2(0x229)][_0x5317f2(0x29e)]();continue;default:if(!(_0x46cf1e=_0x1bb9a7['trys'],_0x46cf1e=_0x46cf1e[_0x5317f2(0x289)]>0x0&&_0x46cf1e[_0x46cf1e[_0x5317f2(0x289)]-0x1])&&(_0x5cc48b[0x0]===0x6||_0x5cc48b[0x0]===0x2)){_0x1bb9a7=0x0;continue;}if(_0x5cc48b[0x0]===0x3&&(!_0x46cf1e||_0x5cc48b[0x1]>_0x46cf1e[0x0]&&_0x5cc48b[0x1]<_0x46cf1e[0x3])){_0x1bb9a7['label']=_0x5cc48b[0x1];break;}if(_0x5cc48b[0x0]===0x6&&_0x1bb9a7[_0x5317f2(0x225)]<_0x46cf1e[0x1]){_0x1bb9a7[_0x5317f2(0x225)]=_0x46cf1e[0x1],_0x46cf1e=_0x5cc48b;break;}if(_0x46cf1e&&_0x1bb9a7[_0x5317f2(0x225)]<_0x46cf1e[0x2]){_0x1bb9a7['label']=_0x46cf1e[0x2],_0x1bb9a7[_0x5317f2(0x29a)][_0x5317f2(0x20c)](_0x5cc48b);break;}if(_0x46cf1e[0x2])_0x1bb9a7[_0x5317f2(0x29a)]['pop']();_0x1bb9a7[_0x5317f2(0x229)][_0x5317f2(0x29e)]();continue;}_0x5cc48b=_0x1ca3b3[_0x5317f2(0x214)](_0x5a1b3c,_0x1bb9a7);}catch(_0x124c70){_0x5cc48b=[0x6,_0x124c70],_0x5105ac=0x0;}finally{_0x420fe0=_0x46cf1e=0x0;}if(_0x5cc48b[0x0]&0x5)throw _0x5cc48b[0x1];return{'value':_0x5cc48b[0x0]?_0x5cc48b[0x1]:void 0x0,'done':!![]};}},__importDefault=this&&this[a2_0x522011(0x200)]||function(_0x64e61c){var _0x326d4d=a2_0x522011;return _0x64e61c&&_0x64e61c[_0x326d4d(0x1f4)]?_0x64e61c:{'default':_0x64e61c};};Object[a2_0x522011(0x1e3)](exports,a2_0x522011(0x1f4),{'value':!![]}),exports[a2_0x522011(0x21e)]=exports['doBranch']=exports['deployMan']=exports['loginMan']=exports[a2_0x522011(0x238)]=exports[a2_0x522011(0x2c1)]=exports[a2_0x522011(0x275)]=exports[a2_0x522011(0x203)]=exports['addMonagreeSDK']=exports[a2_0x522011(0x290)]=exports['setDevId']=exports[a2_0x522011(0x2b3)]=exports[a2_0x522011(0x285)]=exports[a2_0x522011(0x263)]=exports['getDevSC']=exports[a2_0x522011(0x2a6)]=exports['isSignedIn']=exports[a2_0x522011(0x24c)]=exports[a2_0x522011(0x269)]=exports['getCT']=exports[a2_0x522011(0x1fc)]=exports[a2_0x522011(0x211)]=exports[a2_0x522011(0x212)]=exports['inquire']=exports[a2_0x522011(0x22c)]=exports[a2_0x522011(0x1d5)]=exports[a2_0x522011(0x26d)]=exports['saveConfig']=exports['cdIntoProject']=exports[a2_0x522011(0x276)]=exports['vv']=exports[a2_0x522011(0x288)]=exports[a2_0x522011(0x1eb)]=exports['configFolder']=void 0x0;var child_process_1=require(a2_0x522011(0x22b)),crypto_1=__importDefault(require(a2_0x522011(0x2d2))),fs_1=__importDefault(require('fs')),os_1=__importDefault(require('os')),path_1=__importDefault(require(a2_0x522011(0x29d))),enquirer_1=require(a2_0x522011(0x20a)),mini_css_extract_plugin_1=__importDefault(require(a2_0x522011(0x215))),axios_1=__importDefault(require('axios')),octokit_1=require(a2_0x522011(0x23d)),simple_git_1=__importDefault(require('simple-git')),firehelper_1=require(a2_0x522011(0x28b)),_1=require('.'),secretKey=crypto_1[a2_0x522011(0x2cc)]['createHash'](a2_0x522011(0x2aa))['update'](a2_0x522011(0x21d))[a2_0x522011(0x28d)](a2_0x522011(0x2cd))[a2_0x522011(0x1f8)](0x0,0x20),iv=a2_0x522011(0x2a7),SPfolder=path_1[a2_0x522011(0x2cc)][a2_0x522011(0x1ec)](os_1['default'][a2_0x522011(0x2cb)](),a2_0x522011(0x2b7));exports['configFolder']=a2_0x522011(0x2b7);function encrypt(_0x5733e8){var _0x2ba4df=a2_0x522011,_0x166410=crypto_1[_0x2ba4df(0x2cc)][_0x2ba4df(0x253)](_0x2ba4df(0x216),secretKey,Buffer[_0x2ba4df(0x20d)](iv,_0x2ba4df(0x2d4))),_0x3fa1ee=_0x166410[_0x2ba4df(0x27c)](_0x5733e8,_0x2ba4df(0x291),_0x2ba4df(0x2d4));return _0x3fa1ee+=_0x166410['final'](_0x2ba4df(0x2d4)),_0x3fa1ee;}exports['encrypt']=encrypt;function decrypt(_0x58d4aa){var _0x114d0d=a2_0x522011,_0x2d75da=crypto_1['default'][_0x114d0d(0x2b9)](_0x114d0d(0x216),secretKey,Buffer[_0x114d0d(0x20d)](iv,'hex')),_0x436cab=_0x2d75da[_0x114d0d(0x27c)](_0x58d4aa,_0x114d0d(0x2d4),_0x114d0d(0x291));return _0x436cab+=_0x2d75da['final'](_0x114d0d(0x291)),_0x436cab;}exports[a2_0x522011(0x288)]=decrypt;function saveSP(_0x1bf0e4,_0x4c2b7a,_0x54f57d){var _0x9db99e=a2_0x522011;!fs_1[_0x9db99e(0x2cc)][_0x9db99e(0x25e)](SPfolder)&&fs_1['default'][_0x9db99e(0x2a4)](SPfolder,{'recursive':!![]});var _0x395bb6=path_1['default'][_0x9db99e(0x1ec)](_0x54f57d?exports[_0x9db99e(0x27e)]:SPfolder,_0x1bf0e4);fs_1[_0x9db99e(0x2cc)][_0x9db99e(0x250)](_0x395bb6,encrypt(_0x4c2b7a),_0x9db99e(0x291));}var vv=function(_0x480772){var _0x2ecacf=a2_0x522011;return _0x480772&&_0x480772[_0x2ecacf(0x289)]>0x0?!![]:_0x2ecacf(0x29b);};exports['vv']=vv;function getSP(_0x34c60a,_0x780b6a){var _0x1bca8f=a2_0x522011;try{var _0x20dfcb=path_1['default'][_0x1bca8f(0x1ec)](_0x780b6a?exports[_0x1bca8f(0x27e)]:SPfolder,_0x34c60a),_0x344097=fs_1['default'][_0x1bca8f(0x279)](_0x20dfcb,_0x1bca8f(0x291));return decrypt(_0x344097);}catch(_0xa139ae){return'';}}function hasConfig(){var _0x52a48d=a2_0x522011,_0x2ad854=path_1[_0x52a48d(0x2cc)][_0x52a48d(0x1ec)](exports[_0x52a48d(0x27e)],'monagree.config');return fs_1[_0x52a48d(0x2cc)]['existsSync'](_0x2ad854);}exports[a2_0x522011(0x276)]=hasConfig;function cdIntoProject(_0x2dcad9,_0x321a7c){var _0x503b1b=a2_0x522011;if(fs_1['default'][_0x503b1b(0x25e)](_0x2dcad9)){_0x321a7c(![]);return;}try{fs_1[_0x503b1b(0x2cc)]['mkdirSync'](_0x2dcad9),_0x321a7c(!![]);}catch(_0x56cb71){console['error'](_0x503b1b(0x1f6),_0x56cb71[_0x503b1b(0x1d8)]),_0x321a7c(![]);}}exports['cdIntoProject']=cdIntoProject;function saveConfig(_0x34d388){var _0x2f00c5=a2_0x522011;saveToFile(exports[_0x2f00c5(0x27e)],_0x2f00c5(0x27f),encrypt(_0x34d388)),saveToFile(exports[_0x2f00c5(0x27e)],_0x2f00c5(0x21f),_0x2f00c5(0x24e));}exports[a2_0x522011(0x2ab)]=saveConfig;function saveToFile(_0x3dbfa3,_0x4bb107,_0xa1198b,_0x2511fa){var _0x50a29d=a2_0x522011;_0x3dbfa3[_0x50a29d(0x289)]>0x0&&!fs_1[_0x50a29d(0x2cc)]['existsSync'](_0x3dbfa3)&&fs_1[_0x50a29d(0x2cc)][_0x50a29d(0x2a4)](_0x3dbfa3,{'recursive':!![]});if(_0x2511fa&&fs_1[_0x50a29d(0x2cc)][_0x50a29d(0x25e)](path_1[_0x50a29d(0x2cc)][_0x50a29d(0x1ec)](_0x3dbfa3,_0x4bb107)))return;try{fs_1[_0x50a29d(0x2cc)]['writeFileSync'](path_1[_0x50a29d(0x2cc)][_0x50a29d(0x1ec)](_0x3dbfa3,_0x4bb107),_0xa1198b,_0x50a29d(0x291));}catch(_0x1fa6eb){console[_0x50a29d(0x1f3)](_0x1fa6eb);}}exports[a2_0x522011(0x26d)]=saveToFile;function getConfig(){var _0x1c9b0b=a2_0x522011;try{var _0x10ce96=path_1['default'][_0x1c9b0b(0x1ec)](exports[_0x1c9b0b(0x27e)],_0x1c9b0b(0x27f)),_0x1b2ba3=fs_1[_0x1c9b0b(0x2cc)][_0x1c9b0b(0x279)](_0x10ce96,'utf-8');return JSON[_0x1c9b0b(0x296)](decrypt(_0x1b2ba3));}catch(_0x3b8be6){return undefined;}}exports[a2_0x522011(0x1d5)]=getConfig;function deleteFolder(_0x275505,_0xd7e88c){var _0x4dd0aa=a2_0x522011;fs_1[_0x4dd0aa(0x2cc)]['readdir'](_0x275505,function(_0x4ba53e,_0x1bdaf9){var _0xf2aacc=_0x4dd0aa;if(_0x4ba53e){_0xd7e88c&&_0xd7e88c(![]);return;}_0x1bdaf9[_0xf2aacc(0x217)](function(_0x1bcaef){var _0x4863f7=_0xf2aacc,_0x1cfc0f=path_1[_0x4863f7(0x2cc)][_0x4863f7(0x1ec)](_0x275505,_0x1bcaef);fs_1['default'][_0x4863f7(0x2ad)](_0x1cfc0f)[_0x4863f7(0x24d)]()&&fs_1[_0x4863f7(0x2cc)][_0x4863f7(0x213)](_0x1cfc0f);}),_0xd7e88c&&_0xd7e88c(!![]);});}exports['deleteFolder']=deleteFolder;function inquire(_0x1ff9c0,_0x3dc76f){var _0x53271f=a2_0x522011;(0x0,enquirer_1['prompt'])(_0x1ff9c0)[_0x53271f(0x294)](function(_0x44760f){_0x3dc76f(!![],_0x44760f);})[_0x53271f(0x286)](function(_0x438811){var _0x5aff16=_0x53271f;console[_0x5aff16(0x1f3)](_0x438811),_0x3dc76f(![]);});}exports['inquire']=inquire;function goUrl(_0x334faa){var _0xdcc6dc=a2_0x522011,_0x44c1c7=process['platform']===_0xdcc6dc(0x209)?_0xdcc6dc(0x1da)[_0xdcc6dc(0x1f9)](_0x334faa):process['platform']===_0xdcc6dc(0x23f)?_0xdcc6dc(0x299)[_0xdcc6dc(0x1f9)](_0x334faa):_0xdcc6dc(0x2ce)[_0xdcc6dc(0x1f9)](_0x334faa);(0x0,child_process_1[_0xdcc6dc(0x2b0)])(_0x44c1c7,function(_0x213f72){var _0x5dc629=_0xdcc6dc;_0x213f72&&console['error'](_0x5dc629(0x2d7)['concat'](_0x213f72[_0x5dc629(0x1d8)]));});}exports['goUrl']=goUrl;function amInMonagreeFolder(){return foldExists(exports['configFolder']);}exports[a2_0x522011(0x211)]=amInMonagreeFolder;function foldExists(_0x5167a6){var _0x478e03=a2_0x522011;return fs_1[_0x478e03(0x2cc)][_0x478e03(0x25e)](_0x5167a6);}exports[a2_0x522011(0x1fc)]=foldExists;function getCT(){var _0x734160=a2_0x522011;return Date['now']()[_0x734160(0x2bf)]();}exports[a2_0x522011(0x227)]=getCT;function getDeviceToken(){var _0x1bac50=a2_0x522011,_0x1b81ad=getSP('dtkn');if(_0x1b81ad[_0x1bac50(0x289)]>0x0)return _0x1b81ad;return _0x1b81ad=getCT(),saveSP(_0x1bac50(0x22a),_0x1b81ad),_0x1b81ad;}exports['getDeviceToken']=getDeviceToken;function logout(_0xe2e0b1){var _0x1b89d3=a2_0x522011;fs_1['default'][_0x1b89d3(0x201)](SPfolder,function(_0x2df97e,_0x43a42b){var _0x3b6395=_0x1b89d3;if(_0x2df97e){_0xe2e0b1(![]);return;}_0x43a42b[_0x3b6395(0x217)](function(_0x4b20c2){var _0x479bd9=_0x3b6395,_0x15ac96=path_1[_0x479bd9(0x2cc)][_0x479bd9(0x1ec)](SPfolder,_0x4b20c2);fs_1[_0x479bd9(0x2cc)]['statSync'](_0x15ac96)[_0x479bd9(0x24d)]()&&fs_1[_0x479bd9(0x2cc)]['unlinkSync'](_0x15ac96);}),_0xe2e0b1(!![]);});}exports[a2_0x522011(0x24c)]=logout;function isSignedIn(){var _0x153366=a2_0x522011;return getDevId()[_0x153366(0x289)]>0x0;}exports[a2_0x522011(0x28e)]=isSignedIn;function getDevId(){var _0xbc0ce8=a2_0x522011;return getSP(_0xbc0ce8(0x244));}exports[a2_0x522011(0x2a6)]=getDevId;function getDevSC(){var _0x5453f7=a2_0x522011;return getSP(_0x5453f7(0x243));}function a2_0x28c2(_0x509453,_0x390242){var _0x4178ba=a2_0x4178();return a2_0x28c2=function(_0x28c22f,_0x49c759){_0x28c22f=_0x28c22f-0x1d5;var _0x5e197f=_0x4178ba[_0x28c22f];return _0x5e197f;},a2_0x28c2(_0x509453,_0x390242);}exports[a2_0x522011(0x1fe)]=getDevSC;function getGitToken(){var _0x311c99=a2_0x522011;return getSP(_0x311c99(0x2b6)+getDevId());}exports[a2_0x522011(0x263)]=getGitToken;function getGitUN(){var _0xf884aa=a2_0x522011;return getSP(_0xf884aa(0x259)+getDevId());}exports['getGitUN']=getGitUN;function gitTokenOk(){return __awaiter(this,void 0x0,void 0x0,function(){return __generator(this,function(_0x3b68a6){var _0x375ba8=a2_0x28c2;if(getGitToken()[_0x375ba8(0x289)]==0x0)return[0x2,![]];return[0x2,!![]];});});}exports[a2_0x522011(0x2b3)]=gitTokenOk;function setDevId(_0x591d41){var _0x49e6d2=a2_0x522011;saveSP(_0x49e6d2(0x244),_0x591d41);}exports[a2_0x522011(0x29c)]=setDevId;function setDevSC(_0x5432e3){var _0x20241c=a2_0x522011;saveSP(_0x20241c(0x243),_0x5432e3);}exports['setDevSC']=setDevSC;function addMonagreeSDK(_0x405e80){var _0x31a499=a2_0x522011;runCmd(_0x31a499(0x2a3),_0x405e80);}exports[a2_0x522011(0x1f2)]=addMonagreeSDK;function runCmd(_0x9aa9d1,_0x8af260){var _0x25b970=a2_0x522011,_0x185cb7;if(_0x9aa9d1['startsWith'](_0x25b970(0x20e))){var _0x98897b=(0x0,child_process_1[_0x25b970(0x2b0)])(_0x9aa9d1);(_0x185cb7=_0x98897b[_0x25b970(0x2c4)])===null||_0x185cb7===void 0x0?void 0x0:_0x185cb7['on'](_0x25b970(0x2d8),function(_0x2b4dcf){var _0x2c3f4e=_0x25b970,_0x2b5cb3=_0x2b4dcf;_0x2b5cb3[_0x2c3f4e(0x2a8)]('L')&&(0x0,_1[_0x2c3f4e(0x2d9)])(_0x2c3f4e(0x298)),_0x2b5cb3['startsWith']('E')&&(0x0,_1[_0x2c3f4e(0x237)])(_0x2b5cb3[_0x2c3f4e(0x26b)](0x1)),_0x2b5cb3[_0x2c3f4e(0x2a8)]('W')&&console['warn'](_0x2b5cb3[_0x2c3f4e(0x26b)](0x1)),_0x2b5cb3[_0x2c3f4e(0x2a8)]('C')&&(0x0,_1[_0x2c3f4e(0x2d9)])(_0x2b5cb3[_0x2c3f4e(0x26b)](0x1)),_0x2b5cb3['startsWith']('G')&&(0x0,_1[_0x2c3f4e(0x24a)])(_0x2b5cb3[_0x2c3f4e(0x26b)](0x1)),_0x8af260(0x2,_0x2b4dcf);}),_0x98897b['on'](_0x25b970(0x1f3),function(_0x2756f7){var _0xa68f6d=_0x25b970;console[_0xa68f6d(0x1f3)](_0xa68f6d(0x2d3)[_0xa68f6d(0x1f9)](_0x2756f7[_0xa68f6d(0x1d8)])),_0x8af260(0x0,_0x2756f7[_0xa68f6d(0x1d8)]);}),_0x98897b['on'](_0x25b970(0x1f0),function(_0x38fe31){var _0x827b3=_0x25b970;_0x8af260(_0x38fe31!==null&&_0x38fe31!==void 0x0?_0x38fe31:-0x1,(_0x38fe31!==null&&_0x38fe31!==void 0x0?_0x38fe31:-0x1)[_0x827b3(0x2bf)]());});}else(0x0,child_process_1[_0x25b970(0x2b0)])(_0x9aa9d1,function(_0x24c863,_0x1a45d2,_0x2243f3){var _0x6ef9ba=_0x25b970;if(_0x24c863){_0x8af260(0x0),console[_0x6ef9ba(0x1f3)](_0x6ef9ba(0x2d3)['concat'](_0x24c863['message']));return;}if(_0x2243f3){_0x8af260(0x0),console[_0x6ef9ba(0x1f3)]('stderr:\x20'[_0x6ef9ba(0x1f9)](_0x2243f3));return;}_0x8af260(0x1);});}exports[a2_0x522011(0x203)]=runCmd;function getWebpackConfig(_0x279998,_0x2aba97,_0x51ee60,_0x29943c,_0x4f7764){var _0xceab53=a2_0x522011;return{'mode':_0x29943c?_0xceab53(0x242):_0xceab53(0x270),'entry':'.'[_0xceab53(0x1f9)](_0x4f7764?'.':'','/')[_0xceab53(0x1f9)](_0x279998,_0xceab53(0x2a9))[_0xceab53(0x1f9)](_0x51ee60),'output':{'filename':''['concat'](_0x2aba97,_0xceab53(0x27d)),'path':path_1[_0xceab53(0x2cc)]['join'](process[_0xceab53(0x2bd)](),_0x4f7764?'':exports['configFolder'],_0xceab53(0x247),_0x2aba97)},'module':{'rules':[{'test':/\.(js|ts)$/,'exclude':/node_modules/,'use':[require[_0xceab53(0x26a)](_0xceab53(0x1dd)),{'loader':require[_0xceab53(0x26a)](_0xceab53(0x295)),'options':{'configFile':path_1[_0xceab53(0x2cc)][_0xceab53(0x1ec)](_0x4f7764?'':exports[_0xceab53(0x27e)],_0xceab53(0x21f))}}]},{'test':/\.html$/,'use':[require[_0xceab53(0x26a)](_0xceab53(0x221))]},{'test':/\.css$/,'use':[mini_css_extract_plugin_1[_0xceab53(0x2cc)][_0xceab53(0x2c3)],require[_0xceab53(0x26a)](_0xceab53(0x22f)),require[_0xceab53(0x26a)]('postcss-loader')]},{'test':/\.(png|svg|jpg|gif)$/,'type':_0xceab53(0x22d),'use':[require['resolve'](_0xceab53(0x2be))]},{'test':/\.s[ac]ss$/,'use':[require[_0xceab53(0x26a)](_0xceab53(0x1ff)),require[_0xceab53(0x26a)](_0xceab53(0x22f)),require[_0xceab53(0x26a)]('sass-loader')]}]},'plugins':[new mini_css_extract_plugin_1[(_0xceab53(0x2cc))]({'filename':'styles.css'})],'resolve':{'extensions':[_0xceab53(0x27d),'.ts']}};}exports[a2_0x522011(0x275)]=getWebpackConfig;function a2_0x4178(){var _0x735650=['{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x22compilerOptions\x22:\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20//\x20...\x20other\x20options\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x22module\x22:\x20\x22commonjs\x22,\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x22target\x22:\x20\x22es5\x22,\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x22esModuleInterop\x22:\x20true,\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x22moduleResolution\x22:\x20\x22node\x22,\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x22jsx\x22:\x20\x22react\x22,\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x22typeRoots\x22:\x20[\x22./node_modules/@types\x22,\x20\x22./typings\x22]\x0a\x20\x20\x20\x20\x20\x20\x20\x20},\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x22exclude\x22:\x20[\x22node_modules\x22]\x0a\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20','getACT','foldExists','plg','getDevSC','style-loader','__importDefault','readdir','\x0a###\x20by\x20','runCmd','response','application/octet-stream','readme.md','addConfig','\x20|\x20','darwin','enquirer','\x20file\x20as\x20components\x0a\x0a\x20\x20-\x20The\x20main\x20website\x20should\x20be\x20injected\x20into\x20an\x20element\x20with\x20id\x20-monapp-\x20see\x20index.','push','from','node','owner','sent','amInMonagreeFolder','goUrl','unlinkSync','call','mini-css-extract-plugin','aes-256-cbc','forEach','.git','png','iterator','17738pkYNQp','570muyDfb','monagreecli','setupTS','.eslintrc.js','\x0a\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20</body>\x0a\x20\x20\x0a\x20\x20</html>','html-loader','uploadFile','repoName','sass','label','DONT\x20EDIT\x20THIS\x20FILE\x0a\x0abranch_id:','getCT','README.md','trys','dtkn','child_process','deleteFolder','asset/resource','`);\x0a\x20\x20});\x0a\x20\x20\x0a\x20\x20process.on(\x27exit\x27,\x20()\x20=>\x20{\x0a\x20\x20\x20\x20\x20\x20watcher.close();\x0a\x20\x20\x20\x20\x20\x20console.log(\x27File\x20watcher\x20closed.\x27);\x0a\x20\x20});','css-loader','\x22,\x22website\x22,\x22monagree\x22],\x0a\x20\x20\x20\x20\x22author\x22:\x20\x22','addFile','fireMan','title','34781NpueqP','\x27);\x0a\x20\x20const\x20path\x20=\x20require(\x27path\x27);\x0a\x20\x20const\x20fs\x20=\x20require(\x27fs\x27);\x0a\x20\x20const\x20{\x20exec\x20}\x20=\x20require(\x27child_process\x27);\x0a\x20\x20const\x20WebSocket\x20=\x20require(\x27','exclude','printErr','initNpm','nmd','replace','760384vRaRAS','email','octokit','464655ZXOdqb','win32','css','branchName','development','devsc','devid','\x22,\x0a\x20\x20\x20\x20\x22version\x22:\x20\x221.0.0\x22,\x0a\x20\x20\x20\x20\x22description\x22:\x20\x22','now','dist','\x22>\x0a\x20\x20\x20\x20\x20\x20<img\x20class=\x22dv\x22\x20src=\x22https://developers.monagree.com/static/media/dev.7316fd80843a79e423ae.png\x22>\x0a\x20\x20\x20\x20\x20\x20<h3>','origin','printOk','apply','logout','isFile','//\x20.eslintrc.js\x0a\x0a\x20\x20module.exports\x20=\x20{\x0a\x20\x20\x20\x20env:\x20{\x0a\x20\x20\x20\x20\x20\x20browser:\x20true,\x0a\x20\x20\x20\x20\x20\x20es6:\x20true,\x20//\x20Target\x20ECMAScript\x205\x20for\x20broader\x20compatibility\x0a\x20\x20\x20\x20\x20\x20commonjs:\x20true,\x0a\x20\x20\x20\x20},\x0a\x20\x20\x20\x20extends:\x20\x27eslint:recommended\x27,\x0a\x20\x20\x20\x20parserOptions:\x20{\x0a\x20\x20\x20\x20\x20\x20ecmaVersion:\x202015,\x20//\x20Use\x20ECMAScript\x205\x20for\x20broader\x20compatibility\x0a\x20\x20\x20\x20\x20\x20sourceType:\x20\x27module\x27,\x0a\x20\x20\x20\x20},\x0a\x20\x20\x20\x20rules:\x20{\x0a\x20\x20\x20\x20\x20\x20\x22semi\x22:\x20\x22off\x22,\x0a\x20\x20\x20\x20\x20\x20//\x20Additional\x20rules\x20can\x20be\x20added\x20here\x20if\x20needed\x0a\x20\x20\x20\x20},\x0a\x20\x20};\x0a\x20\x20','Generator\x20is\x20already\x20executing.','writeFileSync','TBID','c3_ids','createCipheriv','//\x20Import\x20CSS\x20files\x20like\x20this\x0a\x20\x20import\x20\x27./index.css\x27;\x0a\x20\x20\x0a\x20\x20//\x20Import\x20html\x20files\x20like\x20this\x20(named)\x0a\x20\x20import\x20landing\x20from\x20\x27./index.html\x27;\x0a\x20\x20\x0a\x20\x20//\x20The\x20main\x20webpage\x20is\x20set\x20like\x20this\x20(edit\x20as\x20you\x20want,\x20but\x20id\x20must\x20be\x20`monapp`)\x0a\x20\x20const\x20appElement\x20=\x20document.getElementById(\x27monapp\x27);\x0a\x20\x20appElement.innerHTML\x20=\x20landing;\x0a\x20\x20','status','isGitAvailable','configureGit','commitAndPush','gun','Enter\x20developer\x20name:\x20','getStatus','//\x20Import\x20CSS\x20files\x20like\x20this\x0a\x20\x20import\x20\x27./index.css\x27;\x0a\x20\x20//\x20Import\x20html\x20files\x20like\x20this\x20(named)\x0a\x20\x20import\x20landing\x20from\x20\x27./index.html\x27;\x0a\x20\x20//You\x20may\x20also\x20import\x20JS\x20files\x0a\x20\x20\x0a\x20\x20//The\x20main\x20webpage\x20is\x20set\x20like\x20this\x20(edit\x20as\x20you\x20want,\x20but\x20id\x20must\x20be\x20`monapp`)\x0a\x20\x20const\x20appElement\x20=\x20document.getElementById(\x27monapp\x27);\x0a\x20\x20appElement.innerHTML\x20=\x20landing;','1906524vuANZx','existsSync','\x27;\x0a\x20\x20const\x20dtw\x20=\x20path.join(__dirname,\x20\x27..\x27,\x20\x27src\x27)\x0a\x20\x20let\x20handling\x20=\x20false\x0a\x20\x20function\x20getCFG(bid){\x0a\x20\x20\x20\x20\x20\x20let\x20wcfg\x20=\x20','stringify','<!DOCTYPE\x20html>\x0a\x20\x20<html\x20lang=\x22en\x22>\x0a\x20\x20\x20\x20\x20\x20<head>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<meta\x20charset=\x22UTF-8\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<meta\x20name=\x22viewport\x22\x20content=\x22width=device-width,\x20initial-scale=1.0\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<link\x20rel=\x22stylesheet\x22\x20href=\x22https://fonts.googleapis.com/css2?family=Pacifico&display=swap\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<title>That\x20Business\x20Name</title>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<link\x20rel=\x22stylesheet\x22\x20href=\x22index.css\x22>\x0a\x20\x20\x20\x20\x20\x20</head>\x0a\x20\x20\x20\x20\x20\x20<body>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22ctr\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<img\x20class=\x22devicon\x22\x20src=\x22https://developers.monagree.com/static/media/dev.7316fd80843a79e423ae.png\x22\x20alt=\x22Monagree\x20Developers\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h1>We\x20Create\x20Magic</h1>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>Start\x20that\x20awesome\x20design.\x20The\x20world\x20is\x20waiting</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22btmflt\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>Monagree\x20Developers\x20|\x20','Octokit','getGitToken','\x22,\x0a\x20\x20\x20\x20\x22main\x22:\x20\x22','index.','checkIsRepo','deployMan','setGitToken','getDeviceToken','resolve','substring','c2_id','saveToFile','post','express','production','prepGit','branches','lang','prototype','getWebpackConfig','hasConfig','plugins','/dist/home/home.js\x22,\x0a\x20\x20\x20\x20\x22scripts\x22:\x20{\x0a\x20\x20\x20\x20\x20\x20\x22test\x22:\x20\x22echo\x20\x5c\x22Error:\x20no\x20test\x20specified\x5c\x22\x20&&\x20exit\x201\x22\x0a\x20\x20\x20\x20},\x0a\x20\x20\x20\x20\x22keywords\x22:\x20[\x22','readFileSync','fold','tsconfig.json','update','.js','configFolder','monagree.config','\x27,br\x20=\x20\x27\x27\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20if(bz.length\x20<3){\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20bz\x20=\x20up[2]\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20br\x20=\x20up[3]\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}else{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20br\x20=\x20up[2]\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20if(!br\x20||\x20br.length\x20<\x202){\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20br\x20=\x20\x27home\x27\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20const\x20ws\x20=\x20new\x20WebSocket(\x27ws://localhost:3000\x27);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20ws.addEventListener(\x27message\x27,\x20(event)\x20=>\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20if\x20(event.data\x20===\x20br)\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20window.location.reload();\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20});\x0a\x20\x20\x20\x20\x20\x20</script>\x0a\x20\x20\x20\x20\x20\x20<link\x20href=\x22\x22\x20rel=\x22stylesheet\x22\x20id=\x22dst\x22>\x0a\x20\x20\x20\x20\x20\x20<script\x20defer=\x22defer\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20const\x20currentUrl\x20=\x20window.location.href.split(\x27//\x27)[1]\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20const\x20urlParts\x20=\x20currentUrl.split(\x27/\x27)\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20const\x20designId\x20=\x20urlParts[1]\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20let\x20bizId\x20=\x20\x27','{\x0a\x20\x20\x20\x20\x22name\x22:\x20\x22','179924WJzvMD','Error:c','\x0a\x0a##\x20DO\x20NOT\x20EDIT\x20THIS\x20REPO\x0a\x0aThis\x20repo\x20was\x20generated\x20by\x20the\x20Monagree\x20CLI\x20tool\x20to\x20host\x20your\x20design\x20pending\x20when\x20it\x20will\x20have\x20its\x20first\x20purchase\x20(after\x20which\x20it\x20will\x20be\x20permanently\x20moved\x20to\x20Monagree\x27s\x20global\x20CDN).\x20\x20Any\x20change\x20to\x20this\x20repo\x20may\x20invalidate\x20your\x20design\x20on\x20Monagree.\x20\x20To\x20make\x20changes,\x20use\x20the\x20CLI\x20tool.','getGitUN','catch','createDesign','decrypt','length','readdirSync','./firehelper','\x0a\x0a\x20\x20This\x20is\x20a\x20branch\x20in\x20your\x20design.\x20It\x20represents\x20a\x20new\x20path\x20on\x20the\x20website\x20(eg\x20monagree.com/designid/branchid).\x0a\x0a\x0a\x0a\x20\x20CODING\x20GUIDELINES:\x0a\x0a\x0a\x20\x20-\x20The\x20index.','digest','isSignedIn','/*\x20Some\x20default\x20styles\x20*/\x0a\x0a\x20\x20body\x20{\x0a\x20\x20\x20\x20\x20\x20font-family:\x20\x27Pacifico\x27,\x20sans-serif;\x0a\x20\x20\x20\x20\x20\x20margin:\x200;\x0a\x20\x20\x20\x20\x20\x20padding:\x200;\x0a\x20\x20\x20\x20\x20\x20background-color:\x20lavender;\x0a\x20\x20}\x0a\x20\x20\x0a\x20\x20h1,\x20h2\x20{\x0a\x20\x20\x20\x20\x20\x20color:\x20blue;\x0a\x20\x20\x20\x20\x20\x20margin:\x205px;\x0a\x20\x20}\x0a\x20\x20\x0a\x20\x20p\x20{\x0a\x20\x20\x20\x20\x20\x20color:\x20#333;\x0a\x20\x20\x20\x20\x20\x20margin:\x205px;\x0a\x20\x20}\x0a\x20\x20\x0a\x20\x20/*\x20Custom\x20Style\x20*/\x0a\x20\x20.ctr{\x0a\x20\x20\x20\x20\x20\x20width:\x20100vw;\x0a\x20\x20\x20\x20\x20\x20height:\x20100vh;\x0a\x20\x20\x20\x20\x20\x20display:\x20flex;\x0a\x20\x20\x20\x20\x20\x20flex-direction:\x20column;\x0a\x20\x20\x20\x20\x20\x20align-items:\x20center;\x0a\x20\x20\x20\x20\x20\x20justify-content:\x20center;\x0a\x20\x20}\x0a\x20\x20\x0a\x20\x20.devicon{\x0a\x20\x20\x20\x20\x20\x20width:\x20100px;\x0a\x20\x20}\x0a\x20\x20\x0a\x20\x20.btmflt{\x0a\x20\x20\x20\x20\x20\x20position:\x20absolute;\x0a\x20\x20\x20\x20\x20\x20bottom:\x200;\x0a\x20\x20\x20\x20\x20\x20width:\x20100vw;\x0a\x20\x20\x20\x20\x20\x20display:\x20flex;\x0a\x20\x20\x20\x20\x20\x20align-items:\x20center;\x0a\x20\x20\x20\x20\x20\x20justify-content:\x20center;\x0a\x20\x20\x20\x20\x20\x20margin-bottom:\x2030px;\x0a\x20\x20}\x0a\x20\x20.btmflt\x20p{\x0a\x20\x20\x20\x20\x20\x20color:\x20grey;\x0a\x20\x20}','setDevSC','utf-8','normalize','split','then','eslint-loader','parse','throw','Loading...','start\x20','ops','Please\x20enter\x20something','setDevId','path','pop','npm\x20install\x20--save-dev\x20ts-loader\x20typings-for-css-modules-loader','_success','log','prfs/','npm\x20install\x20monagree','mkdirSync','\x0abranch_desc:','getDevId','f0a1b2c3d4e5f678901234567890abcd','startsWith','/index.','sha256','saveConfig','declare\x20module\x20\x27*.html\x27\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20const\x20content:\x20string;\x0a\x20\x20\x20\x20\x20\x20\x20\x20export\x20default\x20content;\x0a\x20\x20\x20\x20\x20\x20}','statSync','Bearer\x20','SET','exec','html','259773rNjHVG','gitTokenOk','_proceedGC','Error:','gtoken','.monagree','webpack','createDecipheriv','next','name','</h1>\x0a\x20\x20\x20\x20\x20\x20<p>Choose\x20a\x20branch\x20to\x20start\x20with\x20(Query\x20params\x20are\x20on\x20you)</p>\x0a\x20\x20\x20\x20\x20\x20<div\x20class=\x22dsgs\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','cwd','file-loader','toString','<!doctype\x20html>\x0a\x20\x20<html\x20lang=\x22en\x22>\x0a\x20\x20\x0a\x20\x20<head>\x0a\x20\x20\x20\x20\x20\x20<meta\x20charset=\x22UTF-8\x22>\x0a\x20\x20\x20\x20\x20\x20<meta\x20name=\x22viewport\x22\x20content=\x22width=device-width,initial-scale=1\x22>\x0a\x20\x20\x20\x20\x20\x20<link\x20rel=\x22stylesheet\x22\x20href=\x22https://fonts.googleapis.com/css2?family=Pacifico&display=swap\x22>\x0a\x20\x20\x20\x20\x20\x20<title>','serveLocal','plugins.','loader','stdout','accessToken','baseFolder','return','premium','</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20</body>\x0a\x20\x20</html>\x0a\x20\x20','\x22>\x0a\x20\x20<div\x20class=\x22page\x22\x20id=\x22','homedir','default','base64','xdg-open\x20','get','<a\x20href=\x22/','done','crypto','Error:\x20','hex','\x27);\x0a\x20\x20const\x20MiniCssExtractPlugin\x20=\x20require(\x27','test','Error\x20opening\x20URL:\x20','data','printCyan','getConfig','time','init','message','git','open\x20','value','commit','babel-loader','__generator','index.css','function','user.email','full_name','defineProperty','File\x20uploaded\x20successfully:','/designs/','includes','repos','\x20for\x20more\x20info\x0a\x0a\x20\x20-\x20Run\x20`monagree\x20branch\x20your-branch-id`\x20to\x20create\x20a\x20new\x20branch\x0a\x0a\x0a\x20\x20https://docs.monagree.com/cli#branch','\x27,branchId\x20=\x20\x27\x27\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20if(bizId.length\x20<3){\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20bizId\x20=\x20urlParts[2]\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20branchId\x20=\x20urlParts[3]\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}else{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20branchId\x20=\x20urlParts[2]\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20if(!branchId\x20||\x20branchId.length\x20<\x202){\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20branchId\x20=\x20\x27home\x27\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20if(bizId){\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20localStorage.setItem(\x27bzid\x27,bizId)\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20const\x20scriptElement\x20=\x20document.getElementById(\x27djs\x27);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20scriptElement.src\x20=\x20`//localhost:3310/${designId}/${branchId}/${branchId}.js`;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20scriptElement.defer\x20=\x20true;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20scriptElement.addEventListener(\x27load\x27,\x20()\x20=>\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20});\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20scriptElement.addEventListener(\x27error\x27,\x20(error)\x20=>\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20});\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20document.getElementById(\x27dst\x27).href\x20=\x20`//localhost:3310/${designId}/${branchId}/styles.css`;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20document.title\x20=\x20`${branchId}`;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}else{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20//400\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20</script>\x0a\x20\x20</head>\x0a\x20\x20<body>\x0a\x20\x20\x20\x20\x20\x20<div\x20id=\x22monapp\x22></div>\x0a\x20\x20</body>\x0a\x20\x20</html>','html_url','encrypt','join','\x0a\x20\x20\x20\x20\x20\x20const\x20jss\x20=\x20JSON.stringify(wcfg,(key,value)=>{\x0a\x20\x20\x20\x20\x20\x20\x20\x20if(key==\x27test\x27){\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20const\x20rg\x20=\x20value.toString()\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20if(rg.includes(\x27js\x27)){\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20return\x20\x27js\x27\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}else\x20if(rg.includes(\x27html\x27)){\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20return\x20\x27html\x27\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}else\x20if(rg.includes(\x27css\x27)){\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20return\x20\x27css\x27\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}else\x20if(rg.includes(\x27png\x27)){\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20return\x20\x27png\x27\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}else\x20if(rg.includes(\x27s[ac]ss\x27)){\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20return\x20\x27sass\x27\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20return\x20value.toString()\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20if\x20(key\x20===\x20\x27plugins\x27)\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20return\x20\x27plg\x27;\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20if\x20(key.startsWith(\x27plugins.\x27)\x20&&\x20key\x20!==\x20\x27plugins\x27)\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20return\x20undefined;\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20if(key\x20==\x20\x27exclude\x27){\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20return\x20\x27nmd\x27\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20return\x20value\x0a\x20\x20\x20\x20\x20\x20})\x0a\x20\x20\x20\x20\x20\x20const\x20parsedConfig\x20=\x20JSON.parse(jss,\x20(key,\x20value)\x20=>\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20if\x20(key==\x27test\x27)\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20const\x20vs\x20=\x20value.toString()\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20if(vs.includes(\x27js\x27)){\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20return\x20/\x5c.(js|ts)$/\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}else\x20if(vs.includes(\x27html\x27)){\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20return\x20/\x5c.html$/\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}else\x20if(vs.includes(\x27css\x27)){\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20return\x20/\x5c.css$/\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}else\x20if(vs.includes(\x27png\x27)){\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20return\x20/\x5c.(png|svg|jpg|gif)$/\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}else\x20if(vs.includes(\x27sass\x27)){\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20return\x20/\x5c.s[ac]ss$/\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20if(key\x20==\x20\x27exclude\x27){\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20return\x20/node_modules/\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20if\x20(key\x20===\x20\x27plugins\x27)\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20return\x20[\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20new\x20MiniCssExtractPlugin({\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20filename:\x20\x27styles.css\x27\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20})\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20];\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20if(value.toString().includes(\x27TBID\x27)){\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20return\x20value.replace(/TBID/g,bid)\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20return\x20value;\x0a\x20\x20\x20\x20\x20\x20});\x0a\x20\x20\x20\x20return\x20parsedConfig\x0a\x20\x20}\x0a\x20\x20\x0a\x20\x20const\x20watcher\x20=\x20fs.watch(dtw,\x20{\x20recursive:\x20true\x20},\x20(eventType,\x20fn)\x20=>\x20{\x0a\x20\x20\x20\x20\x20\x20//\x20Check\x20if\x20the\x20event\x20is\x20a\x20change\x20(file\x20modified)\x0a\x20\x20\x20\x20\x20\x20if(handling){\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20return\x0a\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20if\x20(eventType\x20===\x20\x27change\x27)\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20handling\x20=\x20true\x0a\x20\x20\x20\x20\x20\x20\x20\x20const\x20bid\x20=\x20fn.split(\x27\x5c\x5c\x27)[0]\x0a\x20\x20\x20\x20\x20\x20console.log(\x27L\x27)\x0a\x20\x20\x20\x20\x20\x20webpack(getCFG(bid),\x20(err,\x20stats)\x20=>\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20if\x20(err\x20||\x20!stats\x20||\x20stats.hasErrors())\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20const\x20errors\x20=\x20err\x20||\x20(stats\x20&&\x20stats.toJson().errors)\x20||\x20[];\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20console.log(\x27EBundle\x20failed\x20with\x20errors:\x27);\x0a\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20if\x20(Array.isArray(errors))\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20errors.forEach((error,\x20index)\x20=>\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20console.log(`EError\x20${index\x20+\x201}:\x20${JSON.stringify(error)}`);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20});\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x20else\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20console.log(\x27E\x27+errors);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20handling\x20=\x20false\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x20else\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20if(stats.hasWarnings()){\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20const\x20warnings\x20=\x20stats.toJson().warnings;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20if\x20(warnings\x20&&\x20warnings.length\x20>\x200)\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20console.log(`W${warnings.length}\x20warning(s)\x20found:`);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20warnings.forEach((warning,\x20index)\x20=>\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20console.log(`WWarning\x20${index\x20+\x201}:\x20${JSON.stringify(warning)}`);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20});\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}else{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20console.log(\x27CPerfect\x20code.\x20No\x20warnings\x20found\x27)\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20console.log(\x27GRebuild\x20complete.\x20Invoking\x20reload\x27)\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20wss.clients.forEach((client)\x20=>\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20if\x20(client.readyState\x20===\x20WebSocket.OPEN)\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20//\x20Send\x20a\x20reload\x20signal\x20to\x20the\x20connected\x20clients\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20client.send(bid);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20});\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20handling\x20=\x20false\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20});\x0a\x20\x20\x20\x20\x20\x20}\x0a\x20\x20});\x0a\x20\x20\x0a\x20\x20\x0a\x20\x20app.get(\x27/:did\x27,\x20(req,\x20res)\x20=>\x20{\x0a\x20\x20const\x20did\x20=\x20req.params.did;\x0a\x20\x20res.sendFile(path.join(__dirname,\x20\x27pages.html\x27));\x0a\x20\x20});\x0a\x20\x20\x0a\x20\x20app.get(\x27/:did/:bid\x27,\x20(req,\x20res)\x20=>\x20{\x0a\x20\x20const\x20did\x20=\x20req.params.did;\x0a\x20\x20const\x20bid\x20=\x20req.params.bid\x20||\x20\x27home\x27;\x0a\x20\x20res.sendFile(path.join(__dirname,\x20\x27start.html\x27));\x0a\x20\x20});\x0a\x20\x20\x0a\x20\x20app.get(\x27/:did/:bid/:filename\x27,\x20(req,\x20res)\x20=>\x20{\x0a\x20\x20const\x20did\x20=\x20req.params.did;\x0a\x20\x20const\x20bid\x20=\x20req.params.bid;\x0a\x20\x20const\x20filename\x20=\x20req.params.filename;\x0a\x20\x20res.sendFile(path.join(__dirname,\x20\x27dist\x27,\x20bid,\x20filename));\x0a\x20\x20});\x0a\x0a\x20\x20server.listen(3000,\x20()\x20=>\x20{\x0a\x20\x20});\x0a\x20\x20\x0a\x20\x20app.listen(port,\x20()\x20=>\x20{\x0a\x20\x20console.log(`Server\x20is\x20running\x20at\x20http://localhost:${port}`);\x0a\x20\x20exec(`start\x20http://localhost:${port}/','createForAuthenticatedUser','rest','exit','/tkns/git','addMonagreeSDK','error','__esModule','gitconfiged','Error\x20creating\x20directory:','add','substr','concat'];a2_0x4178=function(){return _0x735650;};return a2_0x4178();}function serveLocal(_0x2d1770,_0x516840,_0x5a9550){var _0x20b642=a2_0x522011;saveToFile('','start.html','<!doctype\x20html>\x0a\x20\x20<html\x20lang=\x22en\x22>\x0a\x20\x20<head>\x0a\x20\x20\x20\x20\x20\x20<meta\x20charset=\x22UTF-8\x22>\x0a\x20\x20\x20\x20\x20\x20<meta\x20name=\x22viewport\x22\x20content=\x22width=device-width,initial-scale=1\x22>\x0a\x20\x20\x20\x20\x20\x20<title>Monagree\x20Design</title>\x0a\x20\x20\x20\x20\x20\x20<script\x20id=\x22djs\x22></script>\x0a\x20\x20\x20\x20\x20\x20<script>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20const\x20up\x20=\x20window.location.href.split(\x27//\x27)[1].split(\x27/\x27)\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20let\x20bz\x20=\x20\x27'[_0x20b642(0x1f9)](_0x5a9550!==null&&_0x5a9550!==void 0x0?_0x5a9550:'',_0x20b642(0x280))[_0x20b642(0x1f9)](_0x5a9550!==null&&_0x5a9550!==void 0x0?_0x5a9550:'',_0x20b642(0x1e9))),saveToFile('','server.js','const\x20port\x20=\x203310;\x0a\x20\x20const\x20express\x20=\x20require(\x27'[_0x20b642(0x1f9)](path_1[_0x20b642(0x2cc)][_0x20b642(0x292)](require[_0x20b642(0x26a)](_0x20b642(0x26f)))[_0x20b642(0x23a)](/\\/g,'/'),_0x20b642(0x235))[_0x20b642(0x1f9)](path_1['default'][_0x20b642(0x292)](require['resolve']('ws'))['replace'](/\\/g,'/'),'\x27);\x0a\x20\x20const\x20http\x20=\x20require(\x27http\x27);\x0a\x20\x20const\x20webpack\x20=\x20require(\x27')[_0x20b642(0x1f9)](path_1[_0x20b642(0x2cc)][_0x20b642(0x292)](require[_0x20b642(0x26a)](_0x20b642(0x2b8)))['replace'](/\\/g,'/'),_0x20b642(0x2d5))[_0x20b642(0x1f9)](path_1[_0x20b642(0x2cc)][_0x20b642(0x292)](require[_0x20b642(0x26a)](_0x20b642(0x215)))[_0x20b642(0x23a)](/\\/g,'/'),'\x27);\x0a\x20\x20\x0a\x20\x20const\x20app\x20=\x20express();\x0a\x20\x20const\x20server\x20=\x20http.createServer(app);\x0a\x20\x20const\x20wss\x20=\x20new\x20WebSocket.Server({\x20server\x20});\x0a\x20\x20\x0a\x20\x20const\x20configFold\x20=\x20\x27')['concat'](exports[_0x20b642(0x27e)],_0x20b642(0x25f))[_0x20b642(0x1f9)](JSON[_0x20b642(0x260)](getWebpackConfig(_0x516840[_0x20b642(0x27a)]+'/'+_0x20b642(0x251),'TBID',_0x516840[_0x20b642(0x273)],!![],!![]),function(_0x4ab873,_0x151961){var _0x554dbc=_0x20b642;if(_0x4ab873==_0x554dbc(0x2d6)){var _0x3048af=_0x151961[_0x554dbc(0x2bf)]();if(_0x3048af[_0x554dbc(0x1e6)]('js'))return'js';else{if(_0x3048af[_0x554dbc(0x1e6)](_0x554dbc(0x2b1)))return'html';else{if(_0x3048af[_0x554dbc(0x1e6)]('css'))return _0x554dbc(0x240);else{if(_0x3048af['includes'](_0x554dbc(0x219)))return _0x554dbc(0x219);else{if(_0x3048af['includes']('s[ac]ss'))return _0x554dbc(0x224);}}}}return _0x151961[_0x554dbc(0x2bf)]();}if(_0x4ab873===_0x554dbc(0x277))return _0x554dbc(0x1fd);if(_0x4ab873[_0x554dbc(0x2a8)](_0x554dbc(0x2c2))&&_0x4ab873!==_0x554dbc(0x277))return undefined;if(_0x4ab873==_0x554dbc(0x236))return _0x554dbc(0x239);return _0x151961;}),_0x20b642(0x1ed))[_0x20b642(0x1f9)](_0x516840['id'],_0x20b642(0x22e))),saveToFile('','pages.html',_0x20b642(0x2c0)['concat'](_0x516840['title'],'</title>\x0a\x20\x20\x20\x20\x20\x20<style>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20body{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-family:\x20\x27Pacifico\x27,\x20sans-serif;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20margin:\x200;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20padding:\x200;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background-color:\x20lavender;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20width:\x20100vw;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20height:\x20100vh;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20display:\x20flex;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20flex-direction:\x20column;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20align-items:\x20center;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20justify-content:\x20center;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20a\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20text-decoration:\x20none;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20color:\x20inherit;\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20h2,\x20h3{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20margin:\x205px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20p{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-family:\x20Cambria,\x20Cochin,\x20Georgia,\x20Times,\x20\x27Times\x20New\x20Roman\x27,\x20serif;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20margin:\x205px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.dsgs{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20display:\x20flex;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20flex-wrap:\x20wrap;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20margin-top:\x2030px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.page{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20padding:\x2010px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20box-sizing:\x20border-box;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20min-width:\x20120px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20height:\x20150px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border-radius:\x2010px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20display:\x20flex;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20flex-direction:\x20column;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20align-items:\x20center;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20justify-content:\x20center;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20margin:\x2010px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20cursor:\x20pointer;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.dv{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20height:\x2050px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20#a{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background-color:\x20rgba(152,\x20216,\x20202,0.2);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20color:\x20rgba(0,\x200,\x200,0.5);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20transition:\x20color\x200.5s\x20ease-in-out,\x20background-color\x200.5s\x20ease-in-out,\x20transform\x200.5s\x20ease-in-out;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20#a:hover{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background-color:\x20rgb(152,\x20221,\x20202);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20color:\x20black;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20transform:\x20scale(1.05);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20#b{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background-color:\x20rgba(216,\x20163,\x20163,0.2);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20color:\x20rgba(0,\x200,\x200,0.5);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20transition:\x20color\x200.5s\x20ease-in-out,\x20background-color\x200.5s\x20ease-in-out,\x20transform\x200.5s\x20ease-in-out;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20#b:hover{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background-color:\x20rgb(216,\x20163,\x20163);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20color:\x20black;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20transform:\x20scale(1.05);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20#c{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background-color:\x20rgba(174,\x20174,\x20255,0.2);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20color:\x20rgba(0,\x200,\x200,0.5);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20transition:\x20color\x200.5s\x20ease-in-out,\x20background-color\x200.5s\x20ease-in-out,\x20transform\x200.5s\x20ease-in-out;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20#c:hover{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background-color:\x20rgb(174,\x20174,\x20255);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20color:\x20black;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20transform:\x20scale(1.05);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20</style>\x0a\x20\x20</head>\x0a\x20\x20\x0a\x20\x20<body>\x0a\x20\x20\x20\x20\x20\x20<h1\x20style=\x22color:\x20blue;\x22>')[_0x20b642(0x1f9)](_0x516840['title'],_0x20b642(0x2bc))[_0x20b642(0x1f9)](Object['keys'](_0x516840[_0x20b642(0x272)])['map'](function(_0x162361,_0xed9ba0){return getBranchMini(_0x516840['id'],_0x162361,_0xed9ba0);}),_0x20b642(0x220))),_0x2d1770(!![]);}exports['serveLocal']=serveLocal;function getBranchMini(_0x573b73,_0x1d7800,_0xf9328d){var _0xc68ef8=a2_0x522011,_0x5a07cb=_0xf9328d;while(_0x5a07cb>0x2){_0x5a07cb=_0x5a07cb-0x3;}var _0x15c192=_0x5a07cb==0x0?'a':_0x5a07cb==0x1?'b':'c';return _0xc68ef8(0x2d0)[_0xc68ef8(0x1f9)](_0x573b73,'/')[_0xc68ef8(0x1f9)](_0x1d7800,_0xc68ef8(0x2ca))[_0xc68ef8(0x1f9)](_0x15c192,_0xc68ef8(0x248))[_0xc68ef8(0x1f9)](_0x1d7800,'</h3>\x0a\x20\x20</div>\x0a</a>');}function initNpm(_0x8ad144,_0x4d442c,_0x2cb2f7){var _0x2d6c90=a2_0x522011;saveToFile('','package.json',_0x2d6c90(0x281)[_0x2d6c90(0x1f9)](_0x8ad144,_0x2d6c90(0x245))['concat'](_0x4d442c,_0x2d6c90(0x264))[_0x2d6c90(0x1f9)](exports[_0x2d6c90(0x27e)],_0x2d6c90(0x278))['concat'](_0x2cb2f7,_0x2d6c90(0x230))[_0x2d6c90(0x1f9)](getDevSC(),'\x22,\x0a\x20\x20\x20\x20\x22license\x22:\x20\x22ISC\x22,\x0a\x20\x20\x20\x20\x22dependencies\x22:\x20{\x0a\x20\x20\x20\x20}\x0a\x20\x20}\x0a\x20\x20'));}exports[a2_0x522011(0x238)]=initNpm;var loginMan=(function(){var _0x3f3b3d=a2_0x522011;function _0x283840(){}return _0x283840[_0x3f3b3d(0x274)]['prepare']=function(_0x58a1a0){var _0x59a970=_0x3f3b3d,_0x20f4e4=this;(0x0,firehelper_1[_0x59a970(0x1fb)])(function(_0x3e0148,_0x2f081d){_0x3e0148&&(_0x20f4e4['accessToken']=_0x2f081d),_0x58a1a0(_0x3e0148);});},_0x283840[_0x3f3b3d(0x274)][_0x3f3b3d(0x25b)]=function(){},_0x283840;}());exports['loginMan']=loginMan;var deployMan=(function(){var _0x1d8ef9=a2_0x522011;function _0x4270ee(_0x194a93){var _0x339744=a2_0x28c2;this['branchName']='gh-pages',this['repoName']=_0x194a93['id'],this[_0x339744(0x20f)]=getGitUN(),this[_0x339744(0x1d6)]=Date[_0x339744(0x246)]()[_0x339744(0x2bf)](),this[_0x339744(0x2c6)]=path_1[_0x339744(0x2cc)][_0x339744(0x1ec)](process[_0x339744(0x2bd)](),exports['configFolder'],_0x339744(0x247)),this[_0x339744(0x1d9)]=(0x0,simple_git_1[_0x339744(0x2cc)])({'baseDir':this['baseFolder']});}return _0x4270ee[_0x1d8ef9(0x274)]['prepare']=function(_0x198b7b){var _0x4d5328=_0x1d8ef9,_0x10b8fb=this;(0x0,firehelper_1[_0x4d5328(0x1fb)])(function(_0x1e138f,_0x160542){var _0x42cd7e=_0x4d5328;_0x1e138f&&(_0x10b8fb[_0x42cd7e(0x2c5)]=_0x160542),_0x198b7b(_0x1e138f);});},_0x4270ee['prototype'][_0x1d8ef9(0x268)]=function(_0x28fee1,_0x368cc9,_0x181af5){var _0x120775=_0x1d8ef9,_0x1953ac=new firehelper_1[(_0x120775(0x232))]();_0x1953ac['setFS'](_0x120775(0x2a2)['concat'](getDevId(),_0x120775(0x1f1)),{'t':_0x28fee1,'u':_0x368cc9},function(_0x23193c){var _0x2730da=_0x120775;_0x23193c['_success']?(saveSP(_0x2730da(0x2b6)+getDevId(),_0x28fee1),saveSP(_0x2730da(0x259)+getDevId(),_0x368cc9),_0x181af5(!![])):_0x181af5(![]);});},_0x4270ee['prototype'][_0x1d8ef9(0x287)]=function(_0x2f01ff,_0x4db21b){var _0x4ba2c3=_0x1d8ef9,_0x5e40a6=new firehelper_1[(_0x4ba2c3(0x232))]();_0x5e40a6['setFS'](_0x4ba2c3(0x2a2)[_0x4ba2c3(0x1f9)](getDevId(),_0x4ba2c3(0x1e5))[_0x4ba2c3(0x1f9)](_0x2f01ff['id']),{'t':_0x2f01ff['title'],'d':_0x2f01ff['desc'],'a':getDevId(),'p':_0x2f01ff['class'][_0x4ba2c3(0x1e6)](_0x4ba2c3(0x2c8))?0x1:0x0,'e':_0x2f01ff['c1']['startsWith']('e')?0x1:0x0,'h':0x0,'l':this['time'],'c1':_0x2f01ff['c1_id'],'c2':_0x2f01ff[_0x4ba2c3(0x26c)],'c3':_0x2f01ff[_0x4ba2c3(0x252)]},function(_0x15f956){var _0x590e6a=_0x4ba2c3;_0x4db21b(_0x15f956[_0x590e6a(0x2a0)]);});},_0x4270ee[_0x1d8ef9(0x274)][_0x1d8ef9(0x222)]=function(_0x1d9cd1,_0xf7c449){return __awaiter(this,void 0x0,void 0x0,function(){var _0xf487d9,_0x28472e,_0x4dbeba,_0x455cf2,_0x33b17f,_0x2557cb,_0x4c4a2b;return __generator(this,function(_0x49963e){var _0x2d53e1=a2_0x28c2;switch(_0x49963e[_0x2d53e1(0x225)]){case 0x0:_0xf487d9=path_1[_0x2d53e1(0x2cc)][_0x2d53e1(0x1ec)](process['cwd'](),exports[_0x2d53e1(0x27e)],_0x2d53e1(0x247),_0xf7c449,_0x1d9cd1),_0x28472e=_0x1d9cd1[_0x2d53e1(0x293)]('.')[0x0],_0x4dbeba='https://firebasestorage.googleapis.com/v0/b/monagree-apps/o/monagree%2F'[_0x2d53e1(0x1f9)](_0x28472e),console['log'](_0x4dbeba),_0x455cf2=fs_1['default'][_0x2d53e1(0x279)](_0xf487d9),_0x33b17f={'Authorization':_0x2d53e1(0x2ae)[_0x2d53e1(0x1f9)](this[_0x2d53e1(0x2c5)]),'Content-Type':_0x2d53e1(0x205)},_0x49963e[_0x2d53e1(0x225)]=0x1;case 0x1:_0x49963e[_0x2d53e1(0x229)][_0x2d53e1(0x20c)]([0x1,0x3,,0x4]);return[0x4,axios_1['default'][_0x2d53e1(0x26e)](_0x4dbeba,_0x455cf2,{'headers':_0x33b17f})];case 0x2:_0x2557cb=_0x49963e[_0x2d53e1(0x210)](),console[_0x2d53e1(0x2a1)](_0x2d53e1(0x1e4),_0x2557cb[_0x2d53e1(0x2d8)]);return[0x2,!![]];case 0x3:_0x4c4a2b=_0x49963e[_0x2d53e1(0x210)](),console['error']('Error\x20uploading\x20file:',_0x4c4a2b[_0x2d53e1(0x204)]?_0x4c4a2b[_0x2d53e1(0x204)][_0x2d53e1(0x2d8)]:_0x4c4a2b[_0x2d53e1(0x1d8)]);return[0x2,![]];case 0x4:return[0x2];}});});},_0x4270ee['prototype'][_0x1d8ef9(0x256)]=function(_0x375ebf){var _0x3701cb=_0x1d8ef9;(0x0,simple_git_1[_0x3701cb(0x2cc)])()['version']()['then'](function(_0x445600){_0x375ebf(_0x445600['installed']);})[_0x3701cb(0x286)](function(_0xe9c259){console['error'](_0xe9c259),_0x375ebf(![]);});},_0x4270ee[_0x1d8ef9(0x274)][_0x1d8ef9(0x2b4)]=function(_0x36c881,_0x5e4c27){var _0x3f9716=_0x1d8ef9,_0x3baa01=this;if(getSP('gitconfiged',!![])[_0x3f9716(0x289)]>0x0){_0x5e4c27(!![]);return;}inquire([{'type':'input','name':_0x3f9716(0x2bb),'message':_0x3f9716(0x25a),'validate':exports['vv']},{'type':'input','name':'email','message':'Enter\x20email:\x20','validate':exports['vv']}],function(_0x2c430d,_0x388c43){return __awaiter(_0x3baa01,void 0x0,void 0x0,function(){var _0x53d28d;return __generator(this,function(_0x7e30cc){var _0x468467=a2_0x28c2;switch(_0x7e30cc['label']){case 0x0:if(!_0x2c430d)return[0x3,0x6];_0x7e30cc['label']=0x1;case 0x1:_0x7e30cc['trys']['push']([0x1,0x4,,0x5]);return[0x4,this[_0x468467(0x1d9)][_0x468467(0x207)]('user.name',_0x388c43[_0x468467(0x2bb)])];case 0x2:_0x7e30cc[_0x468467(0x210)]();return[0x4,this[_0x468467(0x1d9)][_0x468467(0x207)](_0x468467(0x1e1),_0x388c43[_0x468467(0x23c)])];case 0x3:_0x7e30cc['sent'](),saveToFile(path_1[_0x468467(0x2cc)]['join'](exports[_0x468467(0x27e)],_0x468467(0x247)),_0x468467(0x228),'#\x20'[_0x468467(0x1f9)](_0x36c881[_0x468467(0x233)],_0x468467(0x202))['concat'](_0x388c43[_0x468467(0x2bb)],_0x468467(0x284))),saveSP(_0x468467(0x1f5),_0x468467(0x2af),!![]),_0x5e4c27(!![]);return[0x3,0x5];case 0x4:_0x53d28d=_0x7e30cc[_0x468467(0x210)](),console[_0x468467(0x1f3)]('Error\x20setting\x20Git\x20configuration:',_0x53d28d[_0x468467(0x1d8)]),_0x5e4c27(![]);return[0x3,0x5];case 0x5:return[0x3,0x7];case 0x6:_0x5e4c27(![]),_0x7e30cc[_0x468467(0x225)]=0x7;case 0x7:return[0x2];}});});});},_0x4270ee[_0x1d8ef9(0x274)][_0x1d8ef9(0x257)]=function(_0x10b878,_0x3c06e3){var _0x2acc38=_0x1d8ef9,_0x493ccb=this;this[_0x2acc38(0x1d9)][_0x2acc38(0x266)]()[_0x2acc38(0x294)](function(_0xe5225d){var _0x483f03=_0x2acc38;_0xe5225d?_0x493ccb[_0x483f03(0x2b4)](_0x10b878,_0x3c06e3):_0x493ccb[_0x483f03(0x1d9)][_0x483f03(0x1d7)]()[_0x483f03(0x294)](function(_0x23f5b6){return __awaiter(_0x493ccb,void 0x0,void 0x0,function(){var _0x201786,_0x26f6a8,_0x50100d,_0x1258db,_0x251758,_0x3f47b6,_0x5426f1;return __generator(this,function(_0x3cdeb0){var _0x1a105a=a2_0x28c2;switch(_0x3cdeb0[_0x1a105a(0x225)]){case 0x0:_0x3cdeb0[_0x1a105a(0x229)][_0x1a105a(0x20c)]([0x0,0x9,,0xa]),_0x201786=new octokit_1[(_0x1a105a(0x262))]({'auth':getGitToken()});return[0x4,this[_0x1a105a(0x1d9)]['checkoutLocalBranch'](this[_0x1a105a(0x241)])];case 0x1:_0x3cdeb0[_0x1a105a(0x210)](),_0x26f6a8=void 0x0,_0x50100d=!![],_0x3cdeb0[_0x1a105a(0x225)]=0x2;case 0x2:_0x3cdeb0['trys'][_0x1a105a(0x20c)]([0x2,0x4,,0x5]);return[0x4,_0x201786[_0x1a105a(0x1ef)][_0x1a105a(0x1e7)][_0x1a105a(0x2cf)]({'owner':this[_0x1a105a(0x20f)],'repo':this[_0x1a105a(0x223)]})];case 0x3:_0x26f6a8=_0x3cdeb0[_0x1a105a(0x210)]();return[0x3,0x5];case 0x4:_0x1258db=_0x3cdeb0['sent'](),_0x50100d=_0x1258db[_0x1a105a(0x255)]==0x194;return[0x3,0x5];case 0x5:if(!_0x50100d)return[0x2,![]];if(!!_0x26f6a8)return[0x3,0x7];return[0x4,_0x201786[_0x1a105a(0x1ef)][_0x1a105a(0x1e7)][_0x1a105a(0x1ee)]({'name':this['repoName'],'private':![],'description':_0x10b878[_0x1a105a(0x233)]+_0x1a105a(0x208)+_0x10b878['desc']})];case 0x6:_0x26f6a8=_0x3cdeb0['sent'](),_0x3cdeb0[_0x1a105a(0x225)]=0x7;case 0x7:_0x251758=_0x26f6a8[_0x1a105a(0x2d8)][_0x1a105a(0x1e2)],_0x3f47b6=_0x26f6a8['data'][_0x1a105a(0x1ea)];return[0x4,this[_0x1a105a(0x1d9)]['addRemote'](_0x1a105a(0x249),_0x3f47b6)];case 0x8:_0x3cdeb0[_0x1a105a(0x210)](),_0x10b878['id']=_0x10b878['id']+'~'+getGitUN(),saveConfig(JSON[_0x1a105a(0x260)](_0x10b878)),this[_0x1a105a(0x2b4)](_0x10b878,_0x3c06e3);return[0x3,0xa];case 0x9:_0x5426f1=_0x3cdeb0[_0x1a105a(0x210)](),deleteFolder(path_1['default'][_0x1a105a(0x1ec)](exports['configFolder'],_0x1a105a(0x247),_0x1a105a(0x218))),console[_0x1a105a(0x1f3)](_0x5426f1),_0x3c06e3(![]);return[0x3,0xa];case 0xa:return[0x2];}});});})[_0x483f03(0x286)](function(_0x4296b2){var _0x2ce34b=_0x483f03;console[_0x2ce34b(0x1f3)](_0x4296b2),_0x3c06e3(![]);});})[_0x2acc38(0x286)](function(_0x805b7b){var _0x33444e=_0x2acc38;console[_0x33444e(0x1f3)](_0x805b7b),_0x3c06e3(![]);});},_0x4270ee[_0x1d8ef9(0x274)][_0x1d8ef9(0x271)]=function(_0x281a3a){return __awaiter(this,void 0x0,void 0x0,function(){var _0x4c8b32,_0x27876d,_0x18f82f,_0x1b56ad,_0x5b2ac1;return __generator(this,function(_0x20ad4e){var _0xdfe2ec=a2_0x28c2;switch(_0x20ad4e[_0xdfe2ec(0x225)]){case 0x0:_0x20ad4e[_0xdfe2ec(0x229)]['push']([0x0,0x6,,0x7]);return[0x4,listFiles(path_1[_0xdfe2ec(0x2cc)][_0xdfe2ec(0x1ec)](this[_0xdfe2ec(0x2c6)],_0x281a3a))];case 0x1:_0x4c8b32=_0x20ad4e[_0xdfe2ec(0x210)](),(_0x27876d=0x0,_0x18f82f=_0x4c8b32),_0x20ad4e[_0xdfe2ec(0x225)]=0x2;case 0x2:if(!(_0x27876d<_0x18f82f['length']))return[0x3,0x5];_0x1b56ad=_0x18f82f[_0x27876d];return[0x4,this[_0xdfe2ec(0x231)](path_1['default']['join'](_0x281a3a,_0x1b56ad))];case 0x3:_0x20ad4e['sent'](),_0x20ad4e['label']=0x4;case 0x4:_0x27876d++;return[0x3,0x2];case 0x5:return[0x2,!![]];case 0x6:_0x5b2ac1=_0x20ad4e[_0xdfe2ec(0x210)](),console[_0xdfe2ec(0x1f3)]('Error:c',_0x5b2ac1[_0xdfe2ec(0x1d8)]);return[0x2,![]];case 0x7:return[0x2];}});});},_0x4270ee[_0x1d8ef9(0x274)][_0x1d8ef9(0x231)]=function(_0x3d6bf9,_0x95db02){return __awaiter(this,void 0x0,void 0x0,function(){var _0x440355;return __generator(this,function(_0x5785be){var _0x1260e7=a2_0x28c2;switch(_0x5785be[_0x1260e7(0x225)]){case 0x0:_0x5785be[_0x1260e7(0x229)]['push']([0x0,0x2,,0x3]);return[0x4,this[_0x1260e7(0x1d9)][_0x1260e7(0x1f7)](_0x3d6bf9)];case 0x1:_0x5785be[_0x1260e7(0x210)]();return[0x2,!![]];case 0x2:_0x440355=_0x5785be[_0x1260e7(0x210)]();if(_0x95db02)return console[_0x1260e7(0x1f3)](_0x1260e7(0x283),_0x440355['message']),[0x2,![]];else throw _0x440355;return[0x3,0x3];case 0x3:return[0x2];}});});},_0x4270ee[_0x1d8ef9(0x274)][_0x1d8ef9(0x258)]=function(){return __awaiter(this,void 0x0,void 0x0,function(){var _0x5ca760;return __generator(this,function(_0x4c0908){var _0x1784e8=a2_0x28c2;switch(_0x4c0908['label']){case 0x0:_0x4c0908[_0x1784e8(0x229)][_0x1784e8(0x20c)]([0x0,0x3,,0x4]);return[0x4,this[_0x1784e8(0x1d9)][_0x1784e8(0x1dc)](this[_0x1784e8(0x1d6)])];case 0x1:_0x4c0908['sent']();return[0x4,this[_0x1784e8(0x1d9)][_0x1784e8(0x20c)](_0x1784e8(0x249),this['branchName'])];case 0x2:_0x4c0908[_0x1784e8(0x210)]();return[0x2,!![]];case 0x3:_0x5ca760=_0x4c0908[_0x1784e8(0x210)](),console['error'](_0x1784e8(0x2b5),_0x5ca760['message']);return[0x2,![]];case 0x4:return[0x2];}});});},_0x4270ee;}());exports[a2_0x522011(0x267)]=deployMan;function listFiles(_0x377183){return __awaiter(this,void 0x0,void 0x0,function(){return __generator(this,function(_0x4c01a5){var _0x1f75ac=a2_0x28c2;try{return[0x2,fs_1[_0x1f75ac(0x2cc)][_0x1f75ac(0x28a)](_0x377183)];}catch(_0x5e8444){throw _0x5e8444;}return[0x2];});});}function doBranch(_0x501075,_0x1622b5,_0x54761b,_0x22a6b6,_0x263191){var _0xe5be14=a2_0x522011,_0x130699=_0xe5be14(0x226)['concat'](_0x501075,_0xe5be14(0x2a5))[_0xe5be14(0x1f9)](_0x1622b5,_0xe5be14(0x28c))[_0xe5be14(0x1f9)](_0x22a6b6,'\x20file\x20is\x20your\x20main\x20design\x20(entry\x20point)\x0a\x0a\x20\x20-\x20You\x20can\x20create\x20as\x20many\x20html\x20&\x20css\x20files\x20as\x20you\x20need\x20and\x20import\x20them\x20into\x20your\x20')[_0xe5be14(0x1f9)](_0x22a6b6,_0xe5be14(0x20b))['concat'](_0x22a6b6,_0xe5be14(0x1e8));saveToFile(''[_0xe5be14(0x1f9)](_0x54761b,'/')['concat'](_0x501075),_0xe5be14(0x206),_0x130699),saveToFile(''[_0xe5be14(0x1f9)](_0x54761b,'/')[_0xe5be14(0x1f9)](_0x501075),'index.html',_0xe5be14(0x261)[_0xe5be14(0x1f9)](_0x501075,_0xe5be14(0x2c9))),saveToFile(''['concat'](_0x54761b,'/')[_0xe5be14(0x1f9)](_0x501075),_0xe5be14(0x1df),_0xe5be14(0x28f)),saveToFile(''[_0xe5be14(0x1f9)](_0x54761b,'/')[_0xe5be14(0x1f9)](_0x501075),_0xe5be14(0x265)+_0x22a6b6,_0x22a6b6=='ts'?_0xe5be14(0x254):_0xe5be14(0x25c)),_0x263191(!![]);}exports['doBranch']=doBranch;function setupTS(_0x28f9e5){var _0x25dedd=a2_0x522011,_0x13f4f5=_0x25dedd(0x29f);runCmd(_0x13f4f5,function(_0x53b174,_0x40539d){var _0x2c7218=_0x25dedd;_0x53b174==0x1&&(saveToFile('',_0x2c7218(0x27b),_0x2c7218(0x1fa)),saveToFile('','html.d.ts',_0x2c7218(0x2ac)),_0x28f9e5(!![])),_0x53b174==0x0&&_0x28f9e5(![]);});}exports[a2_0x522011(0x21e)]=setupTS;
+"use strict";
+var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
+    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
+    return new (P || (P = Promise))(function (resolve, reject) {
+        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
+        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
+        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
+        step((generator = generator.apply(thisArg, _arguments || [])).next());
+    });
+};
+var __generator = (this && this.__generator) || function (thisArg, body) {
+    var _ = { label: 0, sent: function() { if (t[0] & 1) throw t[1]; return t[1]; }, trys: [], ops: [] }, f, y, t, g;
+    return g = { next: verb(0), "throw": verb(1), "return": verb(2) }, typeof Symbol === "function" && (g[Symbol.iterator] = function() { return this; }), g;
+    function verb(n) { return function (v) { return step([n, v]); }; }
+    function step(op) {
+        if (f) throw new TypeError("Generator is already executing.");
+        while (g && (g = 0, op[0] && (_ = 0)), _) try {
+            if (f = 1, y && (t = op[0] & 2 ? y["return"] : op[0] ? y["throw"] || ((t = y["return"]) && t.call(y), 0) : y.next) && !(t = t.call(y, op[1])).done) return t;
+            if (y = 0, t) op = [op[0] & 2, t.value];
+            switch (op[0]) {
+                case 0: case 1: t = op; break;
+                case 4: _.label++; return { value: op[1], done: false };
+                case 5: _.label++; y = op[1]; op = [0]; continue;
+                case 7: op = _.ops.pop(); _.trys.pop(); continue;
+                default:
+                    if (!(t = _.trys, t = t.length > 0 && t[t.length - 1]) && (op[0] === 6 || op[0] === 2)) { _ = 0; continue; }
+                    if (op[0] === 3 && (!t || (op[1] > t[0] && op[1] < t[3]))) { _.label = op[1]; break; }
+                    if (op[0] === 6 && _.label < t[1]) { _.label = t[1]; t = op; break; }
+                    if (t && _.label < t[2]) { _.label = t[2]; _.ops.push(op); break; }
+                    if (t[2]) _.ops.pop();
+                    _.trys.pop(); continue;
+            }
+            op = body.call(thisArg, _);
+        } catch (e) { op = [6, e]; y = 0; } finally { f = t = 0; }
+        if (op[0] & 5) throw op[1]; return { value: op[0] ? op[1] : void 0, done: true };
+    }
+};
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.setupTS = exports.doBranch = exports.deployMan = exports.loginMan = exports.initNpm = exports.serveLocal = exports.getWebpackConfig = exports.runCmd = exports.addMonagreeSDK = exports.setDevSC = exports.setDevId = exports.gitTokenOk = exports.getGitUN = exports.getGitToken = exports.getDevSC = exports.getDevId = exports.isSignedIn = exports.logout = exports.getDeviceToken = exports.getCT = exports.foldExists = exports.amInMonagreeFolder = exports.goUrl = exports.inquire = exports.deleteFolder = exports.getConfig = exports.saveToFile = exports.saveConfig = exports.cdIntoProject = exports.hasConfig = exports.vv = exports.decrypt = exports.encrypt = exports.configFolder = void 0;
+var child_process_1 = require("child_process");
+var crypto_1 = __importDefault(require("crypto"));
+var fs_1 = __importDefault(require("fs"));
+var os_1 = __importDefault(require("os"));
+var path_1 = __importDefault(require("path"));
+var enquirer_1 = require("enquirer");
+var mini_css_extract_plugin_1 = __importDefault(require("mini-css-extract-plugin"));
+var axios_1 = __importDefault(require("axios"));
+var octokit_1 = require("octokit");
+var simple_git_1 = __importDefault(require("simple-git"));
+var firehelper_1 = require("./firehelper");
+var _1 = require(".");
+var eslint_webpack_plugin_1 = __importDefault(require("eslint-webpack-plugin"));
+var secretKey = crypto_1.default.createHash('sha256').update('monagreecli').digest('base64').substr(0, 32);
+var iv = 'f0a1b2c3d4e5f678901234567890abcd';
+var SPfolder = path_1.default.join(os_1.default.homedir(), '.monagree');
+exports.configFolder = '.monagree';
+function encrypt(data) {
+    var cipher = crypto_1.default.createCipheriv('aes-256-cbc', secretKey, Buffer.from(iv, 'hex'));
+    var encryptedData = cipher.update(data, 'utf-8', 'hex');
+    encryptedData += cipher.final('hex');
+    return encryptedData;
+}
+exports.encrypt = encrypt;
+function decrypt(enc) {
+    var decipher = crypto_1.default.createDecipheriv('aes-256-cbc', secretKey, Buffer.from(iv, 'hex'));
+    var decryptedData = decipher.update(enc, 'hex', 'utf-8');
+    decryptedData += decipher.final('utf-8');
+    return decryptedData;
+}
+exports.decrypt = decrypt;
+// Function to encrypt and save sensitive data in the user's home directory
+function saveSP(key, data, useConfigFold) {
+    if (!fs_1.default.existsSync(SPfolder)) {
+        fs_1.default.mkdirSync(SPfolder, { recursive: true });
+    }
+    var encryptedFilePath = path_1.default.join(useConfigFold ? exports.configFolder : SPfolder, key);
+    fs_1.default.writeFileSync(encryptedFilePath, encrypt(data), 'utf-8');
+}
+var vv = function (selectedIndices) {
+    return selectedIndices && selectedIndices.length > 0 ? true : "Please enter something";
+};
+exports.vv = vv;
+// Function to decrypt and retrieve sensitive data from the user's home directory
+function getSP(key, useConfigFold) {
+    try {
+        var encryptedFilePath = path_1.default.join(useConfigFold ? exports.configFolder : SPfolder, key);
+        var encryptedData = fs_1.default.readFileSync(encryptedFilePath, 'utf-8');
+        return decrypt(encryptedData);
+    }
+    catch (error) {
+        return '';
+    }
+}
+function hasConfig() {
+    var cf = path_1.default.join(exports.configFolder, 'monagree.config');
+    return fs_1.default.existsSync(cf);
+}
+exports.hasConfig = hasConfig;
+function cdIntoProject(pid, finise) {
+    if (fs_1.default.existsSync(pid)) {
+        finise(false);
+        return;
+    }
+    try {
+        fs_1.default.mkdirSync(pid);
+        finise(true);
+    }
+    catch (error) {
+        console.error('Error creating directory:', error.message);
+        finise(false);
+    }
+}
+exports.cdIntoProject = cdIntoProject;
+function saveConfig(data) {
+    saveToFile(exports.configFolder, 'monagree.config', encrypt(data));
+    /*saveToFile(configFolder,'.eslintrc.js',`// .eslintrc.js
+  
+    module.exports = {
+      env: {
+        browser: true,
+        es6: true, // Target ECMAScript 5 for broader compatibility
+        commonjs: true,
+      },
+      extends: [
+        "eslint:recommended",
+        "plugin:@typescript-eslint/recommended"
+      ],
+      parser: "@typescript-eslint/parser",
+      parserOptions: {
+        "ecmaVersion": 2020,
+        "sourceType": "module"
+      },
+      plugins: ["@typescript-eslint"],
+      rules: {
+        "semi": "off",
+        // Additional rules can be added here if needed
+      },
+    };
+    `)*/
+}
+exports.saveConfig = saveConfig;
+function saveToFile(folder, filename, data, dont_overwrite) {
+    if (folder.length > 0 && !fs_1.default.existsSync(folder)) {
+        fs_1.default.mkdirSync(folder, { recursive: true });
+    }
+    if (dont_overwrite && fs_1.default.existsSync(path_1.default.join(folder, filename))) {
+        return;
+    }
+    try {
+        fs_1.default.writeFileSync(path_1.default.join(folder, filename), data, 'utf-8');
+    }
+    catch (e) {
+        console.error(e);
+    }
+}
+exports.saveToFile = saveToFile;
+function getConfig() {
+    try {
+        var encryptedFilePath = path_1.default.join(exports.configFolder, 'monagree.config');
+        var encryptedData = fs_1.default.readFileSync(encryptedFilePath, 'utf-8');
+        return JSON.parse(decrypt(encryptedData));
+    }
+    catch (error) {
+        return undefined;
+    }
+}
+exports.getConfig = getConfig;
+function deleteFolder(folder, finise) {
+    fs_1.default.readdir(folder, function (err, files) {
+        if (err) {
+            if (finise) {
+                finise(false);
+            }
+            return;
+        }
+        files.forEach(function (file) {
+            var filePath = path_1.default.join(folder, file);
+            // Check if it's a file (not a directory)
+            if (fs_1.default.statSync(filePath).isFile()) {
+                fs_1.default.unlinkSync(filePath);
+            }
+        });
+        if (finise) {
+            finise(true);
+        }
+    });
+}
+exports.deleteFolder = deleteFolder;
+function inquire(prompts, finise) {
+    (0, enquirer_1.prompt)(prompts)
+        .then(function (answers) {
+        finise(true, answers);
+    }).catch(function (e) {
+        console.error(e);
+        finise(false);
+    });
+}
+exports.inquire = inquire;
+// Function to open the URL based on the operating system
+function goUrl(url) {
+    var command = process.platform === 'darwin'
+        ? "open ".concat(url)
+        : process.platform === 'win32'
+            ? "start ".concat(url)
+            : "xdg-open ".concat(url);
+    (0, child_process_1.exec)(command, function (error) {
+        if (error) {
+            console.error("Error opening URL: ".concat(error.message));
+        }
+    });
+}
+exports.goUrl = goUrl;
+function amInMonagreeFolder() {
+    return foldExists(exports.configFolder);
+}
+exports.amInMonagreeFolder = amInMonagreeFolder;
+function foldExists(folder) {
+    return fs_1.default.existsSync(folder);
+}
+exports.foldExists = foldExists;
+function getCT() {
+    return Date.now().toString();
+}
+exports.getCT = getCT;
+function getDeviceToken() {
+    var dtkn = getSP('dtkn');
+    if (dtkn.length > 0) {
+        return dtkn;
+    }
+    dtkn = getCT();
+    saveSP('dtkn', dtkn);
+    return dtkn;
+}
+exports.getDeviceToken = getDeviceToken;
+function logout(finise) {
+    fs_1.default.readdir(SPfolder, function (err, files) {
+        if (err) {
+            finise(false);
+            return;
+        }
+        files.forEach(function (file) {
+            var filePath = path_1.default.join(SPfolder, file);
+            // Check if it's a file (not a directory)
+            if (fs_1.default.statSync(filePath).isFile()) {
+                fs_1.default.unlinkSync(filePath);
+            }
+        });
+        finise(true);
+    });
+}
+exports.logout = logout;
+function isSignedIn() {
+    return getDevId().length > 0;
+}
+exports.isSignedIn = isSignedIn;
+function getDevId() {
+    return getSP('devid');
+}
+exports.getDevId = getDevId;
+function getDevSC() {
+    return getSP('devsc');
+}
+exports.getDevSC = getDevSC;
+function getGitToken() {
+    return getSP('gtoken' + getDevId());
+}
+exports.getGitToken = getGitToken;
+function getGitUN() {
+    return getSP('gun' + getDevId());
+}
+exports.getGitUN = getGitUN;
+function gitTokenOk() {
+    return __awaiter(this, void 0, void 0, function () {
+        return __generator(this, function (_a) {
+            if (getGitToken().length == 0) {
+                return [2 /*return*/, false];
+            }
+            //TODO A way to use the API to check token SCOPE and EXPIRY
+            return [2 /*return*/, true];
+        });
+    });
+}
+exports.gitTokenOk = gitTokenOk;
+function setDevId(did) {
+    saveSP('devid', did);
+}
+exports.setDevId = setDevId;
+function setDevSC(dml) {
+    saveSP('devsc', dml);
+}
+exports.setDevSC = setDevSC;
+function addMonagreeSDK(finise) {
+    runCmd("npm install monagree", finise);
+}
+exports.addMonagreeSDK = addMonagreeSDK;
+function runCmd(command, finise) {
+    var _a;
+    if (command.startsWith('node')) {
+        var childProcess = (0, child_process_1.exec)(command);
+        // Listen for messages from the child process
+        (_a = childProcess.stdout) === null || _a === void 0 ? void 0 : _a.on('data', function (data) {
+            var dt = data;
+            if (dt.startsWith('L')) {
+                (0, _1.printCyan)('Loading...');
+            }
+            if (dt.startsWith('E')) {
+                (0, _1.printErr)(dt.substring(1));
+            }
+            if (dt.startsWith('W')) {
+                console.warn(dt.substring(1));
+            }
+            if (dt.startsWith('C')) {
+                (0, _1.printCyan)(dt.substring(1));
+            }
+            if (dt.startsWith('G')) {
+                (0, _1.printOk)(dt.substring(1));
+            }
+            finise(2, data);
+        });
+        childProcess.on('error', function (error) {
+            console.error("Error: ".concat(error.message));
+            finise(0, error.message);
+        });
+        childProcess.on('exit', function (code) {
+            finise(code !== null && code !== void 0 ? code : -1, (code !== null && code !== void 0 ? code : -1).toString());
+        });
+    }
+    else {
+        (0, child_process_1.exec)(command, function (error, stdout, stderr) {
+            if (error) {
+                finise(0);
+                console.error("Error: ".concat(error.message));
+                return;
+            }
+            if (stderr) {
+                finise(0);
+                console.error("stderr: ".concat(stderr));
+                return;
+            }
+            finise(1);
+        });
+    }
+}
+exports.runCmd = runCmd;
+function getWebpackConfig(folder, bid, lang, isDebug, iMoved) {
+    return {
+        mode: (isDebug ? 'development' : 'production'),
+        entry: ".".concat(iMoved ? '.' : '', "/").concat(folder, "/index.").concat(lang), // or './src/index.ts' for TypeScript
+        output: {
+            filename: "".concat(bid, ".js"),
+            path: path_1.default.join(process.cwd(), iMoved ? '' : exports.configFolder, 'dist', bid),
+        },
+        module: {
+            rules: [
+                {
+                    test: /\.(js|ts)$/, // This captures both .js and .ts files
+                    exclude: /node_modules/,
+                    use: [
+                        {
+                            loader: require.resolve('babel-loader'),
+                            options: {
+                                presets: [require.resolve('@babel/preset-env'), require.resolve('@babel/preset-typescript')],
+                            },
+                        },
+                        {
+                            loader: require.resolve('ts-loader'),
+                            options: { transpileOnly: true },
+                        },
+                    ],
+                },
+                {
+                    test: /\.html$/,
+                    use: [require.resolve('html-loader')],
+                },
+                {
+                    test: /\.css$/,
+                    use: [mini_css_extract_plugin_1.default.loader, require.resolve('css-loader'), require.resolve('postcss-loader')],
+                },
+                {
+                    test: /\.(png|svg|jpg|gif)$/,
+                    type: 'asset/resource',
+                    use: [require.resolve('file-loader')],
+                },
+                {
+                    test: /\.s[ac]ss$/,
+                    use: [require.resolve('style-loader'), require.resolve('css-loader'), require.resolve('sass-loader')],
+                },
+            ],
+        },
+        plugins: [
+            new mini_css_extract_plugin_1.default({
+                filename: 'styles.css'
+            }),
+            new eslint_webpack_plugin_1.default({
+                extensions: ['js', 'jsx', 'ts', 'tsx'],
+                overrideConfig: {
+                    env: {
+                        browser: true,
+                        es6: true, // Target ECMAScript 5 for broader compatibility
+                        commonjs: true,
+                    },
+                    extends: [
+                        "eslint:recommended"
+                    ],
+                    parser: require.resolve("@typescript-eslint/parser"),
+                    parserOptions: {
+                        "ecmaVersion": 2020,
+                        "sourceType": "module"
+                    },
+                    rules: {
+                        "semi": "off",
+                        // Additional rules can be added here if needed
+                    },
+                },
+            }),
+        ],
+        resolve: {
+            extensions: ['.js', '.ts'], // include '.ts' for TypeScript
+        },
+        // ...other configurations
+    };
+}
+exports.getWebpackConfig = getWebpackConfig;
+function serveLocal(finise, cfg, bzid) {
+    saveToFile('', 'start.html', "<!doctype html>\n  <html lang=\"en\">\n  <head>\n      <meta charset=\"UTF-8\">\n      <meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n      <title>Monagree Design</title>\n      <script id=\"djs\"></script>\n      <script>\n          const up = window.location.href.split('//')[1].split('/')\n          let bz = '".concat(bzid !== null && bzid !== void 0 ? bzid : '', "',br = ''\n          if(bz.length <3){\n              bz = up[2]\n              br = up[3]\n          }else{\n              br = up[2]\n          }\n          if(!br || br.length < 2){\n            br = 'home'\n          }\n          const ws = new WebSocket('ws://localhost:3000');\n          ws.addEventListener('message', (event) => {\n          if (event.data === br) {\n              window.location.reload();\n          }\n          });\n      </script>\n      <link href=\"\" rel=\"stylesheet\" id=\"dst\">\n      <script defer=\"defer\">\n          const currentUrl = window.location.href.split('//')[1]\n          const urlParts = currentUrl.split('/')\n          const designId = urlParts[1]\n          let bizId = '").concat(bzid !== null && bzid !== void 0 ? bzid : '', "',branchId = ''\n          if(bizId.length <3){\n              bizId = urlParts[2]\n              branchId = urlParts[3]\n          }else{\n              branchId = urlParts[2]\n          }\n          if(!branchId || branchId.length < 2){\n            branchId = 'home'\n          }\n          if(bizId){\n            localStorage.setItem('bzid',bizId)\n            const scriptElement = document.getElementById('djs');\n            scriptElement.src = `//localhost:3310/${designId}/${branchId}/${branchId}.js`;\n            scriptElement.defer = true;\n            scriptElement.addEventListener('load', () => {\n              \n            });\n            scriptElement.addEventListener('error', (error) => {\n              \n            });\n            document.getElementById('dst').href = `//localhost:3310/${designId}/${branchId}/styles.css`;\n            document.title = `${branchId}`;\n          }else{\n            //400\n          }\n      </script>\n  </head>\n  <body>\n      <div id=\"monapp\"></div>\n  </body>\n  </html>"));
+    saveToFile('', 'server.js', "const port = 3310;\n  const express = require('".concat(path_1.default.normalize(require.resolve('express')).replace(/\\/g, '/'), "');\n  const path = require('path');\n  const fs = require('fs');\n  const { exec } = require('child_process');\n  const WebSocket = require('").concat(path_1.default.normalize(require.resolve('ws')).replace(/\\/g, '/'), "');\n  const http = require('http');\n  const webpack = require('").concat(path_1.default.normalize(require.resolve('webpack')).replace(/\\/g, '/'), "');\n  const MiniCssExtractPlugin = require('").concat(path_1.default.normalize(require.resolve('mini-css-extract-plugin')).replace(/\\/g, '/'), "');\n  const ESLintWebpackPlugin = require('").concat(path_1.default.normalize(require.resolve('eslint-webpack-plugin')).replace(/\\/g, '/'), "');\n  \n  const app = express();\n  const server = http.createServer(app);\n  const wss = new WebSocket.Server({ server });\n  let storage = {};\n  \n  const configFold = '").concat(exports.configFolder, "';\n  const dtw = path.join(__dirname, '..', 'src')\n  let handling = false\n  function getCFG(bid){\n      let wcfg = ").concat(JSON.stringify(getWebpackConfig(cfg.fold + '/' + 'TBID', 'TBID', cfg.lang, true, true), function (key, value) {
+        if (key == 'test') {
+            var rg = value.toString();
+            if (rg.includes('js')) {
+                return 'js';
+            }
+            else if (rg.includes('html')) {
+                return 'html';
+            }
+            else if (rg.includes('css')) {
+                return 'css';
+            }
+            else if (rg.includes('png')) {
+                return 'png';
+            }
+            else if (rg.includes('s[ac]ss')) {
+                return 'sass';
+            }
+            return value.toString();
+        }
+        if (key === 'plugins') {
+            return 'plg';
+        }
+        if (key.startsWith('plugins.') && key !== 'plugins') {
+            return undefined;
+        }
+        if (key == 'exclude') {
+            return 'nmd';
+        }
+        return value;
+    }), "\n      const jss = JSON.stringify(wcfg,(key,value)=>{\n        if(key=='test'){\n          const rg = value.toString()\n          if(rg.includes('js')){\n            return 'js'\n          }else if(rg.includes('html')){\n            return 'html'\n          }else if(rg.includes('css')){\n            return 'css'\n          }else if(rg.includes('png')){\n            return 'png'\n          }else if(rg.includes('s[ac]ss')){\n            return 'sass'\n          }\n          return value.toString()\n        }\n        if (key === 'plugins') {\n          return 'plg';\n        }\n        if (key.startsWith('plugins.') && key !== 'plugins') {\n          return undefined;\n        }\n        if(key == 'exclude'){\n          return 'nmd'\n        }\n        return value\n      })\n      const parsedConfig = JSON.parse(jss, (key, value) => {\n        if (key=='test') {\n            const vs = value.toString()\n            if(vs.includes('js')){\n                return /\\.(js|ts)$/\n            }else if(vs.includes('html')){\n                return /\\.html$/\n            }else if(vs.includes('css')){\n                return /\\.css$/\n            }else if(vs.includes('png')){\n                return /\\.(png|svg|jpg|gif)$/\n            }else if(vs.includes('sass')){\n                return /\\.s[ac]ss$/\n            }\n        }\n        if(key == 'exclude'){\n            return /node_modules/\n        }\n        if (key === 'plugins') {\n            return [\n                new MiniCssExtractPlugin({\n                    filename: 'styles.css'\n                }),\n                new ESLintWebpackPlugin({\n                  extensions: ['js', 'jsx', 'ts', 'tsx'],\n                  overrideConfig: {\n                    env: {\n                      browser: true,\n                      es6: true, // Target ECMAScript 5 for broader compatibility\n                      commonjs: true,\n                    },\n                    extends: [\n                      \"eslint:recommended\",\n                    ],\n                    parser: \"").concat(require.resolve("@typescript-eslint/parser"), "\",\n                    parserOptions: {\n                      \"ecmaVersion\": 2020,\n                      \"sourceType\": \"module\"\n                    },\n                    rules: {\n                      \"semi\": \"off\",\n                      // Additional rules can be added here if needed\n                    },\n                  },\n                }),\n            ];\n          }\n        if(value.toString().includes('TBID')){\n            return value.replace(/TBID/g,bid)\n        }\n        return value;\n      });\n    return parsedConfig\n  }\n  \n  const watcher = fs.watch(dtw, { recursive: true }, (eventType, fn) => {\n      // Check if the event is a change (file modified)\n      if(handling){\n          return\n      }\n      if (eventType === 'change') {\n        let bid = fn.split('\\\\')[0]\n        const ext = path.extname(fn);\n        if (ext === '.ts' || ext === '.js') {\n          storage['lbid'] = bid\n        }else{\n          bid = storage['lbid']\n        }\n        if(bid == undefined){\n          return\n        }\n        handling = true\n        console.log('L')\n        webpack(getCFG(bid), (err, stats) => {\n          if (err || !stats || stats.hasErrors()) {\n            const errors = err || (stats && stats.toJson().errors) || [];\n            \n            console.log('EBundle failed with errors:');\n      \n            if (Array.isArray(errors)) {\n              errors.forEach((error, index) => {\n                console.log(`EError ${index + 1}: ${error['message']}`);\n              });\n            } else {\n              console.log('E'+errors);\n            }\n            handling = false\n          } else {\n            if(stats.hasWarnings()){\n              const warnings = stats.toJson().warnings;\n              if (warnings && warnings.length > 0) {\n                console.log(`W${warnings.length} warning(s) found:`);\n                warnings.forEach((warning, index) => {\n                  console.log(`WWarning ${index + 1}: ${warning['message']}`);\n                });\n              }\n            }else{\n              console.log('CPerfect code. No warnings found')\n            }\n            console.log('GRebuild complete. Invoking reload')\n            wss.clients.forEach((client) => {\n              if (client.readyState === WebSocket.OPEN) {\n                // Send a reload signal to the connected clients\n                client.send(bid);\n              }\n            });\n            handling = false\n          }\n        });\n      }\n  });\n  \n  \n  app.get('/:did', (req, res) => {\n  const did = req.params.did;\n  res.sendFile(path.join(__dirname, 'pages.html'));\n  });\n  \n  app.get('/:did/:bid', (req, res) => {\n  const did = req.params.did;\n  const bid = req.params.bid || 'home';\n  storage['lbid'] = bid\n  res.sendFile(path.join(__dirname, 'start.html'));\n  });\n  \n  app.get('/:did/:bid/:filename', (req, res) => {\n  const did = req.params.did;\n  const bid = req.params.bid;\n  const filename = req.params.filename;\n  storage['lbid'] = bid\n  res.sendFile(path.join(__dirname, 'dist', bid, filename));\n  });\n\n  server.listen(3000, () => {\n  });\n  \n  app.listen(port, () => {\n  console.log(`Server is running at http://localhost:${port}`);\n  exec(`start http://localhost:${port}/").concat(cfg.id, "`);\n  });\n  \n  process.on('exit', () => {\n      watcher.close();\n      console.log('File watcher closed.');\n  });"));
+    saveToFile('', 'pages.html', "<!doctype html>\n  <html lang=\"en\">\n  \n  <head>\n      <meta charset=\"UTF-8\">\n      <meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n      <link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Pacifico&display=swap\">\n      <title>".concat(cfg.title, "</title>\n      <style>\n          :root {\n              --primary-color: ").concat(hexToRgb(cfg.colors.primary), ";\n              --secondary-color: ").concat(hexToRgb(cfg.colors.secondary), ";\n              --background-color: ").concat(hexToRgb(cfg.colors.background), ";\n              --text-color: ").concat(hexToRgb(cfg.colors.text), ";\n          }\n\n          body{\n              font-family: 'Pacifico', sans-serif;\n              margin: 0;\n              padding: 0;\n              background-color: var(--background-color);\n              width: 100vw;\n              height: 100vh;\n              display: flex;\n              flex-direction: column;\n              align-items: center;\n              justify-content: center;\n              color: var(--text-color);\n          }\n          a {\n            text-decoration: none;\n            color: inherit; \n          }\n          h2, h3{\n              margin: 5px;\n          }\n          p{\n              font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;\n              margin: 5px;\n          }\n          .dsgs{\n              display: flex;\n              flex-wrap: wrap;\n              margin-top: 30px;\n          }\n          .page{\n              padding: 10px;\n              box-sizing: border-box;\n              min-width: 120px;\n              height: 150px;\n              border-radius: 10px;\n              display: flex;\n              flex-direction: column;\n              align-items: center;\n              justify-content: center;\n              margin: 10px;\n              cursor: pointer;\n          }\n          .dv{\n              height: 50px;\n          }\n          #a{\n              background-color: rgba(152, 216, 202,0.2);\n              color: rgba(0, 0, 0,0.5);\n              transition: color 0.5s ease-in-out, background-color 0.5s ease-in-out, transform 0.5s ease-in-out;\n          }\n          #a:hover{\n              background-color: rgb(152, 221, 202);\n              color: black;\n              transform: scale(1.05);\n          }\n          #b{\n              background-color: rgba(216, 163, 163,0.2);\n              color: rgba(0, 0, 0,0.5);\n              transition: color 0.5s ease-in-out, background-color 0.5s ease-in-out, transform 0.5s ease-in-out;\n          }\n          #b:hover{\n              background-color: rgb(216, 163, 163);\n              color: black;\n              transform: scale(1.05);\n          }\n          #c{\n              background-color: rgba(174, 174, 255,0.2);\n              color: rgba(0, 0, 0,0.5);\n              transition: color 0.5s ease-in-out, background-color 0.5s ease-in-out, transform 0.5s ease-in-out;\n          }\n          #c:hover{\n              background-color: rgb(174, 174, 255);\n              color: black;\n              transform: scale(1.05);\n          }\n      </style>\n  </head>\n  \n  <body>\n      <h1 style=\"color: ").concat(cfg.colors.primary, ";\">").concat(cfg.title, "</h1>\n      <p>Choose a branch to start with (Query params are on you)</p>\n      <div class=\"dsgs\">\n          ").concat(Object.keys(cfg.branches).map(function (bid, i) {
+        return getBranchMini(cfg.id, bid, i);
+    }), "\n      </div>\n  </body>\n  \n  </html>"));
+    finise(true);
+}
+exports.serveLocal = serveLocal;
+function getBranchMini(did, bid, j) {
+    var i = j;
+    while (i > 2) {
+        i = i - 3;
+    }
+    var cid = i == 0 ? 'a' : i == 1 ? 'b' : 'c';
+    return "<a href=\"/".concat(did, "/").concat(bid, "\">\n  <div class=\"page\" id=\"").concat(cid, "\">\n      <img class=\"dv\" src=\"https://developers.monagree.com/static/media/dev.7316fd80843a79e423ae.png\">\n      <h3>").concat(bid, "</h3>\n  </div>\n</a>");
+}
+function initNpm(pid, desc, type) {
+    saveToFile('', 'package.json', "{\n    \"name\": \"".concat(pid, "\",\n    \"version\": \"1.0.0\",\n    \"description\": \"").concat(desc, "\",\n    \"main\": \"").concat(exports.configFolder, "/dist/home/home.js\",\n    \"scripts\": {\n      \"test\": \"echo \\\"Error: no test specified\\\" && exit 1\"\n    },\n    \"keywords\": [\"").concat(type, "\",\"website\",\"monagree\"],\n    \"author\": \"").concat(getDevSC(), "\",\n    \"license\": \"ISC\",\n    \"dependencies\": {\n    }\n  }\n  "));
+}
+exports.initNpm = initNpm;
+var loginMan = /** @class */ (function () {
+    function loginMan() {
+    }
+    loginMan.prototype.prepare = function (finise) {
+        var _this = this;
+        (0, firehelper_1.getACT)(function (ok, token) {
+            if (ok) {
+                _this.accessToken = token;
+            }
+            finise(ok);
+        });
+    };
+    loginMan.prototype.getStatus = function () {
+    };
+    return loginMan;
+}());
+exports.loginMan = loginMan;
+var deployMan = /** @class */ (function () {
+    function deployMan(cfg) {
+        this.branchName = 'gh-pages';
+        this.repoName = cfg.id;
+        this.owner = getGitUN();
+        this.time = Date.now().toString();
+        this.baseFolder = path_1.default.join(process.cwd(), exports.configFolder, 'dist');
+        this.git = (0, simple_git_1.default)({
+            baseDir: this.baseFolder,
+        });
+    }
+    deployMan.prototype.prepare = function (finise) {
+        var _this = this;
+        (0, firehelper_1.getACT)(function (ok, token) {
+            if (ok) {
+                _this.accessToken = token;
+            }
+            finise(ok);
+        });
+    };
+    deployMan.prototype.setGitToken = function (tkn, u_name, finise) {
+        var fMan = new firehelper_1.fireMan();
+        fMan.setFS("prfs/".concat(getDevId(), "/tkns/git"), {
+            t: tkn,
+            u: u_name
+        }, function (task) {
+            if (task._success) {
+                saveSP('gtoken' + getDevId(), tkn);
+                saveSP('gun' + getDevId(), u_name);
+                finise(true);
+            }
+            else {
+                finise(false);
+            }
+        });
+    };
+    deployMan.prototype.createDesign = function (cfg, finise) {
+        var fMan = new firehelper_1.fireMan();
+        fMan.setFS("prfs/".concat(getDevId(), "/designs/").concat(cfg.id), {
+            t: cfg.title,
+            d: cfg.desc,
+            a: getDevId(),
+            p: cfg.class.includes('premium') ? 1 : 0,
+            e: cfg.c1.startsWith('e') ? 1 : 0,
+            h: 0,
+            l: this.time,
+            c1: cfg.c1_id,
+            c2: cfg.c2_id,
+            c3: cfg.c3_ids
+        }, function (task) {
+            finise(task._success);
+        });
+    };
+    deployMan.prototype.uploadFile = function (fileName, bid) {
+        return __awaiter(this, void 0, void 0, function () {
+            var filePath, noExt, storageUrl, fileContent, headers, response, error_1;
+            return __generator(this, function (_a) {
+                switch (_a.label) {
+                    case 0:
+                        filePath = path_1.default.join(process.cwd(), exports.configFolder, 'dist', bid, fileName);
+                        noExt = fileName.split('.')[0];
+                        storageUrl = "https://firebasestorage.googleapis.com/v0/b/monagree-apps/o/monagree%2F".concat(noExt);
+                        console.log(storageUrl);
+                        fileContent = fs_1.default.readFileSync(filePath);
+                        headers = {
+                            'Authorization': "Bearer ".concat(this.accessToken),
+                            'Content-Type': 'application/octet-stream', // Set the content type based on your file type
+                        };
+                        _a.label = 1;
+                    case 1:
+                        _a.trys.push([1, 3, , 4]);
+                        return [4 /*yield*/, axios_1.default.post(storageUrl, fileContent, { headers: headers })];
+                    case 2:
+                        response = _a.sent();
+                        console.log('File uploaded successfully:', response.data);
+                        return [2 /*return*/, true];
+                    case 3:
+                        error_1 = _a.sent();
+                        console.error('Error uploading file:', error_1.response ? error_1.response.data : error_1.message);
+                        return [2 /*return*/, false];
+                    case 4: return [2 /*return*/];
+                }
+            });
+        });
+    };
+    deployMan.prototype.isGitAvailable = function (finise) {
+        (0, simple_git_1.default)().version().then(function (v) {
+            finise(v.installed);
+        }).catch(function (e) {
+            console.error(e);
+            finise(false);
+        });
+    };
+    deployMan.prototype._proceedGC = function (cfg, finise) {
+        var _this = this;
+        if (getSP('gitconfiged', true).length > 0) {
+            finise(true);
+            return;
+        }
+        inquire([
+            {
+                type: 'input',
+                name: 'name',
+                message: 'Enter developer name: ',
+                validate: exports.vv
+            },
+            {
+                type: 'input',
+                name: 'email',
+                message: 'Enter email: ',
+                validate: exports.vv
+            }
+        ], function (ok, ans) { return __awaiter(_this, void 0, void 0, function () {
+            var configError_1;
+            return __generator(this, function (_a) {
+                switch (_a.label) {
+                    case 0:
+                        if (!ok) return [3 /*break*/, 6];
+                        _a.label = 1;
+                    case 1:
+                        _a.trys.push([1, 4, , 5]);
+                        return [4 /*yield*/, this.git.addConfig('user.name', ans.name)];
+                    case 2:
+                        _a.sent();
+                        return [4 /*yield*/, this.git.addConfig('user.email', ans.email)];
+                    case 3:
+                        _a.sent();
+                        saveToFile(path_1.default.join(exports.configFolder, 'dist'), 'README.md', "# ".concat(cfg.title, "\n### by ").concat(ans.name, "\n\n## DO NOT EDIT THIS REPO\n\nThis repo was generated by the Monagree CLI tool to host your design pending when it will have its first purchase (after which it will be permanently moved to Monagree's global CDN).  Any change to this repo may invalidate your design on Monagree.  To make changes, use the CLI tool."));
+                        saveSP('gitconfiged', 'SET', true);
+                        finise(true);
+                        return [3 /*break*/, 5];
+                    case 4:
+                        configError_1 = _a.sent();
+                        console.error('Error setting Git configuration:', configError_1.message);
+                        finise(false);
+                        return [3 /*break*/, 5];
+                    case 5: return [3 /*break*/, 7];
+                    case 6:
+                        finise(false);
+                        _a.label = 7;
+                    case 7: return [2 /*return*/];
+                }
+            });
+        }); });
+    };
+    deployMan.prototype.configureGit = function (cfg, finise) {
+        var _this = this;
+        this.git.checkIsRepo().then(function (ok) {
+            if (ok) {
+                _this._proceedGC(cfg, finise);
+            }
+            else {
+                _this.git.init().then(function (res) { return __awaiter(_this, void 0, void 0, function () {
+                    var octokit, repoInfoResponse, ok_1, e_1, repoFullName, repoUrl, error_2;
+                    return __generator(this, function (_a) {
+                        switch (_a.label) {
+                            case 0:
+                                _a.trys.push([0, 9, , 10]);
+                                octokit = new octokit_1.Octokit({
+                                    auth: getGitToken(),
+                                });
+                                return [4 /*yield*/, this.git.checkoutLocalBranch(this.branchName)];
+                            case 1:
+                                _a.sent();
+                                repoInfoResponse = void 0;
+                                ok_1 = true;
+                                _a.label = 2;
+                            case 2:
+                                _a.trys.push([2, 4, , 5]);
+                                return [4 /*yield*/, octokit.rest.repos.get({
+                                        owner: this.owner,
+                                        repo: this.repoName,
+                                    })];
+                            case 3:
+                                repoInfoResponse = _a.sent();
+                                return [3 /*break*/, 5];
+                            case 4:
+                                e_1 = _a.sent();
+                                ok_1 = e_1.status == 404;
+                                return [3 /*break*/, 5];
+                            case 5:
+                                if (!ok_1) {
+                                    return [2 /*return*/, false];
+                                }
+                                if (!!repoInfoResponse) return [3 /*break*/, 7];
+                                return [4 /*yield*/, octokit.rest.repos.createForAuthenticatedUser({
+                                        name: this.repoName,
+                                        private: false,
+                                        description: cfg.title + ' | ' + cfg.desc,
+                                    })];
+                            case 6:
+                                repoInfoResponse = _a.sent();
+                                _a.label = 7;
+                            case 7:
+                                repoFullName = repoInfoResponse.data.full_name;
+                                repoUrl = repoInfoResponse.data.html_url;
+                                // Add GitHub repository as a remote
+                                return [4 /*yield*/, this.git.addRemote('origin', repoUrl)];
+                            case 8:
+                                // Add GitHub repository as a remote
+                                _a.sent();
+                                cfg.id = cfg.id + '~' + getGitUN();
+                                saveConfig(JSON.stringify(cfg));
+                                this._proceedGC(cfg, finise);
+                                return [3 /*break*/, 10];
+                            case 9:
+                                error_2 = _a.sent();
+                                deleteFolder(path_1.default.join(exports.configFolder, 'dist', '.git'));
+                                console.error(error_2);
+                                finise(false);
+                                return [3 /*break*/, 10];
+                            case 10: return [2 /*return*/];
+                        }
+                    });
+                }); }).catch(function (e) {
+                    console.error(e);
+                    finise(false);
+                });
+            }
+        }).catch(function (e) {
+            console.error(e);
+            finise(false);
+        });
+    };
+    deployMan.prototype.prepGit = function (bid) {
+        return __awaiter(this, void 0, void 0, function () {
+            var files, _i, files_1, file, error_3;
+            return __generator(this, function (_a) {
+                switch (_a.label) {
+                    case 0:
+                        _a.trys.push([0, 6, , 7]);
+                        return [4 /*yield*/, listFiles(path_1.default.join(this.baseFolder, bid))];
+                    case 1:
+                        files = _a.sent();
+                        _i = 0, files_1 = files;
+                        _a.label = 2;
+                    case 2:
+                        if (!(_i < files_1.length)) return [3 /*break*/, 5];
+                        file = files_1[_i];
+                        return [4 /*yield*/, this.addFile(path_1.default.join(bid, file))];
+                    case 3:
+                        _a.sent();
+                        _a.label = 4;
+                    case 4:
+                        _i++;
+                        return [3 /*break*/, 2];
+                    case 5: return [2 /*return*/, true];
+                    case 6:
+                        error_3 = _a.sent();
+                        console.error('Error:c', error_3.message);
+                        return [2 /*return*/, false];
+                    case 7: return [2 /*return*/];
+                }
+            });
+        });
+    };
+    deployMan.prototype.addFile = function (filepath, dontThrow) {
+        return __awaiter(this, void 0, void 0, function () {
+            var error_4;
+            return __generator(this, function (_a) {
+                switch (_a.label) {
+                    case 0:
+                        _a.trys.push([0, 2, , 3]);
+                        return [4 /*yield*/, this.git.add(filepath)];
+                    case 1:
+                        _a.sent();
+                        return [2 /*return*/, true];
+                    case 2:
+                        error_4 = _a.sent();
+                        if (dontThrow) {
+                            console.error('Error:c', error_4.message);
+                            return [2 /*return*/, false];
+                        }
+                        else {
+                            throw error_4;
+                        }
+                        return [3 /*break*/, 3];
+                    case 3: return [2 /*return*/];
+                }
+            });
+        });
+    };
+    deployMan.prototype.commitAndPush = function () {
+        return __awaiter(this, void 0, void 0, function () {
+            var error_5;
+            return __generator(this, function (_a) {
+                switch (_a.label) {
+                    case 0:
+                        _a.trys.push([0, 3, , 4]);
+                        return [4 /*yield*/, this.git.commit(this.time)];
+                    case 1:
+                        _a.sent();
+                        return [4 /*yield*/, this.git.push('origin', this.branchName)];
+                    case 2:
+                        _a.sent();
+                        return [2 /*return*/, true];
+                    case 3:
+                        error_5 = _a.sent();
+                        console.error('Error:', error_5.message);
+                        return [2 /*return*/, false];
+                    case 4: return [2 /*return*/];
+                }
+            });
+        });
+    };
+    return deployMan;
+}());
+exports.deployMan = deployMan;
+function listFiles(folder) {
+    return __awaiter(this, void 0, void 0, function () {
+        return __generator(this, function (_a) {
+            try {
+                return [2 /*return*/, fs_1.default.readdirSync(folder)];
+            }
+            catch (e) {
+                throw e;
+            }
+            return [2 /*return*/];
+        });
+    });
+}
+function hexToRgb(hex) {
+    // Remove the hash if present
+    hex = hex.replace(/^#/, '');
+    // Parse the hex string into three separate components
+    var r = parseInt(hex.substring(0, 2), 16);
+    var g = parseInt(hex.substring(2, 4), 16);
+    var b = parseInt(hex.substring(4, 6), 16);
+    // Return an object with the RGB components
+    return [r, g, b];
+}
+function doBranch(bid, desc, fold, lang, cfg, finise) {
+    var rdm = "DONT EDIT THIS FILE\n\nbranch_id:".concat(bid, "\nbranch_desc:").concat(desc, "\n\n  This is a branch in your design. It represents a new path on the website (eg monagree.com/designid/branchid).\n\n\n\n  CODING GUIDELINES:\n\n\n  - The index.").concat(lang, " file is your main design (entry point)\n\n  - You can create as many html & css files as you need and import them into your ").concat(lang, " file as components\n\n  - The main website should be injected into an element with id -monapp- see index.").concat(lang, " for more info\n\n  - Run `monagree branch your-branch-id` to create a new branch\n\n\n  https://docs.monagree.com/cli#branch");
+    saveToFile("".concat(fold, "/").concat(bid), 'readme.md', rdm);
+    saveToFile("".concat(fold, "/").concat(bid), 'index.html', "<!DOCTYPE html>\n  <html lang=\"en\">\n      <head>\n          <meta charset=\"UTF-8\">\n          <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n          <link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Pacifico&display=swap\">\n          <title>That Business Name</title>\n          <link rel=\"stylesheet\" href=\"index.css\">\n      </head>\n      <body>\n          <div class=\"ctr\">\n              <img class=\"devicon\" src=\"https://developers.monagree.com/static/media/dev.7316fd80843a79e423ae.png\" alt=\"Monagree Developers\">\n              <h1>We Create Magic</h1>\n              <p>Start that awesome design. The world is waiting</p>\n          </div>\n          <div class=\"btmflt\">\n              <p>Monagree Developers | ".concat(bid, "</p>\n          </div>\n      </body>\n  </html>\n  "));
+    saveToFile("".concat(fold, "/").concat(bid), 'index.css', "/* Some default styles */\n  /* DO NOT MODIFY. IF YOU DO, RUN `monagree set-color` */\n  :root {\n      --primary-color: ".concat(cfg.colors.primary, ";\n      --pcr: ").concat(hexToRgb(cfg.colors.primary)[0], "; /* Primary Color Red(R) */\n      --pcg: ").concat(hexToRgb(cfg.colors.primary)[1], "; /* Primary Color Green(G) */\n      --pcb: ").concat(hexToRgb(cfg.colors.primary)[2], "; /* Primary Color Blue(B) */\n\n      --secondary-color: ").concat(cfg.colors.secondary, ";\n      --scr: ").concat(hexToRgb(cfg.colors.secondary)[0], ";\n      --scg: ").concat(hexToRgb(cfg.colors.secondary)[1], ";\n      --scb: ").concat(hexToRgb(cfg.colors.secondary)[2], ";\n      \n      --background-color: ").concat(cfg.colors.background, ";\n      --bcr: ").concat(hexToRgb(cfg.colors.background)[0], ";\n      --bcg: ").concat(hexToRgb(cfg.colors.background)[1], ";\n      --bcb: ").concat(hexToRgb(cfg.colors.background)[2], ";\n      \n      --text-color: ").concat(cfg.colors.text, ";\n      --tcr: ").concat(hexToRgb(cfg.colors.text)[0], ";\n      --tcg: ").concat(hexToRgb(cfg.colors.text)[1], ";\n      --tcb: ").concat(hexToRgb(cfg.colors.text)[2], ";\n  }\n\n  body {\n      font-family: 'Pacifico', sans-serif;\n      margin: 0;\n      padding: 0;\n      background-color: var(--background-color);\n  }\n  \n  h1, h2 {\n      color: var(--primary-color);\n      margin: 5px;\n  }\n  \n  p {\n      color: rgba(var(--tcr), var(--tcg), var(--tcb), 0.8); /* 80% opacity */\n      margin: 5px;\n  }\n  \n  /* Custom Style */\n  .ctr{\n      width: 100vw;\n      height: 100vh;\n      display: flex;\n      flex-direction: column;\n      align-items: center;\n      justify-content: center;\n  }\n  \n  .devicon{\n      width: 100px;\n  }\n  \n  .btmflt{\n      position: absolute;\n      bottom: 0;\n      width: 100vw;\n      display: flex;\n      align-items: center;\n      justify-content: center;\n      margin-bottom: 30px;\n  }\n  .btmflt p{\n      color: rgba(var(--tcr), var(--tcg), var(--tcb), 0.6); /* 60% opacity */\n  }"));
+    saveToFile("".concat(fold, "/").concat(bid), 'index.' + lang, lang == 'ts' ? "// Import CSS files like this\n  import './index.css';\n  \n  // Import html files like this (named)\n  import landing from './index.html';\n  \n  // The main webpage is set like this (edit as you want, but id must be `monapp`)\n  const appElement = document.getElementById('monapp') as HTMLElement;\n  if (appElement) {\n    appElement.innerHTML = landing;\n  } else {\n    console.error('Element with id \"monapp\" not found');\n  }\n\n  // YOUR CODE STARTS HERE\n  console.log('Hello World')\n  " : "// Import CSS files like this\n  import './index.css';\n  // Import html files like this (named)\n  import landing from './index.html';\n  //You may also import JS files\n  \n  // The main webpage is set like this (edit as you want, but id must be `monapp`)\n  const appElement = document.getElementById('monapp') as HTMLElement;\n  if (appElement) {\n    appElement.innerHTML = landing;\n  } else {\n    console.error('Element with id \"monapp\" not found');\n  }\n\n  // YOUR CODE STARTS HERE\n  console.log('Hello World')");
+    finise(true);
+}
+exports.doBranch = doBranch;
+function setupTS(finise) {
+    var tsCommand = 'npm install --save-dev ts-loader typings-for-css-modules-loader';
+    runCmd(tsCommand, function (stg, msg) {
+        if (stg == 1) {
+            saveToFile('', 'tsconfig.json', "{\n        \"compilerOptions\": {\n          // ... other options\n          \"module\": \"commonjs\",\n          \"target\": \"es5\",\n          \"esModuleInterop\": true,\n          \"moduleResolution\": \"node\",\n          \"jsx\": \"react\",\n          \"typeRoots\": [\"./node_modules/@types\", \"./typings\"]\n        },\n        \"exclude\": [\"node_modules\"]\n      }\n      ");
+            saveToFile('', 'html.d.ts', "declare module '*.html' {\n        const content: string;\n        export default content;\n      }");
+            finise(true);
+        }
+        if (stg == 0) {
+            finise(false);
+        }
+    });
+}
+exports.setupTS = setupTS;

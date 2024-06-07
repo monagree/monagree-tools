@@ -1,1 +1,247 @@
-'use strict';var a1_0x48e301=a1_0x3649;(function(_0x49dc52,_0x57aad7){var _0x155def=a1_0x3649,_0x3d240d=_0x49dc52();while(!![]){try{var _0x1bc9ce=parseInt(_0x155def(0x94))/0x1*(parseInt(_0x155def(0xa6))/0x2)+parseInt(_0x155def(0xac))/0x3*(parseInt(_0x155def(0xc2))/0x4)+parseInt(_0x155def(0xc8))/0x5*(parseInt(_0x155def(0x8a))/0x6)+parseInt(_0x155def(0x8c))/0x7*(parseInt(_0x155def(0x9e))/0x8)+parseInt(_0x155def(0x92))/0x9*(parseInt(_0x155def(0xbf))/0xa)+parseInt(_0x155def(0xb6))/0xb*(parseInt(_0x155def(0xba))/0xc)+-parseInt(_0x155def(0xbd))/0xd;if(_0x1bc9ce===_0x57aad7)break;else _0x3d240d['push'](_0x3d240d['shift']());}catch(_0x20f71c){_0x3d240d['push'](_0x3d240d['shift']());}}}(a1_0x2000,0x4afe4));var __importDefault=this&&this['__importDefault']||function(_0x4a4a2c){var _0x55c3b4=a1_0x3649;return _0x4a4a2c&&_0x4a4a2c[_0x55c3b4(0x9a)]?_0x4a4a2c:{'default':_0x4a4a2c};};Object[a1_0x48e301(0xc9)](exports,a1_0x48e301(0x9a),{'value':!![]}),exports[a1_0x48e301(0x91)]=exports[a1_0x48e301(0xb9)]=exports['fireMan']=exports[a1_0x48e301(0xb4)]=exports[a1_0x48e301(0xa2)]=exports[a1_0x48e301(0x86)]=void 0x0;var axios_1=__importDefault(require(a1_0x48e301(0xb3))),helpers_1=require(a1_0x48e301(0xc1));exports['maid']='cli',exports['atkey']=exports[a1_0x48e301(0x86)]+(0x0,helpers_1[a1_0x48e301(0xb7)])();function getACT(_0x1d9c46){var _0x3d2bb1=a1_0x48e301;axios_1[_0x3d2bb1(0x84)][_0x3d2bb1(0xa0)]('https://us-central1-monagree-apps.cloudfunctions.net/generateOAuthToken',{'key':exports[_0x3d2bb1(0xa2)]})[_0x3d2bb1(0xa3)](function(_0xa8dec){var _0x70fb06=_0x3d2bb1;_0x1d9c46(!![],_0xa8dec['data'][_0x70fb06(0x87)]);})[_0x3d2bb1(0xa7)](function(_0x39d166){var _0x49d0b7=_0x3d2bb1;console[_0x49d0b7(0xc5)](_0x49d0b7(0xb5),_0x39d166),_0x1d9c46(![]);});}exports[a1_0x48e301(0xb4)]=getACT;var fireMan=(function(){var _0x44fbaa=a1_0x48e301;function _0x2c55ab(){}return _0x2c55ab['prototype'][_0x44fbaa(0xc3)]=function(_0x21d29b){var _0xf630b5=this;getACT(function(_0x18af8a,_0xedcd5d){var _0x31ef11=a1_0x3649;_0x18af8a&&(_0xf630b5[_0x31ef11(0x87)]=_0xedcd5d),_0x21d29b(_0x18af8a);});},_0x2c55ab['prototype'][_0x44fbaa(0xc4)]=function(_0x38f822,_0x362a5a,_0x23e4a0){var _0x208dac=_0x44fbaa,_0x2f37eb=this;if(!this['accessToken']){this[_0x208dac(0xc3)](function(_0x44c885){var _0x438567=_0x208dac;_0x44c885?_0x2f37eb[_0x438567(0xc4)](_0x38f822,_0x362a5a,_0x23e4a0):_0x23e4a0(new fsSet(![]));});return;}var _0x18f860={'fields':Object[_0x208dac(0xaa)](_0x362a5a)['reduce'](function(_0x30c379,_0x372d78){var _0x24dc40=_0x208dac,_0x2ccd43,_0x18b25a=_0x372d78[0x0],_0x2236f0=_0x372d78[0x1];return Array['isArray'](_0x2236f0)?_0x30c379[_0x18b25a]={'arrayValue':{'values':_0x2236f0[_0x24dc40(0xbe)](function(_0x2139f4){var _0x36910f=_0x24dc40,_0x317665;return _0x317665={},_0x317665[Number[_0x36910f(0x9c)](_0x2139f4)?'integerValue':_0x36910f(0xa1)]=_0x2139f4,_0x317665;})}}:_0x30c379[_0x18b25a]=(_0x2ccd43={},_0x2ccd43[Number[_0x24dc40(0x9c)](_0x2236f0)?_0x24dc40(0x8d):'stringValue']=_0x2236f0,_0x2ccd43),_0x30c379;},{})},_0x2b7055='https://firestore.googleapis.com/v1/projects/monagree-apps/databases/(default)/documents/'[_0x208dac(0xbb)](_0x38f822),_0x27ea19={'Authorization':_0x208dac(0xaf)[_0x208dac(0xbb)](this[_0x208dac(0x87)]),'Content-Type':_0x208dac(0x8e)};axios_1[_0x208dac(0x84)][_0x208dac(0xb8)](_0x2b7055,_0x18f860,{'headers':_0x27ea19})['then'](function(_0x4ec362){_0x23e4a0(new fsSet(!![]));})[_0x208dac(0xa7)](function(_0x514118){var _0x358476=_0x208dac;console[_0x358476(0xc5)](_0x358476(0xc7),_0x514118[_0x358476(0x97)]?_0x514118[_0x358476(0x97)][_0x358476(0x98)]:_0x514118[_0x358476(0x88)]),_0x23e4a0(new fsSet(![],_0x514118));});},_0x2c55ab[_0x44fbaa(0xab)][_0x44fbaa(0x8b)]=function(_0x3036db,_0x234431){var _0x25f76c=_0x44fbaa,_0x44c9c1=this;if(!this[_0x25f76c(0x87)]){this[_0x25f76c(0xc3)](function(_0x185d95){var _0x58ff70=_0x25f76c;_0x185d95?_0x44c9c1[_0x58ff70(0x8b)](_0x3036db,_0x234431):_0x234431(new fsTask(![]));});return;}var _0x498cb6='https://firestore.googleapis.com/v1/projects/monagree-apps/databases/(default)/documents/'[_0x25f76c(0xbb)](_0x3036db),_0x3332a0={'Authorization':_0x25f76c(0xaf)[_0x25f76c(0xbb)](this[_0x25f76c(0x87)]),'Content-Type':_0x25f76c(0x8e)};axios_1[_0x25f76c(0x84)][_0x25f76c(0xc0)](_0x498cb6,{'headers':_0x3332a0})[_0x25f76c(0xa3)](function(_0x283e18){var _0x36a0d0=_0x283e18['data'];_0x234431(new fsTask(!![],undefined,_0x36a0d0));})[_0x25f76c(0xa7)](function(_0x5b2ad6){var _0x638355=_0x25f76c;console[_0x638355(0xc5)]('Error\x20retrieving\x20document:',_0x5b2ad6[_0x638355(0x97)]?_0x5b2ad6[_0x638355(0x97)][_0x638355(0x98)]:_0x5b2ad6[_0x638355(0x88)]),_0x234431(new fsTask(![],_0x5b2ad6));});},_0x2c55ab[_0x44fbaa(0xab)][_0x44fbaa(0xb1)]=function(_0x2fb099,_0x15f6a8){var _0x8927de=_0x44fbaa,_0x4f369d=this;if(!this['accessToken']){this['prepare'](function(_0x29fdac){var _0x24d509=a1_0x3649;_0x29fdac?_0x4f369d[_0x24d509(0xb1)](_0x2fb099,_0x15f6a8):_0x15f6a8(new queryTask(![]));});return;}var _0x527574=_0x8927de(0x96)['concat'](_0x2fb099),_0x242569={'Authorization':_0x8927de(0xaf)[_0x8927de(0xbb)](this[_0x8927de(0x87)]),'Content-Type':_0x8927de(0x8e)};axios_1['default'][_0x8927de(0xc0)](_0x527574,{'headers':_0x242569})[_0x8927de(0xa3)](function(_0x2536ab){var _0x4756fc=_0x8927de,_0x43cd1e=_0x2536ab[_0x4756fc(0x98)]['documents'];_0x15f6a8(new queryTask(!![],undefined,_0x43cd1e));})[_0x8927de(0xa7)](function(_0x55c131){var _0x4c1504=_0x8927de;console[_0x4c1504(0xc5)](_0x4c1504(0x9d),_0x55c131[_0x4c1504(0x97)]?_0x55c131[_0x4c1504(0x97)][_0x4c1504(0x98)]:_0x55c131[_0x4c1504(0x88)]),_0x15f6a8(new queryTask(![]));});},_0x2c55ab;}());exports['fireMan']=fireMan;function getData(_0x97ba01,_0x4c2a2a){var _0x315a21=a1_0x48e301;if(!_0x97ba01)return'';return _0x97ba01[_0x315a21(0x93)][_0x4c2a2a][_0x315a21(0xa1)];}function a1_0x2000(){var _0x8d01a=['map','8910kynGwt','get','./helpers','1194272Erpryg','prepare','setFS','error','[firebase_auth/too-many-requests]','Error\x20creating\x20document:','5gqLDpe','defineProperty','default','Network\x20Error','maid','accessToken','message','startsWith','1370430iQoUBK','getFS','7yTkxbK','integerValue','application/json','pop','[firebase_auth/user-not-found]','getDocId','1791cgUGIK','fields','159dBBpGe','Invalid\x20Credentials','https://firestore.googleapis.com/v1/projects/monagree-apps/databases/(default)/documents/','response','data','getVRes','__esModule','getResult','isInteger','Error\x20retrieving\x20documents:','3927408YtBpho','An\x20error\x20occurred.\x20Please\x20try\x20again','post','stringValue','atkey','then','Too\x20many\x20attempts.\x20To\x20protect\x20this\x20account,\x20we\x20will\x20not\x20allow\x20sign\x20in\x20for\x20a\x20while.\x20Please\x20try\x20again\x20later.\x20','_exists','1094qGEYIF','catch','_success','[firebase_auth/wrong-password]','entries','prototype','3IjEfkB','getEr','exists','Bearer\x20','isSuccessful','getQuery','_snapshot','axios','getACT','Error\x20calling\x20Cloud\x20Function:','114598GyJHOC','getDeviceToken','patch','getData','504HwNgaq','concat','[firebase_auth/network-request-failed]','18363345alPImR'];a1_0x2000=function(){return _0x8d01a;};return a1_0x2000();}exports[a1_0x48e301(0xb9)]=getData;function getDocId(_0x566ed3){var _0x41eb43=a1_0x48e301,_0x5bde6e=_0x566ed3['name'];return _0x5bde6e['split']('/')[_0x41eb43(0x8f)]();}exports[a1_0x48e301(0x91)]=getDocId;var fsSet=(function(){var _0x489a1a=a1_0x48e301;function _0x54ebc5(_0x2bdb7b,_0x5da975){var _0x254364=a1_0x3649;this[_0x254364(0xa8)]=_0x2bdb7b,this['_e']=_0x5da975;}return Object[_0x489a1a(0xc9)](_0x54ebc5['prototype'],_0x489a1a(0xad),{'get':function(){return getErrMsg(this['_e']);},'enumerable':![],'configurable':!![]}),_0x54ebc5;}()),fsTask=(function(){var _0x2f415a=a1_0x48e301;function _0x1ae05c(_0x445c64,_0xa1feb6,_0x4e5635){var _0x3d5e72=a1_0x3649;this[_0x3d5e72(0xa8)]=_0x445c64,this[_0x3d5e72(0xb2)]=_0x4e5635,this['_e']=_0xa1feb6,this[_0x3d5e72(0xa5)]=!_0x445c64?![]:_0x4e5635!=undefined;}return _0x1ae05c[_0x2f415a(0xab)][_0x2f415a(0x99)]=function(){var _0x7d3b96=_0x2f415a;return getData(this[_0x7d3b96(0xb2)],'v');},_0x1ae05c[_0x2f415a(0xab)][_0x2f415a(0xad)]=function(){return getErrMsg(this['_e']);},_0x1ae05c[_0x2f415a(0xab)][_0x2f415a(0xb0)]=function(){var _0x50ca8c=_0x2f415a;return this[_0x50ca8c(0xa8)];},_0x1ae05c[_0x2f415a(0xab)][_0x2f415a(0xae)]=function(){return this['_exists'];},_0x1ae05c[_0x2f415a(0xab)]['getResult']=function(){var _0x48c43f=_0x2f415a;return this[_0x48c43f(0xb2)];},_0x1ae05c;}()),queryTask=(function(){var _0x210997=a1_0x48e301;function _0x570a9d(_0x41de08,_0x3b4d31,_0x480098){var _0xc35968=a1_0x3649;this[_0xc35968(0xa8)]=_0x41de08,this[_0xc35968(0xb2)]=_0x480098,this['_e']=_0x3b4d31,this[_0xc35968(0xa5)]=!_0x41de08?![]:_0x480098['length']!=0x0;}return _0x570a9d[_0x210997(0xab)][_0x210997(0xad)]=function(){return getErrMsg(this['_e']);},_0x570a9d[_0x210997(0xab)][_0x210997(0xb0)]=function(){var _0x480c4a=_0x210997;return this[_0x480c4a(0xa8)];},_0x570a9d['prototype'][_0x210997(0x9b)]=function(){return this['_snapshot'];},_0x570a9d;}());function getEC(_0x1a1182){var _0x5b7229=a1_0x48e301;if(_0x1a1182[_0x5b7229(0x89)](_0x5b7229(0xbc)))return 0x0;if(_0x1a1182['startsWith'](_0x5b7229(0xa9)))return 0x1;if(_0x1a1182[_0x5b7229(0x89)](_0x5b7229(0xc6)))return 0x2;if(_0x1a1182[_0x5b7229(0x89)](_0x5b7229(0x90)))return 0x4;return 0x3;}function a1_0x3649(_0x388e9a,_0x4e3cb3){var _0x200042=a1_0x2000();return a1_0x3649=function(_0x3649a6,_0x210687){_0x3649a6=_0x3649a6-0x84;var _0x183db8=_0x200042[_0x3649a6];return _0x183db8;},a1_0x3649(_0x388e9a,_0x4e3cb3);}function getErrMsg(_0x59f658){var _0x42b48f=a1_0x48e301;if(getEC(_0x59f658)===0x0)return _0x42b48f(0x85);else{if(getEC(_0x59f658)===0x2)return _0x42b48f(0xa4);else return getEC(_0x59f658)===0x1?_0x42b48f(0x95):_0x42b48f(0x9f);}}
+"use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.getDocId = exports.getData = exports.fireMan = exports.getACT = exports.atkey = exports.maid = void 0;
+var axios_1 = __importDefault(require("axios"));
+var helpers_1 = require("./helpers");
+exports.maid = 'cli';
+exports.atkey = exports.maid + (0, helpers_1.getDeviceToken)();
+function getACT(finise) {
+    axios_1.default.post('https://us-central1-monagree-apps.cloudfunctions.net/generateOAuthToken', {
+        key: exports.atkey
+    }).then(function (response) {
+        finise(true, response.data.accessToken);
+    }).catch(function (error) {
+        console.error('Error calling Cloud Function:', error);
+        finise(false);
+    });
+}
+exports.getACT = getACT;
+var fireMan = /** @class */ (function () {
+    function fireMan() {
+    }
+    fireMan.prototype.prepare = function (finise) {
+        var _this = this;
+        getACT(function (ok, token) {
+            if (ok) {
+                _this.accessToken = token;
+            }
+            finise(ok);
+        });
+    };
+    fireMan.prototype.setFS = function (path, pld, task) {
+        var _this = this;
+        if (!this.accessToken) {
+            this.prepare(function (ok) {
+                if (ok) {
+                    _this.setFS(path, pld, task);
+                }
+                else {
+                    task(new fsSet(false));
+                }
+            });
+            return;
+        }
+        var data = {
+            fields: Object.entries(pld).reduce(function (acc, _a) {
+                var _b;
+                var key = _a[0], value = _a[1];
+                if (Array.isArray(value)) {
+                    // Handle array values
+                    acc[key] = {
+                        arrayValue: {
+                            values: value.map(function (item) {
+                                var _a;
+                                return _a = {},
+                                    _a[Number.isInteger(item) ? 'integerValue' : 'stringValue'] = item,
+                                    _a;
+                            })
+                        }
+                    };
+                }
+                else {
+                    // Handle non-array values
+                    acc[key] = (_b = {},
+                        _b[Number.isInteger(value) ? 'integerValue' : 'stringValue'] = value,
+                        _b);
+                }
+                return acc;
+            }, {})
+        };
+        var firestoreUrl = "https://firestore.googleapis.com/v1/projects/monagree-apps/databases/(default)/documents/".concat(path);
+        var headers = {
+            'Authorization': "Bearer ".concat(this.accessToken),
+            'Content-Type': 'application/json',
+        };
+        // Make the POST request to create a document
+        axios_1.default.patch(firestoreUrl, data, { headers: headers })
+            .then(function (response) {
+            task(new fsSet(true));
+        })
+            .catch(function (error) {
+            console.error('Error creating document:', error.response ? error.response.data : error.message);
+            task(new fsSet(false, error.message));
+        });
+    };
+    fireMan.prototype.getFS = function (path, task) {
+        var _this = this;
+        if (!this.accessToken) {
+            this.prepare(function (ok) {
+                if (ok) {
+                    _this.getFS(path, task);
+                }
+                else {
+                    task(new fsTask(false));
+                }
+            });
+            return;
+        }
+        var firestoreUrl = "https://firestore.googleapis.com/v1/projects/monagree-apps/databases/(default)/documents/".concat(path);
+        var headers = {
+            'Authorization': "Bearer ".concat(this.accessToken),
+            'Content-Type': 'application/json',
+        };
+        axios_1.default.get(firestoreUrl, { headers: headers })
+            .then(function (response) {
+            var retrievedData = response.data;
+            task(new fsTask(true, undefined, retrievedData));
+        })
+            .catch(function (error) {
+            console.error('Error retrieving document:', error.response ? error.response.data : error.message);
+            task(new fsTask(false, error.message));
+        });
+    };
+    fireMan.prototype.getQuery = function (path, task) {
+        var _this = this;
+        if (!this.accessToken) {
+            this.prepare(function (ok) {
+                if (ok) {
+                    _this.getQuery(path, task);
+                }
+                else {
+                    task(new queryTask(false));
+                }
+            });
+            return;
+        }
+        var firestoreUrl = "https://firestore.googleapis.com/v1/projects/monagree-apps/databases/(default)/documents/".concat(path);
+        var headers = {
+            'Authorization': "Bearer ".concat(this.accessToken),
+            'Content-Type': 'application/json',
+        };
+        // Make the GET request to retrieve all documents in the collection
+        axios_1.default.get(firestoreUrl, { headers: headers })
+            .then(function (response) {
+            // Process the retrieved data
+            var documents = response.data.documents;
+            task(new queryTask(true, undefined, documents));
+        })
+            .catch(function (error) {
+            console.error('Error retrieving documents:', error.response ? error.response.data : error.message);
+            task(new queryTask(false));
+        });
+    };
+    return fireMan;
+}());
+exports.fireMan = fireMan;
+function getData(doc, key) {
+    if (!doc) {
+        return "";
+    }
+    return doc.fields[key].stringValue;
+}
+exports.getData = getData;
+function getDocId(doc) {
+    var documentPath = doc.name;
+    return documentPath.split('/').pop();
+}
+exports.getDocId = getDocId;
+var fsSet = /** @class */ (function () {
+    function fsSet(_success, _e) {
+        this._success = _success;
+        this._e = _e;
+    }
+    Object.defineProperty(fsSet.prototype, "getEr", {
+        get: function () {
+            return getErrMsg(this._e);
+        },
+        enumerable: false,
+        configurable: true
+    });
+    return fsSet;
+}());
+var fsTask = /** @class */ (function () {
+    function fsTask(_success, _e, _snapshot) {
+        this._success = _success;
+        this._snapshot = _snapshot;
+        this._e = _e;
+        this._exists = (!_success ? false : _snapshot != undefined);
+    }
+    fsTask.prototype.getVRes = function () {
+        return getData(this._snapshot, "v");
+    };
+    fsTask.prototype.getEr = function () {
+        return getErrMsg(this._e);
+    };
+    fsTask.prototype.isSuccessful = function () {
+        return this._success;
+    };
+    fsTask.prototype.exists = function () {
+        return this._exists;
+    };
+    fsTask.prototype.getResult = function () {
+        return this._snapshot;
+    };
+    return fsTask;
+}());
+var queryTask = /** @class */ (function () {
+    function queryTask(_success, _e, _snapshot) {
+        this._success = _success;
+        this._snapshot = _snapshot;
+        this._e = _e;
+        this._exists = (!_success ? false : (_snapshot.length != 0));
+    }
+    queryTask.prototype.getEr = function () {
+        return getErrMsg(this._e);
+    };
+    queryTask.prototype.isSuccessful = function () {
+        return this._success;
+    };
+    queryTask.prototype.getResult = function () {
+        return this._snapshot;
+    };
+    return queryTask;
+}());
+function getEC(e) {
+    if (e) {
+        if (e.startsWith('[firebase_auth/network-request-failed]')) {
+            return 0;
+        }
+        if (e.startsWith('[firebase_auth/wrong-password]')) {
+            return 1;
+        }
+        if (e.startsWith('[firebase_auth/too-many-requests]')) {
+            return 2;
+        }
+        if (e.startsWith('[firebase_auth/user-not-found]')) {
+            return 4;
+        }
+    }
+    return 3;
+}
+function getErrMsg(e) {
+    if (getEC(e) === 0) {
+        return 'Network Error';
+    }
+    else if (getEC(e) === 2) {
+        return 'Too many attempts. To protect this account, we will not allow sign in for a while. Please try again later. ';
+    }
+    else if (getEC(e) === 1) {
+        return 'Invalid Credentials';
+    }
+    else {
+        return 'An error occurred. Please try again';
+    }
+}

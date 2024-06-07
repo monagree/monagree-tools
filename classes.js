@@ -1,1 +1,25 @@
-'use strict';var a0_0x270d85=a0_0x3ccf;(function(_0x37bfc2,_0x163a64){var _0x120658=a0_0x3ccf,_0x4667f4=_0x37bfc2();while(!![]){try{var _0x106a69=-parseInt(_0x120658(0x1f3))/0x1+parseInt(_0x120658(0x1ec))/0x2+-parseInt(_0x120658(0x1f8))/0x3+parseInt(_0x120658(0x1ed))/0x4*(parseInt(_0x120658(0x1ea))/0x5)+parseInt(_0x120658(0x1f4))/0x6*(parseInt(_0x120658(0x1fc))/0x7)+parseInt(_0x120658(0x1eb))/0x8+-parseInt(_0x120658(0x1f2))/0x9;if(_0x106a69===_0x163a64)break;else _0x4667f4['push'](_0x4667f4['shift']());}catch(_0x1daf49){_0x4667f4['push'](_0x4667f4['shift']());}}}(a0_0x3775,0xd9fd8));function a0_0x3775(){var _0x4f2733=['desc','3025KipBBx','5780152JEmQRZ','3545618kCAzXp','332rzgigs','./firehelper','command','doc','prototype','12524112Qiqqvr','558941ZRvRJE','86244KNtADR','defineProperty','getTitle','catEle','4367322rEcWpU','cMeta','getId','getDocId','854oOBxMe','getData'];a0_0x3775=function(){return _0x4f2733;};return a0_0x3775();}Object[a0_0x270d85(0x1f5)](exports,'__esModule',{'value':!![]}),exports[a0_0x270d85(0x1f7)]=exports[a0_0x270d85(0x1f9)]=void 0x0;var firehelper_1=require(a0_0x270d85(0x1ee)),cMeta=(function(){function _0x52a114(_0x487c4e,_0x4b546b){var _0x80d54c=a0_0x3ccf;this[_0x80d54c(0x1ef)]=_0x487c4e,this[_0x80d54c(0x1fe)]=_0x4b546b;}return _0x52a114;}());exports[a0_0x270d85(0x1f9)]=cMeta;var catEle=(function(){var _0x52e389=a0_0x270d85;function _0xcc3d71(_0x3b771e){var _0x19af41=a0_0x3ccf;this[_0x19af41(0x1f0)]=_0x3b771e;}return _0xcc3d71[_0x52e389(0x1f1)][_0x52e389(0x1fa)]=function(){var _0x5bdda3=_0x52e389;return(0x0,firehelper_1[_0x5bdda3(0x1fb)])(this[_0x5bdda3(0x1f0)]);},_0xcc3d71[_0x52e389(0x1f1)][_0x52e389(0x1f6)]=function(){var _0x5ee6f1=_0x52e389;return(0x0,firehelper_1[_0x5ee6f1(0x1fd)])(this['doc'],'t');},_0xcc3d71;}());function a0_0x3ccf(_0x552f6b,_0xc316c5){var _0x3775ca=a0_0x3775();return a0_0x3ccf=function(_0x3ccfa7,_0x145206){_0x3ccfa7=_0x3ccfa7-0x1ea;var _0x4387a6=_0x3775ca[_0x3ccfa7];return _0x4387a6;},a0_0x3ccf(_0x552f6b,_0xc316c5);}exports[a0_0x270d85(0x1f7)]=catEle;
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.catEle = exports.cMeta = void 0;
+var firehelper_1 = require("./firehelper");
+var cMeta = /** @class */ (function () {
+    function cMeta(command, desc) {
+        this.command = command;
+        this.desc = desc;
+    }
+    return cMeta;
+}());
+exports.cMeta = cMeta;
+var catEle = /** @class */ (function () {
+    function catEle(doc) {
+        this.doc = doc;
+    }
+    catEle.prototype.getId = function () {
+        return (0, firehelper_1.getDocId)(this.doc);
+    };
+    catEle.prototype.getTitle = function () {
+        return (0, firehelper_1.getData)(this.doc, 't');
+    };
+    return catEle;
+}());
+exports.catEle = catEle;

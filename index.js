@@ -1,2 +1,868 @@
 #!/usr/bin/env node
-'use strict';var a3_0xae1a82=a3_0x1ff2;(function(_0x5a1c62,_0x1e6361){var _0x4a3138=a3_0x1ff2,_0x262808=_0x5a1c62();while(!![]){try{var _0x40596e=-parseInt(_0x4a3138(0x12c))/0x1*(-parseInt(_0x4a3138(0x184))/0x2)+parseInt(_0x4a3138(0x1c0))/0x3+parseInt(_0x4a3138(0x1e0))/0x4*(parseInt(_0x4a3138(0x1e5))/0x5)+-parseInt(_0x4a3138(0x137))/0x6*(-parseInt(_0x4a3138(0x1f3))/0x7)+-parseInt(_0x4a3138(0x1d9))/0x8*(-parseInt(_0x4a3138(0x15e))/0x9)+-parseInt(_0x4a3138(0x118))/0xa+-parseInt(_0x4a3138(0x18a))/0xb;if(_0x40596e===_0x1e6361)break;else _0x262808['push'](_0x262808['shift']());}catch(_0x5aa267){_0x262808['push'](_0x262808['shift']());}}}(a3_0x2ccd,0xaf25c));var __assign=this&&this[a3_0xae1a82(0x139)]||function(){var _0x222a2f=a3_0xae1a82;return __assign=Object['assign']||function(_0x2e819f){var _0x50b054=a3_0x1ff2;for(var _0x2d3461,_0x376079=0x1,_0x2178f9=arguments['length'];_0x376079<_0x2178f9;_0x376079++){_0x2d3461=arguments[_0x376079];for(var _0xe8d251 in _0x2d3461)if(Object['prototype'][_0x50b054(0x18f)]['call'](_0x2d3461,_0xe8d251))_0x2e819f[_0xe8d251]=_0x2d3461[_0xe8d251];}return _0x2e819f;},__assign[_0x222a2f(0x169)](this,arguments);},__awaiter=this&&this[a3_0xae1a82(0x16c)]||function(_0x5a2df1,_0x17429c,_0x5e69d9,_0x3d7043){function _0x35e92e(_0x1dc930){return _0x1dc930 instanceof _0x5e69d9?_0x1dc930:new _0x5e69d9(function(_0x121568){_0x121568(_0x1dc930);});}return new(_0x5e69d9||(_0x5e69d9=Promise))(function(_0x5a9c24,_0x349ae3){var _0x225b40=a3_0x1ff2;function _0x1d812b(_0x55a388){var _0x5a5bad=a3_0x1ff2;try{_0x45f0c1(_0x3d7043[_0x5a5bad(0x188)](_0x55a388));}catch(_0x2d8a58){_0x349ae3(_0x2d8a58);}}function _0x5da114(_0x175392){try{_0x45f0c1(_0x3d7043['throw'](_0x175392));}catch(_0xfec05a){_0x349ae3(_0xfec05a);}}function _0x45f0c1(_0xd6248){var _0x32a994=a3_0x1ff2;_0xd6248[_0x32a994(0x1b2)]?_0x5a9c24(_0xd6248[_0x32a994(0x160)]):_0x35e92e(_0xd6248[_0x32a994(0x160)])['then'](_0x1d812b,_0x5da114);}_0x45f0c1((_0x3d7043=_0x3d7043[_0x225b40(0x169)](_0x5a2df1,_0x17429c||[]))[_0x225b40(0x188)]());});},__generator=this&&this[a3_0xae1a82(0x17f)]||function(_0x15bc1b,_0x5a40c7){var _0x4578af=a3_0xae1a82,_0x5ed664={'label':0x0,'sent':function(){if(_0x452f3f[0x0]&0x1)throw _0x452f3f[0x1];return _0x452f3f[0x1];},'trys':[],'ops':[]},_0x4e0e08,_0x11ce92,_0x452f3f,_0x12768b;return _0x12768b={'next':_0x1691a1(0x0),'throw':_0x1691a1(0x1),'return':_0x1691a1(0x2)},typeof Symbol===_0x4578af(0x1bf)&&(_0x12768b[Symbol[_0x4578af(0x144)]]=function(){return this;}),_0x12768b;function _0x1691a1(_0x20221a){return function(_0x581a73){return _0xeb1ff7([_0x20221a,_0x581a73]);};}function _0xeb1ff7(_0x3d7d1f){var _0x1119b6=_0x4578af;if(_0x4e0e08)throw new TypeError(_0x1119b6(0x1e7));while(_0x12768b&&(_0x12768b=0x0,_0x3d7d1f[0x0]&&(_0x5ed664=0x0)),_0x5ed664)try{if(_0x4e0e08=0x1,_0x11ce92&&(_0x452f3f=_0x3d7d1f[0x0]&0x2?_0x11ce92[_0x1119b6(0x1f5)]:_0x3d7d1f[0x0]?_0x11ce92[_0x1119b6(0x1fe)]||((_0x452f3f=_0x11ce92[_0x1119b6(0x1f5)])&&_0x452f3f['call'](_0x11ce92),0x0):_0x11ce92[_0x1119b6(0x188)])&&!(_0x452f3f=_0x452f3f[_0x1119b6(0x1b9)](_0x11ce92,_0x3d7d1f[0x1]))[_0x1119b6(0x1b2)])return _0x452f3f;if(_0x11ce92=0x0,_0x452f3f)_0x3d7d1f=[_0x3d7d1f[0x0]&0x2,_0x452f3f['value']];switch(_0x3d7d1f[0x0]){case 0x0:case 0x1:_0x452f3f=_0x3d7d1f;break;case 0x4:_0x5ed664[_0x1119b6(0x17d)]++;return{'value':_0x3d7d1f[0x1],'done':![]};case 0x5:_0x5ed664[_0x1119b6(0x17d)]++,_0x11ce92=_0x3d7d1f[0x1],_0x3d7d1f=[0x0];continue;case 0x7:_0x3d7d1f=_0x5ed664[_0x1119b6(0x134)][_0x1119b6(0x1d4)](),_0x5ed664[_0x1119b6(0x177)][_0x1119b6(0x1d4)]();continue;default:if(!(_0x452f3f=_0x5ed664[_0x1119b6(0x177)],_0x452f3f=_0x452f3f[_0x1119b6(0x1b8)]>0x0&&_0x452f3f[_0x452f3f[_0x1119b6(0x1b8)]-0x1])&&(_0x3d7d1f[0x0]===0x6||_0x3d7d1f[0x0]===0x2)){_0x5ed664=0x0;continue;}if(_0x3d7d1f[0x0]===0x3&&(!_0x452f3f||_0x3d7d1f[0x1]>_0x452f3f[0x0]&&_0x3d7d1f[0x1]<_0x452f3f[0x3])){_0x5ed664[_0x1119b6(0x17d)]=_0x3d7d1f[0x1];break;}if(_0x3d7d1f[0x0]===0x6&&_0x5ed664['label']<_0x452f3f[0x1]){_0x5ed664['label']=_0x452f3f[0x1],_0x452f3f=_0x3d7d1f;break;}if(_0x452f3f&&_0x5ed664[_0x1119b6(0x17d)]<_0x452f3f[0x2]){_0x5ed664[_0x1119b6(0x17d)]=_0x452f3f[0x2],_0x5ed664['ops']['push'](_0x3d7d1f);break;}if(_0x452f3f[0x2])_0x5ed664[_0x1119b6(0x134)][_0x1119b6(0x1d4)]();_0x5ed664[_0x1119b6(0x177)][_0x1119b6(0x1d4)]();continue;}_0x3d7d1f=_0x5a40c7['call'](_0x15bc1b,_0x5ed664);}catch(_0x492141){_0x3d7d1f=[0x6,_0x492141],_0x11ce92=0x0;}finally{_0x4e0e08=_0x452f3f=0x0;}if(_0x3d7d1f[0x0]&0x5)throw _0x3d7d1f[0x1];return{'value':_0x3d7d1f[0x0]?_0x3d7d1f[0x1]:void 0x0,'done':!![]};}},__importDefault=this&&this[a3_0xae1a82(0x1a3)]||function(_0x1304de){var _0x2c3675=a3_0xae1a82;return _0x1304de&&_0x1304de[_0x2c3675(0x13a)]?_0x1304de:{'default':_0x1304de};};function a3_0x1ff2(_0x40641f,_0x45d80b){var _0x2ccda4=a3_0x2ccd();return a3_0x1ff2=function(_0x1ff295,_0x2d4891){_0x1ff295=_0x1ff295-0x117;var _0x27b021=_0x2ccda4[_0x1ff295];return _0x27b021;},a3_0x1ff2(_0x40641f,_0x45d80b);}Object['defineProperty'](exports,a3_0xae1a82(0x13a),{'value':!![]}),exports[a3_0xae1a82(0x1b1)]=exports[a3_0xae1a82(0x209)]=exports[a3_0xae1a82(0x16a)]=exports[a3_0xae1a82(0x1a9)]=void 0x0;var commander_1=require(a3_0xae1a82(0x13f)),kleur_1=__importDefault(require(a3_0xae1a82(0x11e))),classes_1=require(a3_0xae1a82(0x176)),helpers_1=require(a3_0xae1a82(0x13b)),firehelper_1=require(a3_0xae1a82(0x11c)),webpack_1=__importDefault(require('webpack'));function intro(_0x1e72a2){var _0x19b445=a3_0xae1a82;if(_0x1e72a2&&_0x1e72a2[_0x19b445(0x1d7)]){printCyan(_0x19b445(0x15f));return;}console[_0x19b445(0x171)](rainbowText(_0x19b445(0x1b3)));for(var _0x280d7f=0x0,_0x338690=commands;_0x280d7f<_0x338690[_0x19b445(0x1b8)];_0x280d7f++){var _0x2cf44b=_0x338690[_0x280d7f];console['log'](kleur_1[_0x19b445(0x132)]['cyan']('monagree\x20'['concat'](_0x2cf44b[_0x19b445(0x161)],'\x20'))+kleur_1[_0x19b445(0x132)][_0x19b445(0x1f6)](_0x2cf44b['desc']));}}var commands=[new classes_1[(a3_0xae1a82(0x19c))](a3_0xae1a82(0x15c),a3_0xae1a82(0x1c5)),new classes_1[(a3_0xae1a82(0x19c))](a3_0xae1a82(0x1c9),a3_0xae1a82(0x185)),new classes_1[(a3_0xae1a82(0x19c))](a3_0xae1a82(0x1ef),a3_0xae1a82(0x1c7)),new classes_1['cMeta'](a3_0xae1a82(0x125),'Creates\x20a\x20new\x20branch\x20(eg\x20thewebsite.com/branch1,\x20thewebsite.com/branch2)'),new classes_1[(a3_0xae1a82(0x19c))]('deploy','Bundles\x20and\x20deploys\x20your\x20entire\x20design.\x20Use\x20`monagree\x20deploy\x20-b\x20branch-id`\x20to\x20deploy\x20specific\x20branch.\x20use\x20`monagree\x20deploy\x20-l`\x20to\x20test\x20locally'),new classes_1[(a3_0xae1a82(0x19c))](a3_0xae1a82(0x190),a3_0xae1a82(0x11d))];function ncfg(){var _0x5c3a2b=a3_0xae1a82;printErr(_0x5c3a2b(0x18c));}function nfold(){printErr('Invalid.\x20Call\x20all\x20commands\x20(except\x20create)\x20from\x20your\x20project\x20root\x20folder');}function nsgn(){var _0x6b505c=a3_0xae1a82;printErr(_0x6b505c(0x1fd));}function finInit1(_0x5b721a,_0x48b724){(0x0,helpers_1['addMonagreeSDK'])(function(_0x313212,_0x5c7c6c){clearInterval(_0x5b721a);if(_0x313212==0x1)printOk('SDK\x20added.\x20Happy\x20coding!\x20Dont\x20forget\x20to\x20use\x20`monagree\x20branch\x20the-branch-id`\x20to\x20create\x20your\x20pages');else _0x313212==0x0&&printCyan('Finished\x20but\x20could\x20not\x20add\x20Monagree\x20SDK.\x20Please\x20run\x20`npm\x20install\x20monagree`\x20now');finInit2(_0x48b724);});}function finInit2(_0x83671d){var _0x22b9ef=a3_0xae1a82;(0x0,helpers_1[_0x22b9ef(0x128)])([{'type':_0x22b9ef(0x205),'name':'opn','message':'Do\x20you\x20want\x20to\x20open\x20VS\x20code\x20now?\x20','choices':[_0x22b9ef(0x1b5),'no'],'validate':helpers_1['vv']}],function(_0x99b976,_0xc95631){var _0x18d263=_0x22b9ef;_0x99b976&&_0xc95631[_0x18d263(0x180)]==_0x18d263(0x1b5)?(0x0,helpers_1[_0x18d263(0x1fc)])('code\x20.',function(_0x4bbf94,_0x1329bb){var _0x10fc55=_0x18d263;if(_0x4bbf94==0x1)printCyan('Continue\x20with\x20the\x20terminal\x20in\x20VS'),printOk(_0x10fc55(0x1da)),setTimeout(function(){var _0x565cac=_0x10fc55,_0x55cc64=require(_0x565cac(0x1fa))[_0x565cac(0x199)];process['platform']===_0x565cac(0x1dd)?_0x55cc64(_0x565cac(0x1d3)+process['pid']):_0x55cc64(_0x565cac(0x1d5)+process[_0x565cac(0x18b)]);},0xbb8);else _0x4bbf94==0x0&&(printErr(_0x10fc55(0x1c8)),console[_0x10fc55(0x171)](kleur_1[_0x10fc55(0x132)][_0x10fc55(0x1dc)](_0x10fc55(0x151)[_0x10fc55(0x1ec)](_0x83671d,_0x10fc55(0x191)))));process[_0x10fc55(0x1cc)](0x0);}):(console['log'](kleur_1[_0x18d263(0x132)][_0x18d263(0x1dc)]('NOTE:\x20Run\x20`cd\x20'[_0x18d263(0x1ec)](_0x83671d,_0x18d263(0x191)))),process[_0x18d263(0x1cc)](0x0));});}function getIdFromTitle(_0x5aa225){var _0x1abbfd=a3_0xae1a82,_0x582696=_0x5aa225;return _0x582696=_0x582696['toLowerCase']()[_0x1abbfd(0x16b)]('\x20','_'),_0x582696;}function proceedInit(_0x5b532a){var _0x4a30f5=a3_0xae1a82;_0x5b532a=__assign(__assign({},_0x5b532a),{'fold':_0x4a30f5(0x1c1)});var _0xb5008c=['e-commerce',_0x4a30f5(0x1c3)],_0x1870e2=['s','l'];(0x0,helpers_1[_0x4a30f5(0x128)])([{'type':_0x4a30f5(0x205),'name':'c','message':_0x4a30f5(0x14a),'choices':_0xb5008c['map'](function(_0x167205){return _0x167205;}),'validate':helpers_1['vv']}],function(_0xa65c34,_0x2fea82){var _0x311a8c=_0x4a30f5;if(_0xa65c34){var _0x46afe8=_0x2fea82['c'],_0x2716cd=_0x1870e2[_0xb5008c[_0x311a8c(0x1f2)](_0x46afe8)],_0x2938fd={'c1':_0x46afe8};_0x5b532a=__assign(__assign({},_0x5b532a),_0x2938fd);var _0x44fd47={'c1_id':_0x2716cd};_0x5b532a=__assign(__assign({},_0x5b532a),_0x44fd47),printNorm(_0x311a8c(0x198)),catHelp('meta/cats/'[_0x311a8c(0x1ec)](_0x2716cd),_0x311a8c(0x146),function(_0x1d6b71,_0x9fcda){var _0x294762=_0x311a8c,_0x4209d2={'c2':_0x1d6b71['c']};_0x5b532a=__assign(__assign({},_0x5b532a),_0x4209d2);var _0x401f86={'c2_id':_0x9fcda};_0x5b532a=__assign(__assign({},_0x5b532a),_0x401f86),catHelp(_0x294762(0x157)[_0x294762(0x1ec)](_0x2716cd,'/')[_0x294762(0x1ec)](_0x9fcda,_0x294762(0x1e9)),_0x294762(0x154),function(_0x437a95,_0x13c7ec){var _0x38c074=_0x294762,_0x22f031=getIdFromTitle(_0x5b532a[_0x38c074(0x1f0)]);(0x0,helpers_1['cdIntoProject'])(_0x22f031,function(_0xd0d47b){var _0x495625=_0x38c074;if(_0xd0d47b){process[_0x495625(0x19b)](''[_0x495625(0x1ec)](process[_0x495625(0x16f)](),'/')['concat'](_0x22f031));var _0x64f5fb=_0x495625(0x149),_0x1994ad={'c3':_0x437a95['c']};_0x5b532a=__assign(__assign({},_0x5b532a),_0x1994ad);var _0x4113ff={'c3_ids':_0x13c7ec};_0x5b532a=__assign(__assign({},_0x5b532a),_0x4113ff),_0x5b532a=__assign(__assign({'id':(0x0,helpers_1[_0x495625(0x1eb)])()},_0x5b532a),{'branches':{'home':{'branch_desc':_0x64f5fb}}}),(0x0,helpers_1[_0x495625(0x1a0)])(JSON[_0x495625(0x1d0)](_0x5b532a)),printCyan('Config\x20created,\x20adding\x20Monagree\x20SDK\x20'[_0x495625(0x1ec)](_0x5b532a['lang']=='ts'?_0x495625(0x1ee):'','\x20to\x20package.json'));var _0x58b240=simulateLoader();(0x0,helpers_1[_0x495625(0x1f4)])(_0x22f031,_0x5b532a[_0x495625(0x1cb)],_0x5b532a['c1']),(0x0,helpers_1[_0x495625(0x20c)])('home',_0x64f5fb,_0x5b532a[_0x495625(0x1ae)],_0x5b532a[_0x495625(0x1ca)],function(_0x396796){var _0x5a1567=_0x495625;_0x5b532a[_0x5a1567(0x1ca)]=='ts'?(0x0,helpers_1[_0x5a1567(0x16e)])(function(_0x235ee6){_0x235ee6?finInit1(_0x58b240,_0x22f031):printErr('TS\x20setup\x20failed');}):finInit1(_0x58b240,_0x22f031);});}else printErr(_0x495625(0x167)),process[_0x495625(0x1cc)](0x0);});},!![]);});}else printErr(_0x311a8c(0x1a5)),process[_0x311a8c(0x1cc)](0x0);});}function printConfig(){var _0x5236cd=a3_0xae1a82,_0x3416d9=(0x0,helpers_1[_0x5236cd(0x1aa)])();_0x3416d9?(delete _0x3416d9['id'],delete _0x3416d9[_0x5236cd(0x117)],delete _0x3416d9['c2_id'],delete _0x3416d9[_0x5236cd(0x204)],console[_0x5236cd(0x171)](_0x3416d9)):ncfg();}commander_1[a3_0xae1a82(0x19e)]['option']('-v,\x20--version',a3_0xae1a82(0x196))[a3_0xae1a82(0x164)](intro),commander_1[a3_0xae1a82(0x19e)][a3_0xae1a82(0x161)]('help')[a3_0xae1a82(0x164)](intro),commander_1[a3_0xae1a82(0x19e)][a3_0xae1a82(0x161)](commands[0x5][a3_0xae1a82(0x161)])[a3_0xae1a82(0x186)](commands[0x5]['desc'])[a3_0xae1a82(0x164)](function(_0x1ca239){printConfig();}),commander_1[a3_0xae1a82(0x19e)][a3_0xae1a82(0x161)](commands[0x0][a3_0xae1a82(0x161)])[a3_0xae1a82(0x186)](commands[0x0]['desc'])[a3_0xae1a82(0x194)]('-p,\x20--print',a3_0xae1a82(0x15a))[a3_0xae1a82(0x164)](function(_0x4c6097){var _0x29787c=a3_0xae1a82;if(!(0x0,helpers_1[_0x29787c(0x156)])()){nsgn();return;}if(_0x4c6097[_0x29787c(0x159)]){printConfig();return;}!(0x0,helpers_1[_0x29787c(0x1e1)])()?(0x0,helpers_1[_0x29787c(0x128)])([{'type':_0x29787c(0x162),'name':_0x29787c(0x1f0),'message':_0x29787c(0x12f),'validate':helpers_1['vv']},{'type':'input','name':_0x29787c(0x1cb),'message':'Describe\x20it\x20to\x20businesses\x20(short):\x20','validate':helpers_1['vv']},{'type':_0x29787c(0x205),'name':_0x29787c(0x1ea),'message':_0x29787c(0x126),'choices':[_0x29787c(0x1af),_0x29787c(0x1cf)],'validate':helpers_1['vv']},{'type':'select','name':_0x29787c(0x1ca),'message':_0x29787c(0x17b),'choices':['js','ts'],'validate':helpers_1['vv']}],function(_0x162913,_0x2860f6){var _0x44f7d2=_0x29787c;if(_0x162913){var _0x5eaaaa=getIdFromTitle(_0x2860f6[_0x44f7d2(0x1f0)]);if((0x0,helpers_1[_0x44f7d2(0x119)])(_0x5eaaaa)){printErr(_0x44f7d2(0x141));return;}(0x0,helpers_1[_0x44f7d2(0x128)])([{'type':_0x44f7d2(0x205),'name':'whi','message':_0x44f7d2(0x120),'choices':['yes\x20(only\x20that\x20business\x20can\x20use\x20it)','no\x20(anyone\x20can\x20buy\x20it)'],'validate':helpers_1['vv']}],function(_0x43486a,_0x11d814){var _0x5bcaf2=_0x44f7d2;_0x43486a?_0x11d814[_0x5bcaf2(0x14d)][_0x5bcaf2(0x17a)](_0x5bcaf2(0x1b5))?(0x0,helpers_1[_0x5bcaf2(0x128)])([{'type':_0x5bcaf2(0x162),'name':_0x5bcaf2(0x173),'message':'Enter\x20the\x20biz\x27s\x20short\x20code:\x20','validate':helpers_1['vv']}],function(_0x2b1709,_0x463bcc){var _0x217d1e=_0x5bcaf2;_0x2b1709?(_0x2860f6=__assign(__assign({},_0x2860f6),_0x463bcc),proceedInit(_0x2860f6)):(printErr(_0x217d1e(0x1a5)),process[_0x217d1e(0x1cc)](0x0));}):proceedInit(_0x2860f6):(printErr(_0x5bcaf2(0x1a5)),process[_0x5bcaf2(0x1cc)](0x0));});}else printErr('Wizard\x20was\x20cancelled'),process[_0x44f7d2(0x1cc)](0x0);}):printErr('This\x20folder\x20contains\x20an\x20existing\x20design.\x20Please\x20run\x20create\x20from\x20a\x20folder\x20dedicated\x20to\x20all\x20your\x20designs');});function catHelp(_0x35445e,_0x5ebfae,_0x2a1a9a,_0x310c2d){var _0x32b500=a3_0xae1a82,_0x1a107e=new firehelper_1[(_0x32b500(0x136))]();_0x1a107e[_0x32b500(0x11f)](_0x35445e,function(_0x5d3774){var _0x1d5ff5=_0x32b500;if(_0x5d3774['isSuccessful']()){var _0x1b5e06=[],_0x2aa142=[];_0x5d3774[_0x1d5ff5(0x1d2)]()[_0x1d5ff5(0x181)](function(_0x5d97bf){var _0x11d481=_0x1d5ff5,_0x1f6a02=new classes_1[(_0x11d481(0x178))](_0x5d97bf);_0x1b5e06[_0x11d481(0x201)](_0x1f6a02),_0x2aa142['push'](_0x1f6a02[_0x11d481(0x182)]());}),(0x0,helpers_1[_0x1d5ff5(0x128)])([{'type':_0x310c2d?'multiselect':'select','name':'c','message':_0x5ebfae,'choices':_0x1b5e06[_0x1d5ff5(0x1d6)](function(_0x50fe8){var _0x1b63d4=_0x1d5ff5;return _0x50fe8[_0x1b63d4(0x182)]();}),'validate':function(_0x2e0f76){var _0x3256f4=_0x1d5ff5;return _0x2e0f76&&_0x2e0f76[_0x3256f4(0x1b8)]>0x0?!![]:_0x310c2d?'Please\x20select\x20at\x20least\x20one\x20option\x20(use\x20spaces)':_0x3256f4(0x165)[_0x3256f4(0x1ec)](_0x5ebfae);}}],function(_0x2d243d,_0x222432){var _0x58a0fd=_0x1d5ff5;if(_0x2d243d){if(_0x2aa142[_0x58a0fd(0x1f2)](_0x222432['c'])!=-0x1){var _0x4edc16=_0x1b5e06[_0x2aa142['indexOf'](_0x222432['c'])][_0x58a0fd(0x1f9)]();_0x2a1a9a(_0x222432,_0x4edc16);}else{var _0x4edc16=[];for(var _0xa9dead=0x0,_0x2db7b5=_0x222432['c'];_0xa9dead<_0x2db7b5[_0x58a0fd(0x1b8)];_0xa9dead++){var _0x4d5158=_0x2db7b5[_0xa9dead],_0x1ec53e=_0x1b5e06[_0x2aa142[_0x58a0fd(0x1f2)](_0x4d5158)][_0x58a0fd(0x1f9)]();_0x4edc16[_0x58a0fd(0x201)](_0x1ec53e);}_0x2a1a9a(_0x222432,_0x4edc16);}}else printErr(_0x58a0fd(0x1a5)),(0x0,helpers_1[_0x58a0fd(0x175)])(helpers_1[_0x58a0fd(0x163)]),process[_0x58a0fd(0x1cc)](0x0);});}else printErr(_0x1d5ff5(0x1ad)),process['exit'](0x0);});}commander_1[a3_0xae1a82(0x19e)][a3_0xae1a82(0x161)](commands[0x1]['command'])[a3_0xae1a82(0x186)](commands[0x1]['desc'])[a3_0xae1a82(0x164)](function(){var _0x311fa4=a3_0xae1a82;if((0x0,helpers_1[_0x311fa4(0x156)])()){printCyan(_0x311fa4(0x1a6)[_0x311fa4(0x1ec)]((0x0,helpers_1[_0x311fa4(0x193)])(),',\x20run\x20`monagree\x20logout`\x20and\x20try\x20again'));return;}printNorm(_0x311fa4(0x183));var _0x28cd64=_0x311fa4(0x1a8)['concat'](firehelper_1[_0x311fa4(0x207)],'/')[_0x311fa4(0x1ec)]((0x0,helpers_1['getDeviceToken'])());printCyan(_0x28cd64),(0x0,helpers_1[_0x311fa4(0x1b6)])(_0x28cd64),(0x0,helpers_1[_0x311fa4(0x128)])([{'type':_0x311fa4(0x205),'name':_0x311fa4(0x13d),'message':'Have\x20you\x20logged\x20in:\x20','choices':['no',_0x311fa4(0x1b5)],'validate':helpers_1['vv']}],function(_0x47dddc,_0x3fa188){var _0x3fbef7=_0x311fa4,_0x5ec3af=new firehelper_1[(_0x3fbef7(0x136))]();if(_0x47dddc&&_0x3fa188[_0x3fbef7(0x13d)]=='yes'){var _0x42dc41=simulateLoader();_0x5ec3af[_0x3fbef7(0x143)](_0x3fbef7(0x16d)['concat'](firehelper_1['maid']+(0x0,helpers_1[_0x3fbef7(0x1e4)])()),function(_0x4e4075){var _0x2ce687=_0x3fbef7;clearInterval(_0x42dc41),_0x4e4075[_0x2ce687(0x15d)]&&(0x0,firehelper_1[_0x2ce687(0x197)])(_0x4e4075[_0x2ce687(0x1d2)](),'v')[_0x2ce687(0x1b8)]>0x5?((0x0,helpers_1[_0x2ce687(0x14e)])((0x0,firehelper_1['getData'])(_0x4e4075[_0x2ce687(0x1d2)](),'v')),(0x0,helpers_1[_0x2ce687(0x1ac)])((0x0,firehelper_1[_0x2ce687(0x197)])(_0x4e4075[_0x2ce687(0x1d2)](),'s')),printOk(_0x2ce687(0x174)['concat']((0x0,helpers_1['getDevSC'])()))):printErr('Login\x20failed.\x20Please\x20try\x20again'),process[_0x2ce687(0x1cc)](0x0);});}else printErr(_0x3fbef7(0x206)),process[_0x3fbef7(0x1cc)](0x0);});}),commander_1[a3_0xae1a82(0x19e)][a3_0xae1a82(0x161)](commands[0x2][a3_0xae1a82(0x161)])[a3_0xae1a82(0x186)](commands[0x2][a3_0xae1a82(0x1cb)])['action'](function(){var _0x2881c9=a3_0xae1a82;(0x0,helpers_1[_0x2881c9(0x1ef)])(function(_0x391250){var _0x2a53cf=_0x2881c9;_0x391250?(printOk('Logout\x20successful'),process[_0x2a53cf(0x1cc)](0x0)):printErr(_0x2a53cf(0x158));});}),commander_1[a3_0xae1a82(0x19e)][a3_0xae1a82(0x161)](commands[0x3][a3_0xae1a82(0x161)])['description'](commands[0x3][a3_0xae1a82(0x1cb)])[a3_0xae1a82(0x121)](a3_0xae1a82(0x1de),a3_0xae1a82(0x1a2))[a3_0xae1a82(0x164)](function(_0x1bd733){var _0x1eca11=a3_0xae1a82;if(!(0x0,helpers_1[_0x1eca11(0x1e1)])()){nfold();return;}var _0x16f681=(0x0,helpers_1[_0x1eca11(0x1aa)])();if(!_0x16f681){ncfg();return;}(0x0,helpers_1[_0x1eca11(0x128)])([{'type':_0x1eca11(0x162),'name':_0x1eca11(0x1ff),'message':_0x1eca11(0x1e6),'validate':helpers_1['vv']}],function(_0x55e964,_0x44eadf){var _0x268d37=_0x1eca11;_0x55e964?(0x0,helpers_1[_0x268d37(0x20c)])(_0x1bd733,_0x44eadf[_0x268d37(0x1ff)],_0x16f681[_0x268d37(0x1ae)],_0x16f681['lang'],function(_0x4ef23d){var _0x5073bb=_0x268d37;_0x16f681[_0x5073bb(0x145)][_0x1bd733]=_0x44eadf,(0x0,helpers_1[_0x5073bb(0x1a0)])(JSON[_0x5073bb(0x1d0)](_0x16f681)),printOk(''['concat'](_0x1bd733,_0x5073bb(0x170)));}):printErr(_0x268d37(0x123));});}),commander_1[a3_0xae1a82(0x19e)][a3_0xae1a82(0x161)](commands[0x4][a3_0xae1a82(0x161)])[a3_0xae1a82(0x186)](commands[0x4][a3_0xae1a82(0x1cb)])[a3_0xae1a82(0x194)](a3_0xae1a82(0x1a4),a3_0xae1a82(0x130))[a3_0xae1a82(0x194)](a3_0xae1a82(0x20b),a3_0xae1a82(0x1f8))[a3_0xae1a82(0x164)](function(_0x18daea){return __awaiter(void 0x0,void 0x0,void 0x0,function(){var _0x58fc3c,_0x3a01a4;return __generator(this,function(_0xcce1a1){var _0x3cb7e1=a3_0x1ff2;if(!(0x0,helpers_1[_0x3cb7e1(0x1e1)])())return nfold(),[0x2];_0x58fc3c=(0x0,helpers_1['getConfig'])();if(!_0x58fc3c)return ncfg(),[0x2];if(!(0x0,helpers_1[_0x3cb7e1(0x156)])())return nsgn(),[0x2];_0x3a01a4=[];if(_0x18daea[_0x3cb7e1(0x125)]){if(!Object[_0x3cb7e1(0x20a)](_0x58fc3c[_0x3cb7e1(0x145)])[_0x3cb7e1(0x13e)](_0x18daea[_0x3cb7e1(0x125)]))return printErr(_0x18daea[_0x3cb7e1(0x125)]+_0x3cb7e1(0x203)),[0x2];_0x3a01a4[_0x3cb7e1(0x201)](_0x18daea[_0x3cb7e1(0x125)]);}else _0x3a01a4=Object[_0x3cb7e1(0x20a)](_0x58fc3c[_0x3cb7e1(0x145)]);return deployBranch(0x0,_0x3a01a4,_0x58fc3c,_0x18daea,function(_0x84d264,_0x2c4e86,_0x1b4a46){var _0x1795b2=_0x3cb7e1;_0x84d264?printOk(''[_0x1795b2(0x1ec)](_0x3a01a4[_0x2c4e86],_0x1795b2(0x153))):printErr(_0x1795b2(0x122)[_0x1795b2(0x1ec)](_0x3a01a4[_0x2c4e86],_0x1795b2(0x1e8)));},function(){var _0x579a7c=_0x3cb7e1;if(_0x18daea['local'])process[_0x579a7c(0x19b)](''[_0x579a7c(0x1ec)](process[_0x579a7c(0x16f)](),'/')[_0x579a7c(0x1ec)](helpers_1[_0x579a7c(0x163)])),(0x0,helpers_1[_0x579a7c(0x1ce)])(function(_0x1f040a){var _0x377fc9=_0x579a7c;_0x1f040a?(printNorm(_0x377fc9(0x14f)),printCyan('Server\x20is\x20running\x20at\x20http://localhost:3310'),(0x0,helpers_1[_0x377fc9(0x1fc)])(_0x377fc9(0x1c6),function(_0x53afa4,_0x159ac6){var _0x20a507=_0x377fc9;_0x53afa4==0x1&&printOk(_0x20a507(0x14b)),_0x53afa4==0x0&&printErr(_0x20a507(0x1f1));})):printErr('Could\x20not\x20serve\x20locally');},_0x58fc3c,_0x579a7c(0x166));else{var _0x4856df=new helpers_1[(_0x579a7c(0x129))](_0x58fc3c);printNorm('Preping\x20to\x20deploy\x20'['concat'](_0x58fc3c[_0x579a7c(0x1f0)])),_0x4856df['isGitAvailable'](function(_0x4b3c2f){var _0x409eb8=_0x579a7c;if(_0x4b3c2f)askForGitToken(_0x58fc3c,function(_0x249557,_0x2734f5){var _0x356a09=a3_0x1ff2;_0x249557?_0x4856df[_0x356a09(0x179)](_0x58fc3c,function(_0x448585){return __awaiter(void 0x0,void 0x0,void 0x0,function(){var _0x218b12,_0x4cd93d,_0xff1f1a,_0x44938b,_0x68c8c6,_0x5ab26f;return __generator(this,function(_0x5964ac){var _0x5d016d=a3_0x1ff2;switch(_0x5964ac[_0x5d016d(0x17d)]){case 0x0:if(!_0x448585)return[0x3,0x8];printCyan('Preparation\x20successful.\x20Deploying\x20now');return[0x4,_0x4856df[_0x5d016d(0x1bd)]('README.md',!![])];case 0x1:_0x218b12=_0x5964ac[_0x5d016d(0x127)](),(_0x4cd93d=0x0,_0xff1f1a=_0x3a01a4),_0x5964ac[_0x5d016d(0x17d)]=0x2;case 0x2:if(!(_0x4cd93d<_0xff1f1a[_0x5d016d(0x1b8)]))return[0x3,0x5];_0x44938b=_0xff1f1a[_0x4cd93d];if(!_0x218b12)return[0x3,0x5];return[0x4,_0x4856df[_0x5d016d(0x192)](_0x44938b)];case 0x3:_0x218b12=_0x5964ac[_0x5d016d(0x127)](),_0x5964ac[_0x5d016d(0x17d)]=0x4;case 0x4:_0x4cd93d++;return[0x3,0x2];case 0x5:_0x68c8c6=simulateLoader(),_0x5ab26f=_0x218b12;if(!_0x5ab26f)return[0x3,0x7];return[0x4,_0x4856df[_0x5d016d(0x1ba)]()];case 0x6:_0x5ab26f=_0x5964ac[_0x5d016d(0x127)](),_0x5964ac[_0x5d016d(0x17d)]=0x7;case 0x7:_0x5ab26f?(printNorm(_0x5d016d(0x18d)),_0x4856df[_0x5d016d(0x200)](function(_0x29ec31){var _0x8e9073=_0x5d016d;_0x29ec31?_0x4856df[_0x8e9073(0x19f)](_0x58fc3c,function(_0x34844e){var _0x43fb8a=_0x8e9073;clearInterval(_0x68c8c6);if(_0x34844e){printOk(_0x43fb8a(0x1bc));var _0x4e82db=_0x43fb8a(0x172)['concat'](_0x58fc3c['id'],_0x43fb8a(0x17c));_0x58fc3c[_0x43fb8a(0x1fb)]=_0x4e82db,(0x0,helpers_1[_0x43fb8a(0x1a0)])(JSON[_0x43fb8a(0x1d0)](_0x58fc3c)),printCyan(_0x43fb8a(0x1d8)[_0x43fb8a(0x1ec)](_0x4e82db,_0x43fb8a(0x150)));}else printErr(_0x43fb8a(0x12a));}):(clearInterval(_0x68c8c6),printErr(_0x8e9073(0x12a)));})):(clearInterval(_0x68c8c6),printErr('Deploy\x20failed!'));return[0x3,0x9];case 0x8:printErr(_0x5d016d(0x1df)),_0x5964ac[_0x5d016d(0x17d)]=0x9;case 0x9:return[0x2];}});});}):printErr(_0x356a09(0x1ed));});else{printErr(_0x409eb8(0x202));var _0x1b3be9=_0x409eb8(0x1a1);printCyan('Download\x20at\x20'[_0x409eb8(0x1ec)](_0x1b3be9)),(0x0,helpers_1[_0x409eb8(0x1b6)])(_0x1b3be9);}});}}),[0x2];});});});function askForGitToken(_0x2e2e3a,_0x4e6eba){return __awaiter(this,void 0x0,void 0x0,function(){return __generator(this,function(_0x5127b9){var _0x45bec1=a3_0x1ff2;switch(_0x5127b9[_0x45bec1(0x17d)]){case 0x0:return[0x4,(0x0,helpers_1[_0x45bec1(0x155)])()];case 0x1:if(_0x5127b9[_0x45bec1(0x127)]())return _0x4e6eba(!![],(0x0,helpers_1['getGitToken'])()),[0x2];printCyan('----------\x0a----------\x0a\x0a'),printCyan(_0x45bec1(0x147)),printNorm(_0x45bec1(0x168)),printNorm(_0x45bec1(0x18e)),printNorm(_0x45bec1(0x19a)+(0x0,helpers_1[_0x45bec1(0x193)])()),printNorm(_0x45bec1(0x1b7)['concat'](_0x2e2e3a['id'],')')),printNorm(_0x45bec1(0x12b)),printCyan('MOST\x20IMPORTANT\x0a'),printNorm(_0x45bec1(0x124)),printNorm(_0x45bec1(0x1db)),printNorm(_0x45bec1(0x11b)),printNorm('-\x20Scroll\x20to\x20the\x20bottom\x20and\x20click\x20`Generate\x20token`.\x20Copy\x20it\x20and\x20come\x20back'),printCyan('----------\x0a----------\x0a\x0a'),(0x0,helpers_1[_0x45bec1(0x128)])([{'type':_0x45bec1(0x205),'name':_0x45bec1(0x187),'message':_0x45bec1(0x148),'choices':['no','yes'],'validate':helpers_1['vv']}],function(_0xe409,_0x1d3a64){var _0x1fc68d=_0x45bec1;if(_0xe409&&_0x1d3a64['cns']==_0x1fc68d(0x1b5)){printNorm(_0x1fc68d(0x13c));var _0x4423e3='https://github.com/settings/tokens/new';printCyan(_0x4423e3),(0x0,helpers_1[_0x1fc68d(0x1b6)])(_0x4423e3),(0x0,helpers_1[_0x1fc68d(0x128)])([{'type':_0x1fc68d(0x162),'name':_0x1fc68d(0x131),'message':_0x1fc68d(0x19d),'validate':helpers_1['vv']},{'type':_0x1fc68d(0x162),'name':_0x1fc68d(0x133),'message':_0x1fc68d(0x1d1),'validate':helpers_1['vv']}],function(_0x3fcb99,_0x85e55b){var _0x3c7e40=_0x1fc68d;if(_0x3fcb99){var _0x341140=simulateLoader(),_0xfa5998=new helpers_1[(_0x3c7e40(0x129))](_0x2e2e3a);_0xfa5998[_0x3c7e40(0x200)](function(_0x2a8b9d){var _0x19eb3d=_0x3c7e40;_0x2a8b9d?_0xfa5998[_0x19eb3d(0x1c2)](_0x85e55b['tkn'],_0x85e55b[_0x19eb3d(0x133)],function(_0xd8a76f){var _0x4803be=_0x19eb3d;clearInterval(_0x341140),_0xd8a76f?askForGitToken(_0x2e2e3a,_0x4e6eba):printErr(_0x4803be(0x1a7));}):(clearInterval(_0x341140),printErr(_0x19eb3d(0x1a7)));});}else _0x4e6eba(![]);});}else _0x4e6eba(![]);});return[0x2];}});});}function a3_0x2ccd(){var _0x104f2d=['concat','Preparation\x20failed','&\x20TS\x20tools','logout','title','Failed\x20to\x20start\x20server','indexOf','70WlarXO','initNpm','return','gray','Perfect\x20code.\x20No\x20warnings\x20found','Deploys\x20the\x20specified\x20branch\x20only','getId','child_process','site','runCmd','You\x20need\x20to\x20login.\x20Run\x20`monagree\x20login`','throw','branch_desc','prepare','push','Git\x20was\x20not\x20found\x20on\x20your\x20pc.\x20Download\x20&\x20Install\x20Git\x20and\x20try\x20deploy\x20again','\x20branch\x20not\x20found','c3_ids','select','Login\x20failed.\x20Please\x20try\x20again','maid','isArray','printOk','keys','-b,\x20--branch\x20<bid>','doBranch','c1_id','6875340FABvdi','foldExists','Error\x20','-\x20Tick\x20the\x20repo\x20box\x20under\x20`Select\x20scopes`\x20(including\x20all\x20its\x20children)','./firehelper','See\x20info\x20(id,\x20branches,\x20site_url\x20...)\x20about\x20your\x20design','kleur','getQuery','Are\x20you\x20building\x20for\x20a\x20specific\x20business?','argument','Bundle\x20Failed.\x20Problem\x20at\x20','Wizard\x20cancelled','When\x20a\x20link\x20to\x20your\x20GITHUB\x20is\x20launched:','branch','Choose\x20a\x20pricing:\x20','sent','inquire','deployMan','Notification\x20failed!','-\x20Consider\x20naming\x20the\x20access\x20token\x20Monagree\x20CLI\x20so\x20you\x20dont\x20mistakenly\x20delete\x20it\x0a','5194Vlhhnx','\x20Loading...','...','Name\x20your\x20design:\x20','Deploys\x20locally','tkn','default','usr','ops','yellow','fireMan','133284dOCcVp','green','__assign','__esModule','./helpers','Visit\x20the\x20link\x20below\x20to\x20generate\x20a\x20token','conf','includes','commander','warn','A\x20design\x20with\x20same\x20name\x20already\x20exist\x20in\x20this\x20folder','join','getFS','iterator','branches','Choose\x20Category','CONFIGURE\x20GITHUB','Have\x20you\x20read\x20the\x20instructions\x20above?','Design\x20entry\x20point\x20(usually\x20home\x20page)','e-commerce\x20or\x20delivery','Local\x20server\x20terminated','red','whi','setDevId','Use\x20ctr\x20+\x20c\x20to\x20end\x20server',',\x20run\x20`monagree\x20config`\x20to\x20see\x20this\x20url\x20again.\x20Dont\x20forget\x20to\x20change\x20sample-biz-id\x20to\x20preferred\x20biz','NOTE:\x20Run\x20`cd\x20','warnings','\x20code\x20bundled\x20successfully','use\x20\x22spaces\x22\x20to\x20select\x20as\x20many\x20sub-categories\x20that\x20apply','gitTokenOk','isSignedIn','meta/cats/','Logout\x20Failed','print','Print\x20config\x20to\x20terminal','write','create','_success','153qTYaXe','Monagree\x20CLI\x20version\x201.0.9,\x20Last\x20updated\x2006-12-23','value','command','input','configFolder','action','Please\x20','sample-biz-id','Failed.\x20Is\x20project\x20name\x20valid','-\x20Until\x20someone\x20buys\x20your\x20design,\x20it\x20will\x20be\x20hosted\x20in\x20a\x20repo\x20on\x20your\x20github\x20profile\x20(managed\x20by\x20Monagree)','apply','printCyan','replace','__awaiter','mtks/','setupTS','cwd','\x20branch\x20successfully\x20created','log','https://monagree.com/','bzid','Login\x20successful\x20for\x20','deleteFolder','./classes','trys','catEle','configureGit','startsWith','Are\x20you\x20using\x20javascript(js)\x20or\x20typescript(ts):\x20','/sample-biz-id','label','cyan','__generator','opn','forEach','getTitle','To\x20login,\x20visit\x20the\x20link\x20below','542UPYSRl','Login\x20with\x20your\x20Monagree\x20dev\x20profile','description','cns','next','\x20warning(s)\x20found:','25342548SlOmHM','pid','No\x20config\x20yet,\x20run\x20`monagree\x20create`\x20to\x20create\x20a\x20new\x20design','Notifying\x20Monagree\x27s\x20global\x20CDN','-\x20On\x20the\x20next\x20step,\x20you\x20will\x20generate\x20an\x20ACCESS_TOKEN\x20for\x20us\x20to\x20do\x20this','hasOwnProperty','config','`\x20before\x20anything\x20else','prepGit','getDevSC','option','hasWarnings','Check\x20CLI\x20version','getData','Just\x20a\x20sec...','exec','-\x20Make\x20sure\x20to\x20use\x20the\x20github\x20profile\x20&\x20username\x20associated\x20with\x20dev/team\x20-\x20','chdir','cMeta','Enter\x20the\x20token\x20here:\x20','program','createDesign','saveConfig','https://git-scm.com/download','The\x20branch\x20ID\x20(one\x20word,\x20eg\x20-\x20cart,\x20orders,\x20favs)','__importDefault','-l,\x20--local','Wizard\x20was\x20cancelled','Already\x20signed\x20in\x20as\x20','Github\x20Configuration\x20failed.\x20Maybe\x20network','https://developers.monagree.com/auth/','printNorm','getConfig','getWebpackConfig','setDevSC','An\x20error\x20occurred','fold','regular','toJson','printErr','done','Welcome\x20to\x20the\x20Monagree\x20Develoeper\x20CLI\x20tool.\x20Use\x20the\x20following\x20commands\x20for\x20your\x20awesome\x20design\x20(call\x20all\x20commands,\x20except\x20create,\x20from\x20your\x20project\x20root\x20folder)','parse','yes','goUrl','-\x20DO\x20NOT\x20make\x20any\x20change\x20or\x20edit\x20any\x20thing\x20in\x20this\x20repo\x20(repo_name\x20=\x20','length','call','commitAndPush','error','Deploy\x20successful.\x20Awesome\x20Job!\x20','addFile','white','function','190875AGfzHO','src','setGitToken','delivery','blue','Create\x20a\x20new\x20design','node\x20server.js','Sign\x20out\x20of\x20the\x20Monagree\x20CLI','Could\x20not\x20open\x20VS\x20code','login','lang','desc','exit','errors','serveLocal','premium','stringify','Enter\x20your\x20github\x20username\x20(case-sensitive):\x20','getResult','taskkill\x20/F\x20/PID\x20','pop','kill\x20-9\x20','map','version','Your\x20site\x20is\x20hosted\x20at\x20','555368nxiuLr','Happy\x20coding!','-\x20Change\x20`expiry`\x20dropdown\x20to\x20`No\x20Expiry`','bgMagenta','win32','<bid>','Git\x20config\x20failed','3341240YzAxki','amInMonagreeFolder','Bundle\x20failed\x20with\x20errors:','magenta','getDeviceToken','5vtraeh','What\x20is\x20this\x20branch\x20about?','Generator\x20is\x20already\x20executing.','\x20branch','/sc','class','getCT'];a3_0x2ccd=function(){return _0x104f2d;};return a3_0x2ccd();}function deployBranch(_0x195728,_0x2b84fb,_0x2f3a00,_0x3efb7f,_0x304646,_0xb2ba5b){var _0x1c79e6=a3_0xae1a82;if(_0x2b84fb[_0x1c79e6(0x1b8)]==_0x195728){_0xb2ba5b();return;}var _0x135248=_0x2b84fb[_0x195728];printNorm('Bundling\x20source\x20code\x20for\x20'[_0x1c79e6(0x1ec)](_0x135248,_0x1c79e6(0x12e)));var _0x4a9b8a=simulateLoader();(0x0,webpack_1[_0x1c79e6(0x132)])((0x0,helpers_1[_0x1c79e6(0x1ab)])(_0x2f3a00[_0x1c79e6(0x1ae)]+'/'+_0x135248,_0x135248,_0x2f3a00['lang'],_0x3efb7f['local']),function(_0x5dd6c6,_0x16ee72){var _0x5cfd0b=_0x1c79e6,_0x3adb90,_0x47f7f8;clearInterval(_0x4a9b8a);if(_0x5dd6c6||!_0x16ee72||_0x16ee72['hasErrors']()){var _0x13af69=_0x5dd6c6||_0x16ee72&&_0x16ee72[_0x5cfd0b(0x1b0)]()[_0x5cfd0b(0x1cd)]||[];console[_0x5cfd0b(0x1bb)](_0x5cfd0b(0x1e2)),Array[_0x5cfd0b(0x208)](_0x13af69)?_0x13af69['forEach'](function(_0x525e93,_0x40bab0){var _0x11870f=_0x5cfd0b;console[_0x11870f(0x1bb)](_0x11870f(0x11a)[_0x11870f(0x1ec)](_0x40bab0+0x1,':\x20')['concat'](JSON[_0x11870f(0x1d0)](_0x525e93)));}):console['error'](_0x13af69),_0x304646(![],_0x195728);}else{if(_0x16ee72[_0x5cfd0b(0x195)]()){var _0x5b3237=_0x16ee72[_0x5cfd0b(0x1b0)]()[_0x5cfd0b(0x152)];_0x5b3237&&_0x5b3237['length']>0x0&&(console[_0x5cfd0b(0x140)](''[_0x5cfd0b(0x1ec)](_0x5b3237[_0x5cfd0b(0x1b8)],_0x5cfd0b(0x189))),_0x5b3237[_0x5cfd0b(0x181)](function(_0x4e7ae4,_0x2ae7f5){var _0x2d9b4b=_0x5cfd0b;console[_0x2d9b4b(0x140)]('Warning\x20'[_0x2d9b4b(0x1ec)](_0x2ae7f5+0x1,':\x20')[_0x2d9b4b(0x1ec)](JSON[_0x2d9b4b(0x1d0)](_0x4e7ae4)));}));}else printCyan(_0x5cfd0b(0x1f7));_0x304646(!![],_0x195728,(_0x47f7f8=(_0x3adb90=_0x16ee72[_0x5cfd0b(0x1b0)]())===null||_0x3adb90===void 0x0?void 0x0:_0x3adb90['assetsByChunkName'])===null||_0x47f7f8===void 0x0?void 0x0:_0x47f7f8['main']);var _0x27b1b4=_0x195728+0x1;deployBranch(_0x27b1b4,_0x2b84fb,_0x2f3a00,_0x3efb7f,_0x304646,_0xb2ba5b);}});}var simulateLoader=function(){var _0x39091f=['⠋','⠙','⠹','⠸','⠼','⠴','⠦','⠧','⠇','⠏'],_0x2394af=0x0;return setInterval(function(){var _0x1c6f62=a3_0x1ff2;process['stdout'][_0x1c6f62(0x15b)]('\x0d'[_0x1c6f62(0x1ec)](kleur_1[_0x1c6f62(0x132)][_0x1c6f62(0x138)](_0x39091f[_0x2394af]),_0x1c6f62(0x12d))),_0x2394af=(_0x2394af+0x1)%_0x39091f[_0x1c6f62(0x1b8)];},0x50);};function printNorm(_0x6d0168,_0x420b1a){var _0x25bc30=a3_0xae1a82;console[_0x25bc30(0x171)](_0x420b1a?kleur_1[_0x25bc30(0x132)][_0x25bc30(0x17e)](_0x6d0168):kleur_1[_0x25bc30(0x132)][_0x25bc30(0x1be)](_0x6d0168));}exports[a3_0xae1a82(0x1a9)]=printNorm;function printCyan(_0x29b340){console['log'](kleur_1['default']['cyan'](_0x29b340));}exports[a3_0xae1a82(0x16a)]=printCyan;function printOk(_0x56790c){var _0x590d71=a3_0xae1a82;console[_0x590d71(0x171)](kleur_1['default']['green'](_0x56790c));}exports[a3_0xae1a82(0x209)]=printOk;function printErr(_0x35d60f){var _0x16a5ee=a3_0xae1a82;console['log'](kleur_1[_0x16a5ee(0x132)]['red'](_0x35d60f));}exports[a3_0xae1a82(0x1b1)]=printErr;function rainbowText(_0x5038ba){var _0x4c2e50=a3_0xae1a82,_0x3a2499=[kleur_1['default'][_0x4c2e50(0x14c)],kleur_1[_0x4c2e50(0x132)][_0x4c2e50(0x135)],kleur_1['default'][_0x4c2e50(0x138)],kleur_1[_0x4c2e50(0x132)][_0x4c2e50(0x17e)],kleur_1['default'][_0x4c2e50(0x1c4)],kleur_1[_0x4c2e50(0x132)][_0x4c2e50(0x1e3)]];return _0x5038ba['split']('\x20')[_0x4c2e50(0x1d6)](function(_0xe13bad,_0xcc6d3d){return _0x3a2499[_0xcc6d3d%_0x3a2499['length']](_0xe13bad);})[_0x4c2e50(0x142)]('\x20');}commander_1[a3_0xae1a82(0x19e)][a3_0xae1a82(0x1b4)](process['argv']);
+"use strict";
+var __assign = (this && this.__assign) || function () {
+    __assign = Object.assign || function(t) {
+        for (var s, i = 1, n = arguments.length; i < n; i++) {
+            s = arguments[i];
+            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
+                t[p] = s[p];
+        }
+        return t;
+    };
+    return __assign.apply(this, arguments);
+};
+var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
+    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
+    return new (P || (P = Promise))(function (resolve, reject) {
+        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
+        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
+        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
+        step((generator = generator.apply(thisArg, _arguments || [])).next());
+    });
+};
+var __generator = (this && this.__generator) || function (thisArg, body) {
+    var _ = { label: 0, sent: function() { if (t[0] & 1) throw t[1]; return t[1]; }, trys: [], ops: [] }, f, y, t, g;
+    return g = { next: verb(0), "throw": verb(1), "return": verb(2) }, typeof Symbol === "function" && (g[Symbol.iterator] = function() { return this; }), g;
+    function verb(n) { return function (v) { return step([n, v]); }; }
+    function step(op) {
+        if (f) throw new TypeError("Generator is already executing.");
+        while (g && (g = 0, op[0] && (_ = 0)), _) try {
+            if (f = 1, y && (t = op[0] & 2 ? y["return"] : op[0] ? y["throw"] || ((t = y["return"]) && t.call(y), 0) : y.next) && !(t = t.call(y, op[1])).done) return t;
+            if (y = 0, t) op = [op[0] & 2, t.value];
+            switch (op[0]) {
+                case 0: case 1: t = op; break;
+                case 4: _.label++; return { value: op[1], done: false };
+                case 5: _.label++; y = op[1]; op = [0]; continue;
+                case 7: op = _.ops.pop(); _.trys.pop(); continue;
+                default:
+                    if (!(t = _.trys, t = t.length > 0 && t[t.length - 1]) && (op[0] === 6 || op[0] === 2)) { _ = 0; continue; }
+                    if (op[0] === 3 && (!t || (op[1] > t[0] && op[1] < t[3]))) { _.label = op[1]; break; }
+                    if (op[0] === 6 && _.label < t[1]) { _.label = t[1]; t = op; break; }
+                    if (t && _.label < t[2]) { _.label = t[2]; _.ops.push(op); break; }
+                    if (t[2]) _.ops.pop();
+                    _.trys.pop(); continue;
+            }
+            op = body.call(thisArg, _);
+        } catch (e) { op = [6, e]; y = 0; } finally { f = t = 0; }
+        if (op[0] & 5) throw op[1]; return { value: op[0] ? op[1] : void 0, done: true };
+    }
+};
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.printErr = exports.printOk = exports.printCyan = exports.printNorm = void 0;
+var commander_1 = require("commander");
+var kleur_1 = __importDefault(require("kleur"));
+var classes_1 = require("./classes");
+var helpers_1 = require("./helpers");
+var firehelper_1 = require("./firehelper");
+var webpack_1 = __importDefault(require("webpack"));
+function intro(opts) {
+    if (opts && opts.version) {
+        printCyan('Monagree CLI version 1.0.9, Last updated 06-12-23');
+        return;
+    }
+    console.log(rainbowText('Welcome to the Monagree Developer CLI tool. Use the following commands for your awesome design (call all commands, except create, from your project root folder)'));
+    for (var _i = 0, commands_1 = commands; _i < commands_1.length; _i++) {
+        var com = commands_1[_i];
+        console.log(kleur_1.default.cyan("monagree ".concat(com.command, " ")) + kleur_1.default.gray(com.desc));
+    }
+}
+var commands = [
+    new classes_1.cMeta('create', 'Create a new design'),
+    new classes_1.cMeta('login', 'Login with your Monagree dev profile'),
+    new classes_1.cMeta('logout', 'Sign out of the Monagree CLI'),
+    new classes_1.cMeta('branch', 'Creates a new branch (eg thewebsite.com/branch1, thewebsite.com/branch2)'),
+    new classes_1.cMeta('deploy', 'Bundles and deploys your entire design. Use `monagree deploy -b branch-id` to deploy specific branch. use `monagree deploy -l` to test locally'),
+    new classes_1.cMeta('config', 'See info (id, branches, site_url ...) about your design'),
+    new classes_1.cMeta('set-color', 'Set default colors for your design'),
+];
+function ncfg() {
+    printErr('No config yet, run `monagree create` to create a new design');
+}
+function nfold() {
+    printErr('Invalid. Call all commands (except create) from your project root folder');
+}
+function nsgn() {
+    printErr('You need to login. Run `monagree login`');
+}
+function finInit1(loader, pid) {
+    (0, helpers_1.addMonagreeSDK)(function (stg, msg) {
+        clearInterval(loader);
+        if (stg == 1) {
+            printOk('SDK added. Happy coding! Dont forget to use `monagree branch the-branch-id` to create your pages');
+        }
+        else if (stg == 0) {
+            printCyan('Finished but could not add Monagree SDK. Please run `npm install monagree` now');
+        }
+        finInit2(pid);
+    });
+}
+function finInit2(pid) {
+    (0, helpers_1.inquire)([
+        {
+            type: 'select',
+            name: 'opn',
+            message: 'Do you want to open VS code now? ',
+            choices: ['yes', 'no'],
+            validate: helpers_1.vv
+        },
+    ], function (ok, ans) {
+        if (ok && ans.opn == 'yes') {
+            (0, helpers_1.runCmd)('code .', function (stg, msg) {
+                if (stg == 1) {
+                    printCyan('Continue with the terminal in VS');
+                    printOk('Happy coding!');
+                    setTimeout(function () {
+                        var exec = require('child_process').exec;
+                        if (process.platform === 'win32') {
+                            exec('taskkill /F /PID ' + process.pid);
+                        }
+                        else {
+                            exec('kill -9 ' + process.pid);
+                        }
+                    }, 3000);
+                }
+                else if (stg == 0) {
+                    printErr('Could not open VS code');
+                    console.log(kleur_1.default.bgMagenta("NOTE: Run `cd ".concat(pid, "` before anything else")));
+                }
+                process.exit(0);
+            });
+        }
+        else {
+            console.log(kleur_1.default.bgMagenta("NOTE: Run `cd ".concat(pid, "` before anything else")));
+            process.exit(0);
+        }
+    });
+}
+function getIdFromTitle(title) {
+    var pid = title;
+    pid = pid.toLowerCase().replace(' ', '_');
+    return pid;
+}
+function proceedInit(ans) {
+    ans = __assign(__assign({}, ans), { fold: 'src' });
+    var bizTypes = ['e-commerce', 'delivery'];
+    var bizTypes_id = ['s', 'l'];
+    (0, helpers_1.inquire)([{
+            type: 'select',
+            name: 'c',
+            message: 'e-commerce or delivery',
+            choices: bizTypes.map(function (e) {
+                return e;
+            }),
+            validate: helpers_1.vv
+        }], function (ok, a) {
+        if (ok) {
+            var sel = a.c;
+            var sel_id_1 = bizTypes_id[bizTypes.indexOf(sel)];
+            var tc1 = { c1: sel };
+            ans = __assign(__assign({}, ans), tc1);
+            var tc2 = { c1_id: sel_id_1 };
+            ans = __assign(__assign({}, ans), tc2);
+            printNorm('Just a sec...');
+            catHelp("meta/cats/".concat(sel_id_1), 'Choose Category', function (c, e2) {
+                var tc1 = { c2: c.c };
+                ans = __assign(__assign({}, ans), tc1);
+                var tc2 = { c2_id: e2 };
+                ans = __assign(__assign({}, ans), tc2);
+                catHelp("meta/cats/".concat(sel_id_1, "/").concat(e2, "/sc"), 'use "spaces" to select as many sub-categories that apply', function (c, e3) {
+                    var pid = getIdFromTitle(ans.title);
+                    (0, helpers_1.cdIntoProject)(pid, function (ok) {
+                        if (ok) {
+                            process.chdir("".concat(process.cwd(), "/").concat(pid));
+                            var homeDesc = 'Design entry point (usually home page)';
+                            var tc1_1 = { c3: c.c };
+                            ans = __assign(__assign({}, ans), tc1_1);
+                            var tc2_1 = { c3_ids: e3 };
+                            ans = __assign(__assign({}, ans), tc2_1);
+                            ans = __assign(__assign({ id: (0, helpers_1.getCT)() }, ans), { branches: { home: { branch_desc: homeDesc } } });
+                            (0, helpers_1.saveConfig)(JSON.stringify(ans));
+                            printCyan("Config created, adding Monagree SDK ".concat(ans.lang == 'ts' ? '& TS tools' : '', " to package.json"));
+                            var loader_1 = simulateLoader();
+                            (0, helpers_1.initNpm)(pid, ans.desc, ans.c1);
+                            (0, helpers_1.doBranch)('home', homeDesc, ans.fold, ans.lang, ans, function (ok) {
+                                if (ans.lang == 'ts') {
+                                    (0, helpers_1.setupTS)(function (ok) {
+                                        if (ok) {
+                                            finInit1(loader_1, pid);
+                                        }
+                                        else {
+                                            printErr("TS setup failed. Please recreate project");
+                                            process.exit(0);
+                                        }
+                                    });
+                                }
+                                else {
+                                    finInit1(loader_1, pid);
+                                }
+                            });
+                        }
+                        else {
+                            printErr('Failed. Is project name valid');
+                            process.exit(0);
+                        }
+                    });
+                }, true);
+            });
+        }
+        else {
+            printErr('Wizard was cancelled');
+            process.exit(0);
+        }
+    });
+}
+function printConfig() {
+    var cfg = (0, helpers_1.getConfig)();
+    if (cfg) {
+        delete cfg.id;
+        delete cfg.c1_id;
+        delete cfg.c2_id;
+        delete cfg.c3_ids;
+        console.log(cfg);
+    }
+    else {
+        ncfg();
+    }
+}
+//---
+commander_1.program.option('-v, --version', 'Check CLI version').action(intro);
+commander_1.program.command('help').action(intro);
+commander_1.program.command(commands[6].command)
+    .description(commands[6].desc)
+    .action(function () {
+    if (!(0, helpers_1.amInMonagreeFolder)()) {
+        nfold();
+        return;
+    }
+    var cfg = (0, helpers_1.getConfig)();
+    if (!cfg) {
+        ncfg();
+        return;
+    }
+    (0, helpers_1.inquire)([
+        {
+            type: 'select',
+            name: 'typ',
+            message: 'Choose type of color to set',
+            choices: ['primary', 'secondary', 'background', 'text'],
+            validate: function (selectedIndices) {
+                return selectedIndices && selectedIndices.length > 0 ? true : "Please choose type of color to set";
+            }
+        },
+        {
+            type: 'input',
+            name: 'col',
+            message: 'Enter Color Hex (eg #ffffff)',
+            validate: helpers_1.vv
+        }
+    ], function (ok, a2) {
+        if (ok) {
+            cfg.colors[a2.typ] = a2.col;
+            (0, helpers_1.saveConfig)(JSON.stringify(cfg));
+            printOk("".concat(a2.typ, " color set successfully"));
+        }
+        else {
+            printErr('Wizard was cancelled');
+            (0, helpers_1.deleteFolder)(helpers_1.configFolder);
+            process.exit(0);
+        }
+    });
+});
+commander_1.program.command(commands[5].command)
+    .description(commands[5].desc)
+    .action(function (opts) {
+    printConfig();
+});
+commander_1.program.command(commands[0].command)
+    .description(commands[0].desc)
+    .option('-p, --print', 'Print config to terminal')
+    .action(function (opts) {
+    if (!(0, helpers_1.isSignedIn)()) {
+        nsgn();
+        return;
+    }
+    if (opts.print) {
+        printConfig();
+        return;
+    }
+    if (!(0, helpers_1.amInMonagreeFolder)()) {
+        (0, helpers_1.inquire)([
+            {
+                type: 'input',
+                name: 'title',
+                message: 'Name your design: ',
+                validate: helpers_1.vv
+            },
+            {
+                type: 'input',
+                name: 'desc',
+                message: 'Describe it to businesses (short): ',
+                validate: helpers_1.vv
+            },
+            {
+                type: 'select',
+                name: 'class',
+                message: 'Choose a pricing: ',
+                choices: ['regular', 'premium'],
+                validate: helpers_1.vv
+            },
+            {
+                type: 'select',
+                name: 'lang',
+                message: 'Are you using javascript(js) or typescript(ts): ',
+                choices: ['js', 'ts'],
+                validate: helpers_1.vv
+            },
+        ], function (ok, ans) {
+            if (ok) {
+                var pid = getIdFromTitle(ans.title);
+                if ((0, helpers_1.foldExists)(pid)) {
+                    printErr('A design with same name already exist in this folder');
+                    return;
+                }
+                (0, helpers_1.inquire)([
+                    {
+                        type: 'input',
+                        name: 'primary',
+                        message: 'Enter Primary Color Hex: ',
+                        validate: helpers_1.vv
+                    },
+                    {
+                        type: 'input',
+                        name: 'secondary',
+                        message: 'Enter Secondary Color Hex: ',
+                        validate: helpers_1.vv
+                    },
+                    {
+                        type: 'input',
+                        name: 'background',
+                        message: 'Enter Background Color Hex: ',
+                        validate: helpers_1.vv
+                    },
+                    {
+                        type: 'input',
+                        name: 'text',
+                        message: 'Enter Text Color Hex: ',
+                        validate: helpers_1.vv
+                    },
+                ], function (ok, cols) {
+                    if (ok) {
+                        ans = __assign(__assign({}, ans), { colors: cols });
+                        (0, helpers_1.inquire)([{
+                                type: 'select',
+                                name: 'whi',
+                                message: 'Are you building for a specific business?',
+                                choices: ['yes (only that business can use it)', 'no (anyone can buy it)'],
+                                validate: helpers_1.vv
+                            }], function (ok, a) {
+                            if (ok) {
+                                if (a.whi.startsWith('yes')) {
+                                    (0, helpers_1.inquire)([{
+                                            type: 'input',
+                                            name: 'bzid',
+                                            message: 'Enter the biz\'s short code: ',
+                                            validate: helpers_1.vv
+                                        }], function (ok, a) {
+                                        if (ok) {
+                                            ans = __assign(__assign({}, ans), a);
+                                            proceedInit(ans);
+                                        }
+                                        else {
+                                            printErr('Wizard was cancelled');
+                                            process.exit(0);
+                                        }
+                                    });
+                                }
+                                else {
+                                    proceedInit(ans);
+                                }
+                            }
+                            else {
+                                printErr('Wizard was cancelled');
+                                process.exit(0);
+                            }
+                        });
+                    }
+                    else {
+                        printErr('Wizard was cancelled');
+                        process.exit(0);
+                    }
+                });
+            }
+            else {
+                printErr('Wizard was cancelled');
+                process.exit(0);
+            }
+        });
+    }
+    else {
+        printErr('This folder contains an existing design. Please run create from a folder dedicated to all your designs');
+    }
+});
+function catHelp(path, msg, finise, isMulti) {
+    var fMan = new firehelper_1.fireMan();
+    fMan.getQuery(path, function (task) {
+        if (task.isSuccessful()) {
+            var c1_1 = [];
+            var cls_1 = [];
+            task.getResult().forEach(function (doc) {
+                var ts = new classes_1.catEle(doc);
+                c1_1.push(ts);
+                cls_1.push(ts.getTitle());
+            });
+            (0, helpers_1.inquire)([
+                {
+                    type: isMulti ? 'multiselect' : 'select',
+                    name: 'c',
+                    message: msg,
+                    choices: c1_1.map(function (c) {
+                        return c.getTitle();
+                    }),
+                    validate: function (selectedIndices) {
+                        return selectedIndices && selectedIndices.length > 0 ? true : isMulti ? 'Please select at least one option (use spaces)' : "Please ".concat(msg);
+                    }
+                }
+            ], function (ok, a2) {
+                if (ok) {
+                    if (cls_1.indexOf(a2.c) != -1) {
+                        var e = c1_1[cls_1.indexOf(a2.c)].getId();
+                        finise(a2, e);
+                    }
+                    else {
+                        var e = [];
+                        for (var _i = 0, _a = a2.c; _i < _a.length; _i++) {
+                            var ct = _a[_i];
+                            var ae = c1_1[cls_1.indexOf(ct)].getId();
+                            e.push(ae);
+                        }
+                        finise(a2, e);
+                    }
+                }
+                else {
+                    printErr('Wizard was cancelled');
+                    (0, helpers_1.deleteFolder)(helpers_1.configFolder);
+                    process.exit(0);
+                }
+            });
+        }
+        else {
+            printErr('An error occurred');
+            process.exit(0);
+        }
+    });
+}
+commander_1.program.command(commands[1].command)
+    .description(commands[1].desc)
+    .action(function () {
+    if ((0, helpers_1.isSignedIn)()) {
+        printCyan("Already signed in as ".concat((0, helpers_1.getDevSC)(), ", run `monagree logout` and try again"));
+        return;
+    }
+    printNorm('To login, visit the link below');
+    var url = "https://developers.monagree.com/auth/".concat(firehelper_1.maid, "/").concat((0, helpers_1.getDeviceToken)());
+    printCyan(url);
+    (0, helpers_1.goUrl)(url);
+    (0, helpers_1.inquire)([
+        {
+            type: 'select',
+            name: 'conf',
+            message: 'Have you logged in: ',
+            choices: ['no', 'yes'],
+            validate: helpers_1.vv
+        },
+    ], function (ok, ans) {
+        var fMan = new firehelper_1.fireMan();
+        if (ok && ans.conf == 'yes') {
+            var loader_2 = simulateLoader();
+            fMan.getFS("mtks/".concat(firehelper_1.maid + (0, helpers_1.getDeviceToken)()), function (task) {
+                clearInterval(loader_2);
+                if (task._success && (0, firehelper_1.getData)(task.getResult(), 'v').length > 5) {
+                    (0, helpers_1.setDevId)((0, firehelper_1.getData)(task.getResult(), 'v'));
+                    (0, helpers_1.setDevSC)((0, firehelper_1.getData)(task.getResult(), 's'));
+                    printOk("Login successful for ".concat((0, helpers_1.getDevSC)()));
+                }
+                else {
+                    printErr('Login failed. Please try again');
+                }
+                process.exit(0);
+            });
+        }
+        else {
+            printErr('Login failed. Please try again');
+            process.exit(0);
+        }
+    });
+});
+commander_1.program.command(commands[2].command)
+    .description(commands[2].desc)
+    .action(function () {
+    (0, helpers_1.logout)(function (ok) {
+        if (ok) {
+            printOk('Logout successful');
+            process.exit(0);
+        }
+        else {
+            printErr('Logout Failed');
+        }
+    });
+});
+commander_1.program.command(commands[3].command)
+    .description(commands[3].desc)
+    .argument('<bid>', 'The branch ID (one word, eg - cart, orders, favs)')
+    .action(function (bid) {
+    if (!(0, helpers_1.amInMonagreeFolder)()) {
+        nfold();
+        return;
+    }
+    var cfg = (0, helpers_1.getConfig)();
+    if (!cfg) {
+        ncfg();
+        return;
+    }
+    (0, helpers_1.inquire)([
+        {
+            type: 'input',
+            name: 'branch_desc',
+            message: 'What is this branch about?',
+            validate: helpers_1.vv
+        }
+    ], function (ok, dsc) {
+        if (ok) {
+            (0, helpers_1.doBranch)(bid, dsc.branch_desc, cfg.fold, cfg.lang, cfg, function (ok) {
+                cfg.branches[bid] = dsc;
+                (0, helpers_1.saveConfig)(JSON.stringify(cfg));
+                printOk("".concat(bid, " branch successfully created"));
+            });
+        }
+        else {
+            printErr('Wizard cancelled');
+        }
+    });
+});
+commander_1.program.command(commands[4].command)
+    .description(commands[4].desc)
+    .option('-l, --local', 'Deploys locally')
+    .option('-b, --branch <bid>', 'Deploys the specified branch only')
+    .action(function (opts) { return __awaiter(void 0, void 0, void 0, function () {
+    var cfg, btd;
+    return __generator(this, function (_a) {
+        //TODO Check if design has been purchased and invalidate
+        if (!(0, helpers_1.amInMonagreeFolder)()) {
+            nfold();
+            return [2 /*return*/];
+        }
+        cfg = (0, helpers_1.getConfig)();
+        if (!cfg) {
+            ncfg();
+            return [2 /*return*/];
+        }
+        if (!(0, helpers_1.isSignedIn)()) {
+            nsgn();
+            return [2 /*return*/];
+        }
+        btd = [];
+        if (opts.branch) {
+            if (!Object.keys(cfg.branches).includes(opts.branch)) {
+                printErr(opts.branch + ' branch not found');
+                return [2 /*return*/];
+            }
+            btd.push(opts.branch);
+        }
+        else {
+            btd = Object.keys(cfg.branches);
+        }
+        deployBranch(0, btd, cfg, opts, function (ok, index, files) {
+            if (ok) {
+                printOk("".concat(btd[index], " code bundled successfully"));
+            }
+            else {
+                printErr("Bundle Failed. Problem at ".concat(btd[index], " branch"));
+            }
+        }, function () {
+            if (opts.local) {
+                process.chdir("".concat(process.cwd(), "/").concat(helpers_1.configFolder));
+                (0, helpers_1.serveLocal)(function (ok) {
+                    if (ok) {
+                        printNorm('Use ctr + c to end server');
+                        printCyan('Server is running at http://localhost:3310 (Hot-Reload available)');
+                        (0, helpers_1.runCmd)("node server.js", function (stg, msg) {
+                            if (stg == 1) {
+                                printOk('Local server terminated');
+                            }
+                            if (stg == 0) {
+                                printErr('Failed to start server');
+                            }
+                        });
+                    }
+                    else {
+                        printErr('Could not serve locally');
+                    }
+                }, cfg, 'sample-biz-id');
+            }
+            else {
+                var dMan_1 = new helpers_1.deployMan(cfg);
+                printNorm("Preping to deploy ".concat(cfg.title));
+                dMan_1.isGitAvailable(function (ok) {
+                    if (ok) {
+                        askForGitToken(cfg, function (ok, token) {
+                            if (ok) {
+                                dMan_1.configureGit(cfg, function (ok) { return __awaiter(void 0, void 0, void 0, function () {
+                                    var contin, _i, btd_1, bid, loader_3, _a;
+                                    return __generator(this, function (_b) {
+                                        switch (_b.label) {
+                                            case 0:
+                                                if (!ok) return [3 /*break*/, 8];
+                                                printCyan('Preparation successful. Deploying now');
+                                                return [4 /*yield*/, dMan_1.addFile('README.md', true)];
+                                            case 1:
+                                                contin = _b.sent();
+                                                _i = 0, btd_1 = btd;
+                                                _b.label = 2;
+                                            case 2:
+                                                if (!(_i < btd_1.length)) return [3 /*break*/, 5];
+                                                bid = btd_1[_i];
+                                                if (!contin) {
+                                                    return [3 /*break*/, 5];
+                                                }
+                                                return [4 /*yield*/, dMan_1.prepGit(bid)];
+                                            case 3:
+                                                contin = _b.sent();
+                                                _b.label = 4;
+                                            case 4:
+                                                _i++;
+                                                return [3 /*break*/, 2];
+                                            case 5:
+                                                loader_3 = simulateLoader();
+                                                _a = contin;
+                                                if (!_a) return [3 /*break*/, 7];
+                                                return [4 /*yield*/, dMan_1.commitAndPush()];
+                                            case 6:
+                                                _a = (_b.sent());
+                                                _b.label = 7;
+                                            case 7:
+                                                if (_a) {
+                                                    printNorm('Notifying Monagree\'s global CDN');
+                                                    dMan_1.prepare(function (ok) {
+                                                        if (ok) {
+                                                            dMan_1.createDesign(cfg, function (ok) {
+                                                                clearInterval(loader_3);
+                                                                if (ok) {
+                                                                    printOk('Deploy successful. Awesome Job! ');
+                                                                    var site = "https://monagree.com/".concat(cfg.id, "/sample-biz-id");
+                                                                    cfg.site = site;
+                                                                    (0, helpers_1.saveConfig)(JSON.stringify(cfg));
+                                                                    printCyan("Your site is hosted at ".concat(site, ", run `monagree config` to see this url again. Dont forget to change sample-biz-id to preferred biz"));
+                                                                }
+                                                                else {
+                                                                    printErr('Notification failed!');
+                                                                }
+                                                            });
+                                                        }
+                                                        else {
+                                                            clearInterval(loader_3);
+                                                            printErr('Notification failed!');
+                                                        }
+                                                    });
+                                                }
+                                                else {
+                                                    clearInterval(loader_3);
+                                                    printErr('Deploy failed!');
+                                                }
+                                                return [3 /*break*/, 9];
+                                            case 8:
+                                                printErr('Git config failed');
+                                                _b.label = 9;
+                                            case 9: return [2 /*return*/];
+                                        }
+                                    });
+                                }); });
+                            }
+                            else {
+                                printErr('Preparation failed');
+                            }
+                        });
+                    }
+                    else {
+                        printErr('Git was not found on your pc. Download & Install Git and try deploy again');
+                        var gitUrl = 'https://git-scm.com/download';
+                        printCyan("Download at ".concat(gitUrl));
+                        (0, helpers_1.goUrl)(gitUrl);
+                    }
+                });
+            }
+        });
+        return [2 /*return*/];
+    });
+}); });
+function askForGitToken(cfg, finise) {
+    return __awaiter(this, void 0, void 0, function () {
+        return __generator(this, function (_a) {
+            switch (_a.label) {
+                case 0: return [4 /*yield*/, (0, helpers_1.gitTokenOk)()];
+                case 1:
+                    //TODO read token from server
+                    if (_a.sent()) {
+                        finise(true, (0, helpers_1.getGitToken)());
+                        return [2 /*return*/];
+                    }
+                    printCyan('----------\n----------\n\n');
+                    printCyan('CONFIGURE GITHUB');
+                    printNorm('- Until someone buys your design, it will be hosted in a repo on your github profile (managed by Monagree)');
+                    printNorm('- On the next step, you will generate an ACCESS_TOKEN for us to do this');
+                    printNorm('- Make sure to use the github profile & username associated with dev/team - ' + (0, helpers_1.getDevSC)());
+                    printNorm("- DO NOT make any change or edit any thing in this repo (repo_name = ".concat(cfg.id, ")"));
+                    printNorm('- Consider naming the access token Monagree CLI so you dont mistakenly delete it\n');
+                    printCyan('MOST IMPORTANT\n');
+                    printNorm('When a link to your GITHUB is launched:');
+                    printNorm('- Change `expiry` dropdown to `No Expiry`');
+                    printNorm('- Tick the repo box under `Select scopes` (including all its children)');
+                    printNorm('- Scroll to the bottom and click `Generate token`. Copy it and come back');
+                    printCyan('----------\n----------\n\n');
+                    (0, helpers_1.inquire)([
+                        {
+                            type: 'select',
+                            name: 'cns',
+                            message: 'Have you read the instructions above?',
+                            choices: ['no', 'yes'],
+                            validate: helpers_1.vv
+                        }
+                    ], function (ok, ans) {
+                        if (ok && ans.cns == 'yes') {
+                            printNorm('Visit the link below to generate a token');
+                            var url = "https://github.com/settings/tokens/new";
+                            printCyan(url);
+                            (0, helpers_1.goUrl)(url);
+                            (0, helpers_1.inquire)([
+                                {
+                                    type: 'input',
+                                    name: 'tkn',
+                                    message: 'Enter the token here: ',
+                                    validate: helpers_1.vv
+                                },
+                                {
+                                    type: 'input',
+                                    name: 'usr',
+                                    message: 'Enter your github username (case-sensitive): ',
+                                    validate: helpers_1.vv
+                                }
+                            ], function (ok, ans) {
+                                if (ok) {
+                                    var loader_4 = simulateLoader();
+                                    var dMan_2 = new helpers_1.deployMan(cfg);
+                                    dMan_2.prepare(function (ok) {
+                                        if (ok) {
+                                            dMan_2.setGitToken(ans.tkn, ans.usr, function (ok) {
+                                                clearInterval(loader_4);
+                                                if (ok) {
+                                                    askForGitToken(cfg, finise);
+                                                }
+                                                else {
+                                                    printErr('Github Configuration failed. Maybe network');
+                                                }
+                                            });
+                                        }
+                                        else {
+                                            clearInterval(loader_4);
+                                            printErr('Github Configuration failed. Maybe network');
+                                        }
+                                    });
+                                }
+                                else {
+                                    finise(false);
+                                }
+                            });
+                        }
+                        else {
+                            finise(false);
+                        }
+                    });
+                    return [2 /*return*/];
+            }
+        });
+    });
+}
+function deployBranch(index, bids, cfg, opts, finise, allDone) {
+    if (bids.length == index) {
+        allDone();
+        return;
+    }
+    var bid = bids[index];
+    printNorm("Bundling source code for ".concat(bid, "..."));
+    var loader = simulateLoader();
+    (0, webpack_1.default)((0, helpers_1.getWebpackConfig)(cfg.fold + '/' + bid, bid, cfg.lang, opts.local), function (err, stats) {
+        var _a, _b;
+        clearInterval(loader);
+        if (err || !stats || stats.hasErrors()) {
+            var errors = err || (stats && stats.toJson().errors) || [];
+            console.error('Bundle failed with errors:');
+            if (Array.isArray(errors)) {
+                errors.forEach(function (error, index) {
+                    console.error("Error ".concat(index + 1, ": ").concat(error['message'])); //NOTE: To print full error: JSON.stringify(error)
+                });
+            }
+            else {
+                console.error(errors);
+            }
+            finise(false, index);
+        }
+        else {
+            if (stats.hasWarnings()) {
+                var warnings = stats.toJson().warnings;
+                if (warnings && warnings.length > 0) {
+                    console.warn("".concat(warnings.length, " warning(s) found:"));
+                    warnings.forEach(function (warning, index) {
+                        console.warn("Warning ".concat(index + 1, ": ").concat(warning['message']));
+                    });
+                }
+            }
+            else {
+                printCyan('Perfect code. No warnings found');
+            }
+            //finalHtml(bid,`Design ${cfg.id}`,cfg.bzid)
+            finise(true, index, (_b = (_a = stats.toJson()) === null || _a === void 0 ? void 0 : _a.assetsByChunkName) === null || _b === void 0 ? void 0 : _b.main);
+            var i = index + 1;
+            deployBranch(i, bids, cfg, opts, finise, allDone);
+        }
+    });
+}
+var simulateLoader = function () {
+    var frames = ['⠋', '⠙', '⠹', '⠸', '⠼', '⠴', '⠦', '⠧', '⠇', '⠏'];
+    var i = 0;
+    return setInterval(function () {
+        process.stdout.write("\r".concat(kleur_1.default.green(frames[i]), " Loading..."));
+        i = (i + 1) % frames.length;
+    }, 80);
+};
+function printNorm(msg, ok) {
+    console.log(ok ? kleur_1.default.cyan(msg) : kleur_1.default.white(msg));
+}
+exports.printNorm = printNorm;
+function printCyan(msg) {
+    console.log(kleur_1.default.cyan(msg));
+}
+exports.printCyan = printCyan;
+function printOk(msg) {
+    console.log(kleur_1.default.green(msg));
+}
+exports.printOk = printOk;
+function printErr(msg) {
+    console.log(kleur_1.default.red(msg));
+}
+exports.printErr = printErr;
+function rainbowText(text) {
+    var colors = [
+        kleur_1.default.red,
+        kleur_1.default.yellow,
+        kleur_1.default.green,
+        kleur_1.default.cyan,
+        kleur_1.default.magenta,
+    ];
+    return text
+        .split(' ')
+        .map(function (char, index) { return colors[index % colors.length](char); })
+        .join(' ');
+}
+commander_1.program.parse(process.argv);
